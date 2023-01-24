@@ -1,0 +1,75 @@
+// WP Forms overides
+/* purgecss start ignore */
+.bl-form-call-back {
+	.wpforms-field-container,
+	.wpforms-submit-container {
+		width: auto !important;
+		display: inline-block;
+	}
+
+	.bl-formfield {
+		width: 100% #{!important};
+		display: inline-block;
+		margin-right: 4px #{!important};
+	}
+
+	.primary-btn {
+		@apply inline-block items-center px-3 py-2 text-base leading-none text-gray-100 bg-teal-500 rounded-md border-transparent #{!important};
+
+		&:hover {
+			@apply bg-teal-600 border-transparent #{!important};
+		}
+
+		@screen md {
+			margin-top: -4px !important;
+		}
+	}
+	@screen md {
+		.bl-formfield {
+			width: 32% #{!important};
+		}
+	}
+}
+
+.bl-form-contact,
+.bl-form-session-booking {
+	.primary-btn {
+		@apply inline-block items-center px-3 py-2 text-base leading-none text-gray-100 bg-teal-500 rounded-md border-transparent #{!important};
+
+		&:hover {
+			@apply bg-teal-600 border-transparent #{!important};
+		}
+	}
+
+	.wpforms-field-label {
+		@apply text-gray-700 font-light text-lg #{!important};
+	}
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field input.wpforms-error,
+div.wpforms-container-full .wpforms-form .wpforms-field input.user-invalid,
+div.wpforms-container-full .wpforms-form .wpforms-field textarea.wpforms-error,
+div.wpforms-container-full .wpforms-form .wpforms-field textarea.user-invalid,
+div.wpforms-container-full .wpforms-form .wpforms-field select.wpforms-error,
+div.wpforms-container-full .wpforms-form .wpforms-field select.user-invalid,
+div.wpforms-container-full .wpforms-form .wpforms-field.wpforms-has-error .choices__inner {
+	@apply border-alert-400 #{!important};
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-alert,
+div.wpforms-container-full .wpforms-form label.wpforms-error {
+	@apply text-alert-400 py-1 text-xs #{!important};
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-error {
+	position: absolute !important;
+}
+
+.wpforms-confirmation-container-full,
+div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
+	@apply border-success-900 #{!important};
+	@apply bg-success-900 #{!important};
+	@apply text-white #{!important};
+}
+
+/* purgecss end ignore */

@@ -1,0 +1,42 @@
+/* purgecss start ignore */
+/* ...more rules */
+/* purgecss end ignore */
+
+// Daves recom.
+// H1 + H2: Azo Sans Black (CAPS) 900
+// H3: Azo Bold (Upper and Lower) 700
+// H4: Azo Medium (CAPS) 500
+// body is Azo Sans Regular 400
+
+// Titles
+h1 {
+	@apply text-orange-500;
+}
+
+h2 {
+	@apply text-gray-600;
+}
+
+h3 {
+	@apply text-gray-600;
+}
+
+h4 {
+	@apply text-teal-600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply font-azo;
+}
+
+// Paragrapgh
+
+// Small print
+.small-print {
+	@apply text-xs text-gray-500 text-center my-6;
+}

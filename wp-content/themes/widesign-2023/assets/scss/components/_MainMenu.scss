@@ -1,0 +1,86 @@
+/*
+Main desktop Navigaton Menu:
+*/
+
+/* purgecss start ignore */
+.navbar-main {
+	@apply z-50;
+
+	> ul {
+		padding: 20px 0 0 0;
+	}
+
+	li:not(.current-menu-item) {
+		&:hover {
+			@apply border-b-2 border-gray-700;
+		}
+	}
+
+	li {
+		list-style: none;
+		transition: background-color 0.2s ease;
+		position: relative;
+
+		&:hover,
+		&:active {
+			> .sub-menu {
+				visibility: visible;
+				opacity: 1;
+				transition-delay: 0.2s;
+			}
+		}
+
+		a {
+			@apply p-2 pb-1;
+			box-sizing: border-box;
+			height: 100%;
+			display: inline-block;
+			text-decoration: none;
+			@apply text-gray-700;
+		}
+
+		.sub-menu {
+			@apply z-50;
+			visibility: hidden;
+			opacity: 0;
+			transition: visibility 0s, opacity 0.5s;
+			transition-duration: 0.3s;
+			text-align: left;
+			position: absolute;
+			top: 45px;
+			left: 0;
+			right: 0;
+			@apply bg-transparent;
+			@apply text-gray-700;
+
+			li {
+				position: relative;
+				background: transparent;
+				width: 100%;
+				display: inline-block;
+				text-align: left;
+				padding: 0;
+				margin: 0;
+				border: none;
+
+				a {
+					padding: 5px 8px;
+					@apply bg-gray-100 pr-2;
+				}
+			}
+		}
+	}
+}
+
+li {
+	&.current-menu-item {
+		> a {
+			@apply text-teal-500 border-b-2 border-teal-500;
+		}
+	}
+}
+
+/* purgecss end ignore */
+.no-scroll {
+	overflow: hidden;
+}

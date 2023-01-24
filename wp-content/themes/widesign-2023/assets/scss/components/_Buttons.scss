@@ -1,0 +1,49 @@
+//buttons
+.primary-btn {
+	@apply items-center px-5 shadow-sm py-4 leading-none text-base text-gray-100 rounded-md  bg-teal-500 transition duration-500 ease-in-out;
+
+	&:hover {
+		@apply bg-teal-600 shadow-xl;
+	}
+}
+
+.secondary-btn {
+	@apply items-center px-3 py-2 text-sm leading-none text-white bg-transparent;
+
+	&:hover {
+		@apply bg-teal-600;
+	}
+}
+
+.tertiary-btn {
+	@apply items-center px-5 py-4 leading-5 text-sm text-gray-100 rounded-md bg-gray-700 shadow-sm transition duration-500 ease-in-out;
+
+	&:hover {
+		@apply bg-gray-700 shadow-xl;
+	}
+}
+
+//links
+.primary-link {
+	@apply items-center text-base leading-none text-teal-500;
+
+	&:hover {
+		@apply text-teal-600 underline;
+	}
+}
+
+.secondary-link {
+	@apply items-center text-base leading-none text-gray-700;
+
+	&:hover {
+		@apply text-teal-500;
+	}
+}
+
+.footer-link {
+	@apply items-center text-base leading-none text-teal-500;
+
+	&:hover {
+		@apply text-teal-600;
+	}
+}

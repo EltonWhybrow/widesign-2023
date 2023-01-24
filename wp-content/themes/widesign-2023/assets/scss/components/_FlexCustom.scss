@@ -1,0 +1,104 @@
+/*
+Flexislider:
+*/
+/* purgecss start ignore */
+//heros banner overides
+#slider-heros .flexslider {
+	// height: 100%;
+	// height: 450px;
+	margin: 0;
+	border-radius: 0;
+	padding: 0;
+	@apply bg-gray-500;
+	border: 0;
+	overflow: hidden;
+	box-shadow: none;
+
+	.flex-viewport {
+		height: 100%;
+	}
+
+	.flex-control-nav {
+		bottom: 5px;
+	}
+	@media screen and (max-width: 768px) {
+		.flex-control-nav {
+			display: none;
+		}
+	}
+
+	.flex-direction-nav a:before {
+		@apply text-teal-500;
+	}
+
+	.flex-direction-nav a {
+		width: 80px;
+		height: 100px;
+		top: calc(50% + -30px);
+	}
+
+	.flex-next {
+		right: -12px;
+	}
+	.flex-prev {
+		left: -12px;
+	}
+
+	.flex-direction-nav a:before {
+		content: " ";
+		display: block;
+		background: url("/resources/img/pages/icons/prev.svg") no-repeat center center;
+		background-size: contain;
+		width: 80px;
+		height: 100px;
+	}
+
+	.flex-direction-nav a.flex-next:before {
+		content: " ";
+		display: block;
+		background: url("/resources/img/pages/icons/next.svg") no-repeat center center;
+		background-size: contain;
+		width: 80px;
+		height: 100px;
+	}
+
+	.slides {
+		height: 100%;
+		// padding: 40px ​0 10px 0;
+
+		li {
+			height: 100%;
+			background-position: center top;
+			.slider-content {
+				@apply pt-10;
+			}
+			p {
+				@apply text-sm px-4 pt-3 pb-0 max-w-lg rounded-sm leading-4;
+				background-color: rgb(160, 174, 192, 0.8);
+			}
+
+			p + p {
+				@apply leading-4 pt-0;
+				padding-bottom: 5px;
+				font-size: 25px;
+				a {
+					@apply inline-block w-20;
+					top: 0px;
+					height: 27px;
+					transition: top 0.5s;
+					&:hover {
+						position: relative;
+						top: 2px;
+					}
+				}
+			}
+		}
+		@media screen and (min-width: 964px) {
+			li {
+				background-position: center center;
+			}
+		}
+	}
+}
+
+/* purgecss end ignore */

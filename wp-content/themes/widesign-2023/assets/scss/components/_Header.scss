@@ -1,0 +1,34 @@
+/*
+Header
+*/
+
+/* purgecss start ignore */
+header {
+	.main-logo {
+		transition: width 600ms;
+		width: 288px;
+	}
+	.navbar-main {
+		transition: padding 600ms;
+		padding: 12px 32px;
+		a {
+			transition: font-size 600ms, font-weight 600ms;
+			font-size: 16px;
+		}
+	}
+	&.active {
+		@apply shadow-sm;
+		.main-logo {
+			width: 190px;
+		}
+		.navbar-main {
+			padding: 4px 16px 6px;
+			a {
+				font-size: 15px;
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+/* purgecss end ignore */
