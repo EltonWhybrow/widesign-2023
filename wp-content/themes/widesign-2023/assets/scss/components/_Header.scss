@@ -4,28 +4,33 @@ Header
 
 /* purgecss start ignore */
 header {
+	.hamburglar {
+		transition: margin-top 500ms;
+		margin-top: 12px;
+	}
 	.main-logo {
-		transition: width 600ms;
-		width: 288px;
+		transition: width 500ms;
+		width: 120px;
 	}
 	.navbar-main {
-		transition: padding 600ms;
+		transition: padding 500ms;
 		padding: 12px 32px;
 		a {
-			transition: font-size 600ms, font-weight 600ms;
-			font-size: 16px;
+			transition: visability 500ms;
+			visibility: visible;
 		}
 	}
 	&.active {
-		@apply shadow-sm;
+		.hamburglar {
+			margin-top: 5px;
+		}
 		.main-logo {
-			width: 190px;
+			width: 90px;
 		}
 		.navbar-main {
 			padding: 4px 16px 6px;
 			a {
-				font-size: 15px;
-				font-weight: 600;
+				visibility: hidden;
 			}
 		}
 	}

@@ -57,10 +57,7 @@
         </div>
 
     </div>
-    <div class="pt-10 container mx-auto text-center">
-        <div class="fb-like" data-href="https://www.facebook.com/redhill.tutoring/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
 
-    </div>
 
     <?php get_template_part('templates/partials/copyright'); ?>
     </div>

@@ -2,7 +2,36 @@
 Flexislider:
 */
 /* purgecss start ignore */
-//heros banner overides
+
+// quote slider overrides
+#slider-quotes .flexslider {
+	.slides {
+		img.thumb {
+			@apply h-44 w-44;
+		}
+	}
+	margin: 0;
+	border-radius: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	box-shadow: none;
+
+	.flex-viewport {
+		height: 100%;
+	}
+
+	.flex-control-nav {
+		bottom: -15px;
+	}
+	@media screen and (max-width: 768px) {
+		.flex-control-nav {
+			display: none;
+		}
+	}
+}
+
+//heros slider overides
 #slider-heros .flexslider {
 	// height: 100%;
 	// height: 450px;

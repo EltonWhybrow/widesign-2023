@@ -14,7 +14,7 @@ const $window = window.$window || $(window);
 const AnimateOnPageLinks = {
 
     duration: 800,
-    offset: -78,
+    offset: 0,
 
     init() {
 

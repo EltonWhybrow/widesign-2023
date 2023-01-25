@@ -11,25 +11,30 @@ const FlexSliderSetUp = {
   init() {
 
     $(window).load(function () {
+
       $('#slider-quotes .flexslider').flexslider({
         initDelay: 3000,
         animation: 'slide',
-        slideshowSpeed: 5000,
-        animationSpeed: 750,
+        slideshowSpeed: 7000,
+        animationSpeed: 800,
         easing: "swing",
         startAt: 0,
         pauseOnAction: true,
         pauseOnHover: true,
-        controlNav: false,
-        directionNav: true,
+        controlNav: true,
+        directionNav: false,
         controlsContainer: ".flexslider-quotes",
-        itemWidth: 310,
-        itemMargin: 10,
+        // itemWidth: 510,
+        // itemMargin: 10,
+        useCSS: true,
+        touch: true,
         minItems: 1,
         maxItems: 3,
         reverse: false,
         animationLoop: true,
       });
+
+
 
       $('#slider-heros .flexslider').flexslider({
         initDelay: 2000,

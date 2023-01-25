@@ -15,9 +15,7 @@ const HeaderScroll = {
         else
 
           $("header").removeClass("active").addClass("normal");
-
-
-      })
+      }).trigger('scroll');
     })
   }
 

@@ -23,8 +23,6 @@ const BurgerIcon = {
     //   subMenu.slideUp(300);
     // });
 
-
-
     var trigger = $('#hamburger'),
       isClosed = false;
 

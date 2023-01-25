@@ -8,10 +8,10 @@
 }
 
 .secondary-btn {
-	@apply items-center px-3 py-2 text-sm leading-none text-white bg-transparent;
+	@apply items-center font-semibold px-3 py-2 text-base uppercase leading-none text-mellow-700 transition duration-300 ease-in-out bg-transparent;
 
 	&:hover {
-		@apply bg-teal-600;
+		@apply text-mellow-500;
 	}
 }
 

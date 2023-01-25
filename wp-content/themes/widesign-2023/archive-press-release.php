@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<h1 class="heading-1 text-center">Press releases</h1>
+<h1 class="text-center">Press releases</h1>
 
 <div class="container mx-auto">
 

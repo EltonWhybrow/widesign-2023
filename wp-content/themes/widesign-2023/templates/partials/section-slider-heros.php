@@ -1,10 +1,10 @@
 <!-- 
 =============================
-Customer quotes slider
+Customer heros slider
 ============================= 
 -->
 <section id="slider-heros" class="mx-0">
-    <div class="flexslider relative bg-transparent border-0 h-96">
+    <div class="flexslider relative bg-transparent border-0 h-128">
         <ul class="slides">
 
             <?php
@@ -26,6 +26,7 @@ Customer quotes slider
             background-size: cover">
 
                         <div class="flex container mx-auto">
+
                             <div class="hidden w-full h-16 mx-auto text-white p-32">
                                 <?php the_field('hero_heading'); ?>
                                 <!-- <div class="p-20"><?php the_content() ?></div> -->

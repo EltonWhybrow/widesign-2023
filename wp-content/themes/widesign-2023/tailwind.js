@@ -20,6 +20,7 @@ module.exports = {
 
     ,
     fontFamily: {
+      // widesign uses giddyup FONT in some form or other - consider redesign when time allows
       sans: ['"Open Sans"', 'Helvetica', 'Arial', 'sans-serif'],
       azo: ['"azo-sans-web"', 'Open Sans', 'Arial', 'sans-serif'],
       // serif: [
@@ -40,7 +41,8 @@ module.exports = {
         'width': 'width'
       },
       height: {
-        '100': '48rem'
+        '100': '25rem',
+        '128': '32rem',
       },
       colors: {
         'info': {
@@ -106,27 +108,44 @@ module.exports = {
           '800': '#2d3748',
           '900': '#1a202c',
         },
-        orange: {
-          '100': '#fffaf0',
-          '200': '#feebc8',
-          '300': '#fbd38d',
-          '400': '#f6ad55',
-          '500': '#ed8936',
-          '600': '#dd6b20',
-          '700': '#c05621',
-          '800': '#9c4221',
-          '900': '#7b341e',
+        'teal': {
+          DEFAULT: '#2A8B8C',
+          50: '#90DDDE',
+          100: '#80D8D9',
+          200: '#61CED0',
+          300: '#41C5C6',
+          400: '#33AAAB',
+          500: '#2A8B8C',
+          600: '#1D6061',
+          700: '#103536',
+          800: '#030A0B',
+          900: '#000000'
         },
-        teal: {
-          '100': '#e6fffa',
-          '200': '#b2f5ea',
-          '300': '#81e6d9',
-          '400': '#4fd1c5',
-          '500': '#38b2ac',
-          '600': '#319795',
-          '700': '#2c7a7b',
-          '800': '#285e61',
-          '900': '#234e52',
+        'plum': {
+          DEFAULT: '#524D8C',
+          50: '#BBB8D8',
+          100: '#AEABD1',
+          200: '#9591C2',
+          300: '#7B77B4',
+          400: '#625CA6',
+          500: '#524D8C',
+          600: '#3D3968',
+          700: '#282544',
+          800: '#12111F',
+          900: '#000000'
+        },
+        'mellow': {
+          DEFAULT: '#FFE345',
+          50: '#FFFFFD',
+          100: '#FFFCE8',
+          200: '#FFF5BF',
+          300: '#FFEF97',
+          400: '#FFE96E',
+          500: '#FFE345',
+          600: '#FFDB0D',
+          700: '#D4B400',
+          800: '#9C8400',
+          900: '#645500'
         },
         link: {
           'default': '#3182ce',
@@ -138,42 +157,32 @@ module.exports = {
       },
       lineHeight: {
         tighter: '1.125',
-      }
-
-      ,
+      },
       minWidth: {
         '0': '0',
         '1/4': '25%',
         '1/2': '50%',
         '3/4': '75%',
         full: '100%',
-      }
-
-      ,
+      },
       backgroundImage: {
-        // 'home-hero-sm': "url('https://staging.redhilltutoring.com/resources/images/maskhead/isometric-road-home-mob.svg')",
-      }
-
-      ,
+        'testimonial': "url('/resources/img/pages/home/testimonial-paralax.jpg')",
+        'whyus': "url('/resources/img/pages/home/widesign-elton.jpg')",
+        'ux-ui': "url('/resources/img/pages/home/widesign-ux-ui.jpg')",
+      },
     }
-  }
-
-  ,
+  },
   variants: {
     extend: {
       textColor: ['responsive', 'hover', 'focus', 'visited', 'group-hover'],
       backgroundColor: ['group-hover'],
       margin: ['first'], // TODO: might not work
-      borderWidth: ['hover'], // not using yet
+      borderWidth: ['hover'], // not using yet,
     }
-  }
-
-  ,
+  },
   future: {
     removeDeprecatedGapUtilities: true,
-  }
-
-  ,
+  },
   plugins: [({
     addUtilities
   }

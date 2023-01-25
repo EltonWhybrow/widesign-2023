@@ -8,6 +8,53 @@
 function custom_post_type()
 {
 
+    $quoteLabels = array(
+        'name'                => _x('Quotes', 'Post Type General Name'),
+        'singular_name'       => _x('Quote', 'Post Type Singular Name'),
+        'menu_name'           => __('Quote Slider'),
+        'parent_item_colon'   => __('Parent Quote'),
+        'all_items'           => __('View all Quotes'),
+        'view_item'           => __('View Quote'),
+        'add_new_item'        => __('Add New Quote'),
+        'add_new'             => __('Add New Quote'),
+        'edit_item'           => __('Edit Quote'),
+        'update_item'         => __('Update Quote'),
+        'search_items'        => __('Search Quote'),
+        'not_found'           => __('Not Found'),
+        'not_found_in_trash'  => __('Not found in Trash'),
+    );
+
+    $quoteArgs = array(
+        'label'               => __('quotes'),
+        'description'         => __('WideSign client feedback'),
+        'labels'              => $quoteLabels,
+        // Features this CPT supports in Post Editor
+        'supports'            => array('title', 'editor', 'author', 'thumbnail', 'custom-fields'),
+        // You can associate this CPT with a taxonomy or custom taxonomy. 
+        'taxonomies'          => array(''),
+        /* A hierarchical CPT is like Pages and can have
+        * Parent and child items. A non-hierarchical CPT
+        * is like Posts.
+        */
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 7,
+        'menu_icon'           => 'dashicons-format-quote',
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'post',
+        'show_in_rest' => true,
+
+    );
+
+
+
     $projectsLabels = array(
         'name'                => _x('Projects', 'Post Type General Name'),
         'singular_name'       => _x('Projects', 'Post Type Singular Name'),
@@ -101,6 +148,7 @@ function custom_post_type()
 
     register_post_type('heros', $heroArgs);
     register_post_type('projects', $projectArgs);
+    register_post_type('quotes', $quoteArgs);
 }
 
 add_action('init', 'custom_post_type', 0);
