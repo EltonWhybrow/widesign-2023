@@ -1,7 +1,7 @@
 <?php
 
-use redhilltutoring2022Theme\AutoLoader;
-use redhilltutoring2022Theme\View;
+use widesign2023Theme\AutoLoader;
+use widesign2023Theme\View;
 
 /*
  * Set up our auto loading class and mapping our namespace to the app directory.
@@ -16,7 +16,7 @@ use redhilltutoring2022Theme\View;
 require get_stylesheet_directory() . '/app/AutoLoader.php';
 $loader = new AutoLoader();
 $loader->register();
-$loader->addNamespace('redhilltutoring2022Theme', get_stylesheet_directory() . '/app');
+$loader->addNamespace('widesign2023Theme', get_stylesheet_directory() . '/app');
 
 View::$view_dir = get_stylesheet_directory() . '/templates/views';
 

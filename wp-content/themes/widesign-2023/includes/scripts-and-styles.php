@@ -1,7 +1,7 @@
 <?php
 
 
-use redhilltutoring2022Theme\AssetResolver;
+use widesign2023Theme\AssetResolver;
 
 
 add_action('wp_enqueue_scripts', function () {
