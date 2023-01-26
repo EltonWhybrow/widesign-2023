@@ -1,11 +1,11 @@
 <!-- Site footer -->
-<footer class="footer pt-14 pb-4">
+<footer class="footer pt-14 pb-4 bg-gray-900">
     <div class="lg:container lg:mx-auto pb-10">
 
         <div class="link-items flex flex-col sm:flex-row flex-wrap items-center sm:items-start justify-between p-2 text-white space-y-14 md:space-y-0">
             <div class="sm:w-full p-0 sm:p-24">
                 <!-- <img class="m-auto hidden md:block" src="/resources/img/pages/logos/redhill-tuts-logo-inverted-sm.svg" alt="Redhill Tutoring" width="340px" height="auto"> -->
-                <img class="m-auto" src="/resources/img/pages/logos/redhill-tuts-logo-inverted-sm.png" alt="Redhill Tutoring" width="340px" height="auto">
+                <!-- <img class="m-auto" src="/resources/img/pages/logos/redhill-tuts-logo-inverted-sm.png" alt="Redhill Tutoring" width="340px" height="auto"> -->
 
             </div>
 

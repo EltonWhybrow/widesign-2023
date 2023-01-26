@@ -9,7 +9,7 @@
 			?> -->
 
 	<!-- BUTTON Request -->
-	<!-- <p class="absolute left-1/2 top-1/3 z-50 -translate-x-1/2 transform hover:-translate-y-1 transition duration-400 ease-in-out">
+	<!-- <p class="absolute left-1/2/3 z-50 -translate-x-1/2 transform hover:-translate-y-1 transition duration-400 ease-in-out">
 			<a id="register-interest" class='primary-btn pr-12' href='#request-callback'>
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute top-0 right-3 inline-block w-6 h-6 m-1 text-gray-100">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -80,9 +80,9 @@
 					Create beauty
 				</h2>
 				<div class="grid justify-items-end mt-2">
-					<a class="relative inline-flex pr-8 primary-btn" href="#begin-journey">
+					<a class="relative inline-flex pr-8 primary-btn group" href="#begin-journey">
 						Begin your journey
-						<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 						</svg>
 					</a>
@@ -91,12 +91,10 @@
 
 		</div>
 
-		<div class="w-full md:w-3/5 object-cover">
-			<picture>
-				<source srcset="/resources/img/pages/home/widesign-elephant.jpg" type="image/webp">
-				<source srcset="/resources/img/pages/home/widesign-elephant.jpg" type="image/jpeg">
-				<img class="w-full" src="/resources/img/pages/home/widesign-elephant.jpg" alt="WideSign Web & SEO Services">
-			</picture>
+		<div class="w-full md:w-3/5">
+			<div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative">
+				<img class="absolute top-0 left-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/home/widesign-elephant.jpg" alt="WideSign Web & SEO Services">
+			</div>
 		</div>
 	</section>
 
@@ -106,19 +104,31 @@
 				the_content();
 			endwhile;
 		else : ?>
-			<p>Sorry, no posts matched your criteria.</p>
+			<p>Sorry, no new contect for now! 😞</p>
 		<?php endif; ?>
+	</section>
+
+	<!-- TECH STACK -->
+	<section class="gray-logos py-5 bg-gray-100 flex space-x-2 justify-between">
+		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/ga.webp" alt="google analytices">
+		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/woo.webp" alt="woo commerce">
+		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/sketch.webp" alt="sketch">
+		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/dev.webp" alt="design and development tools">
+
+		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/wordpress.webp" alt="wordpress">
+		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/google.webp" alt="google tools">
+		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/jquery.webp" alt="jquery">
+		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/htmlcssjs.webp" alt="html css js">
+
 	</section>
 
 	<!-- AUDIT -->
 	<section class="flex flex-wrap md:flex-nowrap">
 
-		<div class="relative py-0 w-full md:w-3/5 object-cover">
-			<!-- <picture>
-				<source srcset="/resources/img/pages/home/widesign-ux-ui.jpg" type="image/webp">
-				<source srcset="/resources/img/pages/home/widesign-ux-ui.jpg" type="image/jpeg"> -->
-			<img class="w-full" src="/resources/img/pages/home/widesign-ux-ui.jpg" alt="Free website audit">
-			<!-- </picture> -->
+		<div class="w-full md:w-3/5">
+			<div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative">
+				<img class="absolute top-0 right-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/home/widesign-ux-ui.jpg" alt="Free website audit">
+			</div>
 		</div>
 
 		<div class="w-full md:w-2/5 flex justify-center items-center bg-plum-600">
@@ -131,9 +141,9 @@
 					Get a <span class="px-2 rounded bg-plum-700 inline-block">FREE website audit</span> of the the issues and possible problems with your site that could be slowing it down or holding back your SEO potential.
 				</p>
 				<div class="grid justify-items-start mt-2">
-					<a class="relative inline-flex pr-8 primary-btn" href="#">
+					<a class="relative inline-flex pr-8 primary-btn group" href="services/free-website-audit">
 						Request audit
-						<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<svg xmlns="http://www.w3.org/2000/svg" class="transform group-hover:rotate-360 transition-rotate duration-500 absolute ml-1 top-3 right-1 inline-block w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 						</svg>
 					</a>
@@ -164,21 +174,44 @@
 	</section>
 
 	<!-- WHY US -->
-	<section class="flex flex-wrap md:flex-nowrap h-128">
+	<section class="flex flex-wrap md:flex-nowrap h-156">
 
-		<div class="w-full md:w-2/5 flex justify-center items-center bg-teal-700">
+		<div class="w-full lg:w-2/5 flex justify-center items-center bg-teal-700">
 			<div class="p-10">
 				<h2 class="pb-2 text-3xl text-gray-200 uppercase font-semibold">
 					Why choose WideSign?
 				</h2>
-				<p class="pb-2 text-gray-200">
-					Get a <span class="px-1 rounded bg-plum-800 inline-block transform -skew-y-1">FREE website audit</span> of the the issues and possible problems with your site that could be slowing it down or holding back your SEO potential.
-				</p>
-				<div class="grid justify-items-start mt-2">
-					<a class="relative inline-flex pr-8 primary-btn" href="#">
-						Request audit
-						<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+
+				<h3 class="text-teal-400 text-xl text-bold">
+					Worry free plans &amp; ongoing support
+				</h3>
+
+				<div class="max-w-xl mx-auto py-3">
+					<p class="text-white">
+						We create stunning mobile first, SEO optimized modern websites. Furthermore, we also take care of all your hosting, email & backups where required. This makes us your complete digital online presence setup company.
+					</p>
+					<p class="text-white">
+						You receive support for all your services with us by email or mobile and we enjoy going the extra mile to resolve requests within a 24hrs.
+					</p>
+
+					<p class="text-white">
+						Proactivly working with clients to understand their business and objectives to create a fast loading efficient website that delivers on impact and can turn visitors into customers.
+					</p>
+				</div>
+
+				<div class="flex justify-start mt-2 space-x-4">
+
+					<a class="relative inline-flex pr-7 secondary-btn" href="/services/website-plans">
+						Website packages
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" class="absolute right-1 inline-block w-6 h-6">
+							<path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clip-rule="evenodd" />
+						</svg>
+
+					</a>
+					<a class="relative inline-flex pr-7 secondary-btn" href="/services/seo">
+						SEO
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" class="absolute right-1 inline-block w-6 h-6">
+							<path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clip-rule="evenodd" />
 						</svg>
 					</a>
 				</div>
@@ -188,13 +221,9 @@
 
 
 
-		<div class="relative py-0 w-full md:w-3/5 object-cover">
-			<div class="filter grayscale relative">
-				<img class="w-24 h-24 object-cover rounded-lg shadow-xl" src="https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=320&amp;h=320&amp;q=80">
-				<div class="absolute inset-0 ring-1 ring-inset ring-black/10 rounded-lg"></div>
-			</div>
+		<div class="relative py-0 w-full lg:w-3/5 object-cover h-100 md:h-auto">
 			<div class="image-zoom">
-				<div class="zoom-image bg-whyus bg-left-top filter hover:grayscale"></div>
+				<div class="zoom-image bg-whyus bg-left-top"></div>
 				<!-- <h1 class="zoom-text">CAR</h1> -->
 			</div>
 			<!-- <picture>

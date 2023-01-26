@@ -16,25 +16,14 @@ module.exports = {
         lg: '4rem',
         xl: '5rem',
       },
-    }
-
-    ,
+    },
+    rotate: {
+      '360': '360deg',
+    },
     fontFamily: {
       // widesign uses giddyup FONT in some form or other - consider redesign when time allows
       sans: ['"Open Sans"', 'Helvetica', 'Arial', 'sans-serif'],
       azo: ['"azo-sans-web"', 'Open Sans', 'Arial', 'sans-serif'],
-      // serif: [
-      //   '"Open Sans"',
-      //   'Helvetica',
-      //   'Arial',
-      //   '"sans-serif"',
-      // ],
-      // mono: [
-      //   '"Open Sans"',
-      //   'Helvetica',
-      //   'Arial',
-      //   '"sans-serif"',
-      // ],
     },
     extend: {
       transitionProperty: {
@@ -43,6 +32,7 @@ module.exports = {
       height: {
         '100': '25rem',
         '128': '32rem',
+        '156': '39rem',
       },
       colors: {
         'info': {
@@ -170,12 +160,44 @@ module.exports = {
         'whyus': "url('/resources/img/pages/home/widesign-elton.jpg')",
         'ux-ui': "url('/resources/img/pages/home/widesign-ux-ui.jpg')",
       },
+      spacing: {
+        '1/2': '50%',
+        '1/3': '33.333333%',
+        '2/3': '66.666667%',
+        '1/4': '25%',
+        '2/4': '50%',
+        '3/4': '75%',
+        '1/5': '20%',
+        '2/5': '40%',
+        '3/5': '60%',
+        '4/5': '80%',
+        '1/6': '16.666667%',
+        '2/6': '33.333333%',
+        '3/6': '50%',
+        '4/6': '66.666667%',
+        '5/6': '83.333333%',
+        '1/12': '8.333333%',
+        '2/12': '16.666667%',
+        '3/12': '25%',
+        '4/12': '33.333333%',
+        '5/12': '41.666667%',
+        '6/12': '50%',
+        '7/12': '58.333333%',
+        '8/12': '66.666667%',
+        '9/12': '75%',
+        '10/12': '83.333333%',
+        '11/12': '91.666667%',
+      }
     }
   },
   variants: {
     extend: {
       textColor: ['responsive', 'hover', 'focus', 'visited', 'group-hover'],
       backgroundColor: ['group-hover'],
+      backgroundImage: ['hover'],
+      filter: ['hover'],
+      rotate: ['active', 'group-hover'],
+      translate: ['group-hover', 'hover'],
       margin: ['first'], // TODO: might not work
       borderWidth: ['hover'], // not using yet,
     }
@@ -185,22 +207,12 @@ module.exports = {
   },
   plugins: [({
     addUtilities
-  }
-
-  ) => {
+  }) => {
     const utils = {
       '.translate-x-half': {
         transform: 'translateX(50%)',
-      }
-
-      ,
-    }
-
-      ;
+      },
+    };
     addUtilities(utils, ['responsive'])
-  }
-
-  ]
-}
-
-  ;
+  }]
+};

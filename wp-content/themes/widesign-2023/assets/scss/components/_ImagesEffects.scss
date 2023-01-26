@@ -4,17 +4,22 @@
 	@apply relative flex items-center justify-center overflow-hidden w-full h-full;
 }
 .zoom-image {
-	@apply absolute w-full h-full transition-all duration-700 ease-in-out transform bg-center bg-cover;
+	@apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-left-top bg-cover;
 }
-
-// .zoom-text {
-// 	@apply absolute text-5xl font-black transition-all duration-500 ease-in-out transform scale-150 text-gray-50 opacity-60;
-// }
 
 .image-zoom:hover .zoom-image {
 	@apply scale-110;
+	// grayscale
 }
 // .image-zoom:hover .zoom-text {
 // 	@apply scale-100;
 // }
+
+.gray-logos img {
+	@apply filter grayscale;
+	&:hover {
+		@apply grayscale-0;
+	}
+}
+
 /* purgecss end ignore */
