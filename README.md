@@ -2,9 +2,9 @@
 | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
 | [![Staging](https://github.com/EltonWhybrow/redhill-tutoring/actions/workflows/staging_release.yml/badge.svg)](https://github.com/EltonWhybrow/redhill-tutoring/actions/workflows/staging_release.yml) | [![Production](https://github.com/EltonWhybrow/redhill-tutoring/actions/workflows/prod_release.yml/badge.svg)](https://github.com/EltonWhybrow/redhill-tutoring/actions/workflows/prod_release.yml) |
 
-# Redhill Tutoring Wordpress Theme
+# WideSign Wordpress Theme
 
-Redhill Tutoring Custom WP theme using [TailwindCSS](https://tailwindcss.com/) and [Laravel Mix](https://laravel.com/docs/5.8/mix).
+WideSign Custom WP theme using [TailwindCSS](https://tailwindcss.com/) and [Laravel Mix](https://laravel.com/docs/5.8/mix).
 
 ## Dependencies
 
