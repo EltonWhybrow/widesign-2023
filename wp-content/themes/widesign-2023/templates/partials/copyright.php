@@ -1,6 +1,8 @@
-<div class="flex flex-wrap lg:container lg:mx-auto justify-center p-4">
-    <p class="text-white pt-2 text-xs text-center">
-        All rights reserved &copy;<?php echo date("Y"); ?> Redhill Tutoring <span class="hidden md:block">|</span>
-        <br class="md:hidden" /> Theme by <a class="primary-link text-xs" href="//widesign.co.uk" target="_blank">Wide Sign</a>
+<div class="container mx-auto justify-center p-4 text-white text-xs text-center">
+    <p class="pt-2 pb-0">
+        All rights reserved &copy;<?php echo date("Y"); ?> WideSign
+    </p>
+    <p class="">
+        <a href="privacy" class="">Privacy</a> | <a href="#" class="">Something</a>
     </p>
 </div>

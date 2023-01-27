@@ -11,7 +11,7 @@ const BackToTop = {
       $(window).scroll(function () {
 
         // Show button after 100px
-        var showAfter = 600;
+        var showAfter = 1000;
         if ($(this).scrollTop() > showAfter) {
           $('.back-to-top').fadeIn();
         } else {

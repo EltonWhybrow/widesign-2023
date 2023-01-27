@@ -32,7 +32,7 @@ get_header(); ?>
             <div class="px-5 text-base">
                 <h4 class="hidden md:block pt-6 font-semibold">Services</h4>
                 <h2 class="text-2xl">Treat each child as an <span class="px-1 border-b-2 border-teal-500 transform inline-block -skew-y-2">individual</span> and watch them thrive</h2>
-                <p class="py-2">Thank you for heading over to my website. Here you will find all you need to know about Redhill Tutoring Services. Contact me if you would like to <a class="primary-link relative text-base" href="/contact#contact-form">arrange a visit</a>.
+                <p class="py-2">Thank you for heading over to my website. Here you will find all you need to know about WideSign Services. Contact me if you would like to <a class="primary-link relative text-base" href="/contact#contact-form">arrange a visit</a>.
                 </p>
             </div>
         </div>
@@ -43,8 +43,8 @@ get_header(); ?>
         <div class="md:max-w-3xl mx-auto pt-8 pb-4 px-5">
 
             <div class="text-left">
-                <h3 class="text-gray-600 text-2xl uppercase tracking-wide">What we offer at <span class="text-teal-500">Redhill Tutoring</span></h3>
-                <p>Redhill Tutoring can help your child in any of the following areas of study:</p>
+                <h3 class="text-gray-600 text-2xl uppercase tracking-wide">What we offer at <span class="text-teal-500">WideSign</span></h3>
+                <p>WideSign can help your child in any of the following areas of study:</p>
             </div>
 
             <div class="flex flex-wrap md:flex-nowrap md:space-x-4 py-10">
@@ -136,7 +136,7 @@ get_header(); ?>
                 <picture>
                     <source srcset="/resources/img/pages/services/redhilltutoring-services-english.webp" type="image/webp">
                     <source srcset="/resources/img/pages/services/redhilltutoring-services-english.jpg" type="image/jpeg">
-                    <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/services/redhilltutoring-services-english.jpg" alt="Tutor Math at Redhill Tutoring">
+                    <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/services/redhilltutoring-services-english.jpg" alt="Tutor Math at WideSign">
                 </picture>
             </div>
 
@@ -165,7 +165,7 @@ get_header(); ?>
                 <picture>
                     <source srcset="/resources/img/pages/services/redhilltutoring-services-english.webp" type="image/webp">
                     <source srcset="/resources/img/pages/services/redhilltutoring-services-english.jpg" type="image/jpeg">
-                    <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/services/redhilltutoring-services-english.jpg" alt="Tutor Math at Redhill Tutoring">
+                    <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/services/redhilltutoring-services-english.jpg" alt="Tutor Math at WideSign">
                 </picture>
             </div>
         </div>
@@ -176,7 +176,7 @@ get_header(); ?>
                 <picture>
                     <source srcset="/resources/img/pages/services/redhilltutoring-services-math.webp" type="image/webp">
                     <source srcset="/resources/img/pages/services/redhilltutoring-services-math.jpg" type="image/jpeg">
-                    <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/services/redhilltutoring-services-math.jpg" alt="Tutor English at Redhill Tutoring">
+                    <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/services/redhilltutoring-services-math.jpg" alt="Tutor English at WideSign">
                 </picture>
             </div>
 
@@ -205,7 +205,7 @@ get_header(); ?>
                 <picture>
                     <source srcset="/resources/img/pages/services/redhilltutoring-services-math.webp" type="image/webp">
                     <source srcset="/resources/img/pages/services/redhilltutoring-services-math.jpg" type="image/jpeg">
-                    <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/services/redhilltutoring-services-math.jpg" alt="Tutor English at Redhill Tutoring">
+                    <img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/services/redhilltutoring-services-math.jpg" alt="Tutor English at WideSign">
                 </picture>
             </div>
         </div>

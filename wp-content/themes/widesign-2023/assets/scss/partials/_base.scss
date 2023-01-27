@@ -22,39 +22,4 @@ body {
 	font-weight: 400;
 	@apply font-azo;
 }
-
-.ig-break {
-	border-bottom: dashed 2px;
-	@apply border-gray-300;
-
-	@screen md {
-		border-bottom: none;
-	}
-}
-
-// Example hide input for certain days HACK
-// Will need to change choice to correct index
-/* purgecss start ignore */
-#wpforms-560-field_9 {
-	.choice-5,
-	.choice-9,
-	.choice-8 {
-		label {
-			text-decoration: line-through !important;
-			pointer-events: none;
-			@apply text-gray-500;
-		}
-	}
-}
-
-#wpforms-560-field_9 {
-	.choice-5,
-	.choice-9,
-	.choice-8 {
-		input {
-			pointer-events: none;
-			opacity: 0.6;
-		}
-	}
-}
 /* purgecss end ignore */

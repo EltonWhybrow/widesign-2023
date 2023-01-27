@@ -156,7 +156,7 @@ module.exports = {
         full: '100%',
       },
       backgroundImage: {
-        'testimonial': "url('/resources/img/pages/home/testimonial-paralax.jpg')",
+        // 'testimonial': "url('/resources/img/pages/home/testimonial-paralax.jpg')",
         'whyus': "url('/resources/img/pages/home/widesign-elton.jpg')",
         'ux-ui': "url('/resources/img/pages/home/widesign-ux-ui.jpg')",
       },

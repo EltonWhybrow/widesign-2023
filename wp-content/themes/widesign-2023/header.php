@@ -22,7 +22,7 @@
         </div>
 
         <!-- BURGER -->
-        <div id="hamburger" class="hamburglar is-closed mr-10">
+        <div id="hamburger" class="hamburglar is-closed mr-6">
 
             <div class="burger-icon">
                 <div class="burger-container">
@@ -46,7 +46,7 @@
                 </mask>
             </svg>
             <div class="path-burger">
-                <div class="animate-path">
+                <div class="animate-path cursor-pointer">
                     <div class="path-rotation"></div>
                 </div>
             </div>

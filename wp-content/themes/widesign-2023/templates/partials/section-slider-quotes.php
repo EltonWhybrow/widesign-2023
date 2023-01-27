@@ -25,7 +25,7 @@ Customer quotes slider
             if ($featured_query->have_posts()) : while ($featured_query->have_posts()) : $featured_query->the_post(); ?>
                     <li class="slide">
 
-                        <div class="flex mx-auto items-center">
+                        <div class="flex-col flex mx-auto items-center">
                             <img class="thumb h-44 w-44 flex-1 mx-auto object-cover object-center rounded-full shadow-md" src="<?php the_post_thumbnail_url('quote_thumbnails'); ?>" alt="<?php the_title(); ?>">
 
                             <div class="p-4 mx-4 text-center">

@@ -57,7 +57,7 @@ get_header(); ?>
 						<picture>
 							<source srcset="/resources/img/pages/about/redhilltutoring-about-me.webp" type="image/webp">
 							<source srcset="/resources/img/pages/about/redhilltutoring-about-me.jpg" type="image/jpeg">
-							<img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/redhilltutoring-about-me.jpg" alt="Bethany welcomes you to Redhill Tutoring">
+							<img class="w-full max-h-80 object-cover object-center rounded-lg shadow-md" src="/resources/img/pages/about/redhilltutoring-about-me.jpg" alt="Bethany welcomes you to WideSign">
 						</picture>
 					</div>
 					<p>

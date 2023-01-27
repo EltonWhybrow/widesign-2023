@@ -27,7 +27,7 @@
 	<!-- <section id="quote" class="max-w-5xl mx-auto py-10">
 
 		<div class="text-center">
-			<h1 class="hidden">Redhill Tutoring - Bethany Whybrow</h1>
+			<h1 class="hidden">WideSign - Bethany Whybrow</h1>
 			<div class="flex justify-center mx-10 mt-2">
 				<div>
 					<h3 class="text-xl uppercase tracking-wide">An investment in knowledge pays the best dividends.</h3>
@@ -55,7 +55,7 @@
 				<div class="text-base py-6">
 					<h4 class="pt-6 font-semibold">Register your interest</h4>
 					<h2 class="text-2xl">I will check availability and <span class="px-1 border-b-2 border-teal-500 transform inline-block -skew-y-2">get in touch</span></h2>
-					<p class="py-2 text-gray-400">This form registers your interest with Redhill Tutoring, please use the <a class="relative text-base hover:underline" href="/contact#contact-form">contact form</a> if you have any questions or queries.</p>
+					<p class="py-2 text-gray-400">This form registers your interest with WideSign, please use the <a class="relative text-base hover:underline" href="/contact#contact-form">contact form</a> if you have any questions or queries.</p>
 					<p>
 					</p>
 					<?php //echo do_shortcode('[wpforms id="153" title="false"]'); 
@@ -68,19 +68,19 @@
 	<!-- HERO -->
 	<section class="flex flex-wrap md:flex-nowrap">
 
-		<div class="w-full md:w-2/5 flex justify-center items-center bg-gray-900">
-			<div class="pr-3 py-2 text-6xl">
-				<h2 class="pb-2 text-mellow-200 uppercase font-semibold">
+		<div class="py-8 md:py-0 w-full md:w-2/5 flex justify-center items-center bg-gray-900">
+			<div class="p-3 md:p-10 md:text-5xl text-6xl lg:p-6">
+				<h2 class="pb-1 text-mellow-200 uppercase font-semibold">
 					Be bold
 				</h2>
-				<h2 class="pb-2 text-mellow-400 uppercase font-semibold">
+				<h2 class="pb-1 text-mellow-400 uppercase font-semibold">
 					Take chances
 				</h2>
-				<h2 class="pb-2 text-mellow-600 uppercase font-semibold">
+				<h2 class="pb-1 text-mellow-600 uppercase font-semibold">
 					Create beauty
 				</h2>
 				<div class="grid justify-items-end mt-2">
-					<a class="relative inline-flex pr-8 primary-btn group" href="#begin-journey">
+					<a class="relative inline-flex pr-8 primary-btn  hover:bg-teal-500 bg-gray-800 group" href="#begin-journey">
 						Begin your journey
 						<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -99,7 +99,7 @@
 	</section>
 
 	<!-- MAIN EDITOR CONTENT -->
-	<section id="begin-journey" class="py-24 bg-teal-700 text-center">
+	<section id="begin-journey" class="py-20 px-4 md:px-10 bg-teal-700 text-center">
 		<?php if (have_posts()) : while (have_posts()) : the_post();
 				the_content();
 			endwhile;
@@ -109,7 +109,7 @@
 	</section>
 
 	<!-- TECH STACK -->
-	<section class="gray-logos py-5 bg-gray-100 flex space-x-2 justify-between">
+	<section class="gray-logos py-5 bg-gray-100 flex space-x-2 justify-between overflow-hidden">
 		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/ga.webp" alt="google analytices">
 		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/woo.webp" alt="woo commerce">
 		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/sketch.webp" alt="sketch">
@@ -132,7 +132,7 @@
 		</div>
 
 		<div class="w-full md:w-2/5 flex justify-center items-center bg-plum-600">
-			<div class="p-10">
+			<div class="py-10 px-4 md:px-10">
 				<h2 class="pb-2 text-3xl text-gray-200 uppercase font-semibold">
 					Website need an overhaul?<br />
 					Slow pages, other issues?
@@ -141,7 +141,7 @@
 					Get a <span class="px-2 rounded bg-plum-700 inline-block">FREE website audit</span> of the the issues and possible problems with your site that could be slowing it down or holding back your SEO potential.
 				</p>
 				<div class="grid justify-items-start mt-2">
-					<a class="relative inline-flex pr-8 primary-btn group" href="services/free-website-audit">
+					<a class="relative inline-flex pr-8 primary-btn hover:bg-teal-500 bg-plum-700 group" href="services/free-website-audit">
 						Request audit
 						<svg xmlns="http://www.w3.org/2000/svg" class="transform group-hover:rotate-360 transition-rotate duration-500 absolute ml-1 top-3 right-1 inline-block w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 							<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -161,7 +161,7 @@
 		background-size: cover !important;
 		background-attachment: fixed !important;
     ">
-		<div class="max-w-5xl mx-auto pt-24 pb-28">
+		<div class="max-w-5xl mx-auto pt-20 pb-12">
 
 			<div class="mx-8 flex flex-wrap md:flex-nowrap pt-5 md:pt-10">
 				<div class="py-0 w-full">
@@ -174,10 +174,10 @@
 	</section>
 
 	<!-- WHY US -->
-	<section class="flex flex-wrap md:flex-nowrap h-156">
+	<section class="flex flex-wrap md:flex-nowrap md:h-156">
 
 		<div class="w-full lg:w-2/5 flex justify-center items-center bg-teal-700">
-			<div class="p-10">
+			<div class="py-10 px-4 md:px-10">
 				<h2 class="pb-2 text-3xl text-gray-200 uppercase font-semibold">
 					Why choose WideSign?
 				</h2>
@@ -187,14 +187,14 @@
 				</h3>
 
 				<div class="max-w-xl mx-auto py-3">
-					<p class="text-white">
+					<p class="text-gray-200">
 						We create stunning mobile first, SEO optimized modern websites. Furthermore, we also take care of all your hosting, email & backups where required. This makes us your complete digital online presence setup company.
 					</p>
-					<p class="text-white">
+					<p class="text-gray-200">
 						You receive support for all your services with us by email or mobile and we enjoy going the extra mile to resolve requests within a 24hrs.
 					</p>
 
-					<p class="text-white">
+					<p class="text-gray-200">
 						Proactivly working with clients to understand their business and objectives to create a fast loading efficient website that delivers on impact and can turn visitors into customers.
 					</p>
 				</div>
@@ -232,6 +232,26 @@
 				<img class="w-full" src="/resources/img/pages/home/widesign-elton.jpg" alt="Web Designer Elton Whybrow">
 			</picture> -->
 		</div>
+	</section>
+
+	<!-- CALLBACK -->
+	<section class="p-10 bg-plum-600">
+		<div class="flex flex-wrap md:flex-nowrap container mx-auto justify-center">
+			<div>
+				<h2 class="text-4xl text-gray-200 uppercase font-semibold">
+					Interested?
+				</h2>
+				<p class="text-gray-200 text-base text-center sm:text-left">
+					Request a call back today
+				</p>
+			</div>
+
+			<?php echo do_shortcode('[wpforms id="153" title="false"]');
+			?>
+
+		</div>
+
+
 	</section>
 
 
