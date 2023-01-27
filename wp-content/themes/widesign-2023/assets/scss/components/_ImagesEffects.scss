@@ -15,7 +15,7 @@
 // 	@apply scale-100;
 // }
 
-.gray-logos img {
+.gray-logos div img {
 	@apply filter grayscale;
 	&:hover {
 		@apply grayscale-0;

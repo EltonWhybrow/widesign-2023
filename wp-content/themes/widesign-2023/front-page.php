@@ -109,16 +109,19 @@
 	</section>
 
 	<!-- TECH STACK -->
-	<section class="gray-logos py-5 bg-gray-100 flex space-x-2 justify-between overflow-hidden">
-		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/ga.webp" alt="google analytices">
-		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/woo.webp" alt="woo commerce">
-		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/sketch.webp" alt="sketch">
-		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/dev.webp" alt="design and development tools">
+	<section class="gray-logos py-5 bg-gray-100">
+		<div class="flex space-x-2 justify-between overflow-hidden">
+			<img class="active-gray w-16 md:w-28 h-auto" src="/resources/img/pages/home/logos/ga.webp" alt="google analytices">
+			<img class="active-gray w-16 md:w-28 h-auto" src="/resources/img/pages/home/logos/woo.webp" alt="woo commerce">
+			<img class="active-gray w-16 md:w-28 h-auto" src="/resources/img/pages/home/logos/sketch.webp" alt="sketch">
+			<img class="active-gray w-16 md:w-28 h-auto" src="/resources/img/pages/home/logos/dev.webp" alt="design and development tools">
 
-		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/wordpress.webp" alt="wordpress">
-		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/google.webp" alt="google tools">
-		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/jquery.webp" alt="jquery">
-		<img class="active-gray w-32 h-auto" src="/resources/img/pages/home/logos/htmlcssjs.webp" alt="html css js">
+			<img class="active-gray w-16 md:w-28 h-auto" src="/resources/img/pages/home/logos/wordpress.webp" alt="wordpress">
+			<img class="active-gray w-16 md:w-28 h-auto" src="/resources/img/pages/home/logos/google.webp" alt="google tools">
+			<img class="active-gray w-16 md:w-28 h-auto" src="/resources/img/pages/home/logos/jquery.webp" alt="jquery">
+			<img class="active-gray w-16 md:w-28 h-auto" src="/resources/img/pages/home/logos/htmlcssjs.webp" alt="html css js">
+		</div>
+
 
 	</section>
 
@@ -202,14 +205,14 @@
 				<div class="flex justify-start mt-2 space-x-4">
 
 					<a class="relative inline-flex pr-7 secondary-btn" href="/services/website-plans">
-						Website packages
+						Our journey
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" class="absolute right-1 inline-block w-6 h-6">
 							<path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clip-rule="evenodd" />
 						</svg>
 
 					</a>
 					<a class="relative inline-flex pr-7 secondary-btn" href="/services/seo">
-						SEO
+						Our services
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" class="absolute right-1 inline-block w-6 h-6">
 							<path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z" clip-rule="evenodd" />
 						</svg>
