@@ -6,8 +6,7 @@ $menu-width: 100%;
 
 .navburger-main {
 	z-index: 999;
-	@apply bg-gray-900 text-3xl;
-	font-weight: 700;
+	@apply bg-gray-900 text-4xl;
 	height: 100vh;
 	padding: 0 0;
 	text-align: center;
@@ -24,21 +23,20 @@ $menu-width: 100%;
 	li {
 		&.current-menu-item {
 			> a {
-				@apply text-teal-700;
+				@apply text-plum-400 font-bold;
 			}
 		}
 		list-style: none;
-		transition: background-color 0.2s ease;
-		@apply uppercase;
+		@apply uppercase transition-all duration-300 ease-in-out;
 
 		&:hover {
-			// @apply bg-gray-700;
+			@apply text-plum-300;
 		}
 
 		a {
 			width: 100%;
 			box-sizing: border-box;
-			padding: 20px;
+			padding: 10px;
 			display: inline-block;
 			text-decoration: none;
 

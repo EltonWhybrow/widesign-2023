@@ -1,8 +1,11 @@
-<div class="container mx-auto justify-center p-4 text-white text-xs text-center">
-    <p class="pt-2 pb-0">
-        All rights reserved &copy;<?php echo date("Y"); ?> WideSign
+<div class="container mx-auto justify-center p-4 text-gray-500 text-xxs text-center">
+    <p class="py-0 h-4">
+        &copy; WideSign Ltd <?php echo date("Y"); ?>
     </p>
-    <p class="">
-        <a href="privacy" class="">Privacy</a> | <a href="#" class="">Something</a>
+    <p class="py-0 h-4">
+        Registered in England and Wales | Company No. 14047437
+    </p>
+    <p class="py-0 h-4">
+        <a href="/privacy-policy" class="">Privacy</a> | <a href="#" class="">Something</a>
     </p>
 </div>

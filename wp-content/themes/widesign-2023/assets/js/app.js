@@ -18,6 +18,7 @@ const ExampleModule2 = require('./components/example-2');
 import ReplaceObfuscatedEmailAddresses from "./components/ReplaceObfuscatedEmailAddresses";
 import AnimateOnPageLinks from "./components/AnimateOnPageLinks";
 import HeaderScroll from "./components/HeaderScroll";
+import ScrollAni from "./components/ScrollAni";
 
 
 // Initialise our components on jQuery.ready…
@@ -36,6 +37,7 @@ jQuery(function ($) {
   BackToTop.init();
   Messages.init();
   HeaderScroll.init();
+  ScrollAni.init();
 });
 
 

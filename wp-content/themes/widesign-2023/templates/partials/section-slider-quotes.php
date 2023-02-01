@@ -26,7 +26,7 @@ Customer quotes slider
                     <li class="slide">
 
                         <div class="flex-col flex mx-auto items-center">
-                            <img class="thumb h-44 w-44 flex-1 mx-auto object-cover object-center rounded-full shadow-md" src="<?php the_post_thumbnail_url('quote_thumbnails'); ?>" alt="<?php the_title(); ?>">
+                            <img class="js-slidein thumb h-44 w-44 flex-1 mx-auto object-cover object-center rounded-full shadow-md" src="<?php the_post_thumbnail_url('quote_thumbnails'); ?>" alt="<?php the_title(); ?>">
 
                             <div class="p-4 mx-4 text-center">
                                 <?php the_content() ?>

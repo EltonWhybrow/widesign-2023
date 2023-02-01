@@ -66,11 +66,6 @@ require_once(__DIR__ . '/includes/shortcodes-sliders.php');
 require_once(__DIR__ . '/includes/shortcodes-notifications.php');
 require_once(__DIR__ . '/includes/shortcodes-hero-img.php');
 
-/* 
-=================================
-Hide Basic Posts to avoid confusion
-=================================
-*/
 
 remove_filter('the_content', 'wpautop');
 
@@ -80,16 +75,3 @@ function enable_page_excerpt()
     add_post_type_support('page', array('excerpt'));
 }
 add_action('init', 'enable_page_excerpt');
-
-
-//For example, you can paste this into your theme functions.php file
-
-// function meks_which_template_is_loaded()
-// {
-//     if (is_super_admin()) {
-//         global $template;
-//         print_r($template);
-//     }
-// }
-
-// add_action('wp_footer', 'meks_which_template_is_loaded');

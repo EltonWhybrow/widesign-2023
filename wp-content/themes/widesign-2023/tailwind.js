@@ -26,8 +26,17 @@ module.exports = {
       azo: ['"azo-sans-web"', 'Open Sans', 'Arial', 'sans-serif'],
     },
     extend: {
+      maxHeight: {
+        '100': '25rem',
+        '128': '32rem',
+        '156': '39rem',
+      },
       transitionProperty: {
         'width': 'width'
+      },
+      transitionDuration: {
+        '1000': '1000ms',
+        '2000': '2000ms',
       },
       height: {
         '100': '25rem',
@@ -158,7 +167,8 @@ module.exports = {
       backgroundImage: {
         // 'testimonial': "url('/resources/img/pages/home/testimonial-paralax.jpg')",
         'whyus': "url('/resources/img/pages/home/widesign-elton.jpg')",
-        'ux-ui': "url('/resources/img/pages/home/widesign-ux-ui.jpg')",
+        'ux-ui': "url('/resources/img/pages/services/widesign-ux-ui.jpg')",
+        'audit': "url('/resources/img/pages/home/widesign-site-audit.jpg')",
       },
       spacing: {
         '1/2': '50%',
@@ -200,6 +210,9 @@ module.exports = {
       translate: ['group-hover', 'hover'],
       margin: ['first'], // TODO: might not work
       borderWidth: ['hover'], // not using yet,
+      grayscale: ['hover'],
+      brightness: ['hover'],
+      transitionDuration: ['hover'],
     }
   },
   future: {
