@@ -10,9 +10,9 @@ get_header(); ?>
 <!-- wysiwyg main content -->
 <div class="wysiwyg-content bg-gray-100">
     <!-- HERO -->
-    <section class="flex flex-wrap md:flex-nowrap">
+    <section class="flex flex-wrap md:flex-nowrap overflow-hidden">
         <div class="w-full md:w-2/4">
-            <div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative">
+            <div class="pb-1/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative">
                 <img class="absolute top-0 left-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/services/widesign-services.jpg" alt="WideSign Services">
             </div>
         </div>
@@ -243,7 +243,7 @@ get_header(); ?>
                 </div>
 
             </div>
-            <div class="absolute p-3 md:p-10 text-6xl md:text-5xl lg:p-6">
+            <div class="relative p-3 md:p-10 text-4xl lg:text-5xl lg:p-6">
                 <h2 class="pb-1 text-mellow-200 uppercase font-semibold">
                     Web design &amp; development
                 </h2>
@@ -288,10 +288,10 @@ get_header(); ?>
             </p>
         </div>
 
-        <div class="flex flex-wrap md:no-wrap justify-center mt-2 md:space-x-4">
+        <div class="flex flex-wrap md:no-wrap justify-center mt-2 space-x-4">
 
 
-            <div class="w-1/2 md:w-auto">
+            <div class="md:w-auto">
                 <a class="js-slidein relative inline-flex pr-8 primary-btn hover:bg-teal-500 bg-teal-600 group" href="/our-work">
                     Our work
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6">
@@ -300,7 +300,7 @@ get_header(); ?>
                 </a>
             </div>
 
-            <div class="w-1/2 md:w-auto">
+            <div class="md:w-auto">
                 <a class="js-slidein relative inline-flex pr-8 primary-btn hover:bg-teal-500 bg-teal-600 group" href="/services/website-packages">
                     Website packages
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6">
@@ -312,16 +312,16 @@ get_header(); ?>
     </section>
 
     <!-- SEO -->
-    <section class="flex flex-wrap md:flex-nowrap">
+    <section class="flex flex-wrap md:flex-nowrap overflow-hidden">
         <div class="w-full md:w-3/5">
-            <div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative"><img class="absolute top-0 right-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/services/widesign-seo.jpg" alt="Free website audit" /></div>
+            <div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative"><img class="absolute top-0 right-0 h-full md:h-156 lg:h-full w-full object-cover" src="/resources/img/pages/services/widesign-seo.jpg" alt="Free website audit" /></div>
         </div>
         <div class="w-full md:w-2/5 flex justify-center items-center bg-plum-600">
             <div class="py-10 px-4 md:px-10">
                 <h2 class="pb-2 text-3xl text-gray-200 uppercase font-semibold">SEO management</h2>
                 <p class="pb-2 text-gray-200">We only use white hat techniques and proven SEO formulas to increase your visibilty in the popular search engines <span class="px-2 rounded bg-plum-700 inline-block">#google</span>.</p>
                 <p class="pb-2 text-gray-200">Working short & long term with clients we produce <span class="px-2 rounded bg-plum-700 inline-block">successful results</span> and maintain web vitals and ranking, regular check ups and content refreshes help to maintain gains made.</p>
-                <p class="pb-5 text-gray-200">
+                <p class="pb-5 text-gray-200 hidden lg:block">
                     You can view our option of SEO plans or get in touch if you looking for more specific requirements.</p>
 
 
@@ -340,8 +340,8 @@ get_header(); ?>
     </section>
 
     <!-- UI/UX -->
-    <section class="flex flex-wrap md:flex-nowrap">
-        <div class="w-full lg:w-2/5 flex justify-center items-center bg-teal-700">
+    <section class="flex flex-wrap md:flex-nowrap overflow-hidden">
+        <div class="w-full lg:w-2/5 flex md:justify-center items-center bg-teal-700">
             <div class="py-10 px-4 md:px-10">
                 <h2 class="pb-2 text-3xl text-gray-200 uppercase font-semibold">UI/UX Design</h2>
                 <h3 class="text-teal-400 text-xl text-bold">Usability is the key to success</h3>
@@ -360,7 +360,7 @@ get_header(); ?>
             </div>
         </div>
         <div class="w-full md:w-3/5">
-            <div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative"><img decoding="async" class="filter transition-all duration-500 grayscale hover:grayscale-0 absolute top-0 right-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/services/widesign-ux-ui.jpg" alt="User freindly interfaces"></div>
+            <div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative"><img decoding="async" class="filter transition-all duration-500 grayscale hover:grayscale-0 absolute top-0 right-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/services/widesign-ux-ui.jpg" alt="User friendly interfaces"></div>
         </div>
     </section>
 

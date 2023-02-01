@@ -6,7 +6,9 @@
 			?> -->
 
 	<!-- HERO -->
-	<section class="flex flex-wrap md:flex-nowrap">
+	<section class="flex flex-wrap md:flex-nowrap overflow-hidden">
+
+
 		<div class="relative py-8 md:py-0 w-full md:w-2/5 flex justify-center items-center bg-gray-900">
 			<div class="hex-container">
 
@@ -233,7 +235,7 @@
 				</div>
 
 			</div>
-			<div class="absolute p-3 md:p-10 text-6xl md:text-5xl lg:p-6">
+			<div class="relative p-3 md:p-10 text-4xl lg:text-5xl lg:p-6">
 				<h2 class="pb-1 text-mellow-200 uppercase font-semibold">
 					Be bold
 				</h2>
@@ -255,7 +257,7 @@
 		</div>
 
 		<div class="w-full md:w-3/5">
-			<div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative">
+			<div class="pb-1/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative">
 				<img class="absolute top-0 left-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/home/widesign-elephant.jpg" alt="WideSign Web & SEO Services">
 			</div>
 		</div>

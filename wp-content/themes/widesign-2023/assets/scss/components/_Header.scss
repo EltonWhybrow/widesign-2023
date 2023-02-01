@@ -5,18 +5,17 @@ Header
 /* purgecss start ignore */
 header {
 	.hamburglar {
-		transition: margin-top 500ms;
+		transition: margin-top 400ms;
 		margin-top: 12px;
 	}
 	.main-logo {
-		transition: width 500ms;
+		transition: width 400ms;
 		width: 120px;
 	}
 	.navbar-main {
-		transition: padding 500ms;
+		transition: padding 400ms;
 		padding: 12px 32px;
 		a {
-			transition: visability 500ms;
 			visibility: visible;
 		}
 	}
