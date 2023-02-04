@@ -133,6 +133,32 @@ module.exports = {
           800: '#12111F',
           900: '#000000'
         },
+        'shadow': {
+          DEFAULT: '#8C654D',
+          50: '#D8C5B8',
+          100: '#D1BAAB',
+          200: '#C2A491',
+          300: '#B48E77',
+          400: '#A6785C',
+          500: '#8C654D',
+          600: '#684B39',
+          700: '#443125',
+          800: '#1F1711',
+          900: '#000000'
+        },
+        'blood': {
+          DEFAULT: '#754666',
+          50: '#DAC1D2',
+          100: '#D2B5C9',
+          200: '#C39BB6',
+          300: '#B481A4',
+          400: '#A56891',
+          500: '#8F557C',
+          600: '#754666',
+          700: '#523147',
+          800: '#2F1C29',
+          900: '#0C070A'
+        },
         'mellow': {
           DEFAULT: '#FFE345',
           50: '#FFFFFD',
@@ -166,6 +192,12 @@ module.exports = {
       },
       backgroundImage: {
         // 'testimonial': "url('/resources/img/pages/home/testimonial-paralax.jpg')",
+        'hosting': "url('/resources/img/pages/client/web-hosting.jpg')",
+        'reseller': "url('/resources/img/pages/client/reseller.jpg')",
+        'manage-clients': "url('/resources/img/pages/client/manage-clients.jpg')",
+        'hosting-new': "url('/resources/img/pages/client/web-hosting-new.jpg')",
+        'email-access': "url('/resources/img/pages/client/email-access.jpg')",
+        'domain-names': "url('/resources/img/pages/client/domain-names.jpg')",
         'whyus': "url('/resources/img/pages/home/widesign-elton.jpg')",
         'ux-ui': "url('/resources/img/pages/services/widesign-ux-ui.jpg')",
         'audit': "url('/resources/img/pages/home/widesign-site-audit.jpg')",

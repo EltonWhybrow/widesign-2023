@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: widesign Stats
+Plugin Name: Widesign Business Stats
 Plugin URI: https://widesign.co.uk
-Description: widesign Business stats to change / keep all stats in check across environments. Can be used in all pages, posts, and templates.
+Description: Widesign Business stats to change / keep all stats in check across environments. Can be used in all pages, posts, and templates.
 Version: 1.0
 Author: widesign
 Author URI: http://widesign.co.uk

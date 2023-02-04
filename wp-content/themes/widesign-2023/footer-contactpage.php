@@ -24,7 +24,7 @@
                 <ul>
                     <li><a class="footer-link text-2xl md:text-base" href="/services/free-website-audit">FREE website audit</a></li>
                     <li><a class="footer-link text-2xl md:text-base" href="/services">Services</a></li>
-                    <li><a class="footer-link text-2xl md:text-base" href="/services">Admin Login</a></li>
+                    <li><a class="footer-link text-2xl md:text-base" href="/admin-area">Admin Login</a></li>
                 </ul>
             </div>
 

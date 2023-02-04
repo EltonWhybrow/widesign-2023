@@ -7,6 +7,14 @@
 	}
 }
 
+.primary-btn-sm {
+	@apply items-center px-3 shadow-sm py-2 leading-none text-sm text-gray-100 rounded-md transition duration-500 ease-in-out;
+
+	&:hover {
+		@apply shadow-xl;
+	}
+}
+
 .secondary-btn {
 	@apply items-center font-bold pr-3 py-2 text-lg uppercase leading-none text-teal-500 transition duration-200 ease-in bg-mellow-700;
 	background-image: linear-gradient(

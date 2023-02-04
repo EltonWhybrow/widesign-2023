@@ -84,21 +84,19 @@ $scale: 1; // icon scale 68/68 default
 	width: 66px;
 	height: 66px;
 	border-radius: 50%;
-	transition: background-color 700ms;
-	&.is-open {
-		background-color: white;
-	}
 }
 .hamburglar {
 	transform: scale($scale);
-
 	position: relative;
 	display: block;
 	width: 60px;
 	height: 60px;
-
 	-webkit-touch-callout: none;
 	user-select: none;
+	transition: background-color 700ms;
+	&.is-open {
+		background-color: white;
+	}
 }
 
 // transition mask

@@ -26,7 +26,7 @@ get_header(); ?>
     <section class="pt-10 md:pt-20 pb-10 px-4 md:px-10 bg-plum-500 text-center">
         <div class="flex flex-wrap justify-center space-y-5 md:space-y-0 md:space-x-10 max-w-5xl mx-auto">
             <div class="card flex md:flex-1 w-full flex-col justify-between border-2 border-plum-600 rounded text-gray-200">
-                <header class="font-bold text-3xl bg-plum-600 py-4">Starter Plan</header>
+                <header class="font-bold text-3xl bg-plum-600 py-4">Starter</header>
                 <div class="card-content p-4">
                     <p class="py-2">(Up to 4 pages)</p>
                     <p class="text-3xl font-semibold py-4">
@@ -47,7 +47,7 @@ get_header(); ?>
             </div>
 
             <div class="card flex md:flex-1 w-full flex-col justify-between border-2 border-plum-600 rounded text-gray-200">
-                <header class="font-bold text-3xl bg-plum-600 py-4">Advanced Plan</header>
+                <header class="font-bold text-3xl bg-plum-600 py-4">Advanced</header>
                 <div class="card-content p-4">
                     <p class="py-2">(5+ pages)</p>
                     <p class="text-3xl font-semibold py-4">
@@ -68,7 +68,7 @@ get_header(); ?>
             </div>
 
             <div class="card flex md:flex-1 w-full flex-col justify-between border-2 border-plum-600 rounded text-gray-200">
-                <header class="font-bold text-3xl bg-plum-600 py-4">E-commerce Plan</header>
+                <header class="font-bold text-3xl bg-plum-600 py-4">E-commerce</header>
                 <div class="card-content p-4">
                     <p class="py-2">(Shop / Payments)</p>
                     <p class="text-3xl font-semibold py-4">

@@ -16,9 +16,9 @@ const HeaderScroll = {
             = setTimeout(() => func.apply(context, args), delay)
         }
       }
-      // debounce(
-      $(window).on("scroll", function () {
-        console.log($(this).scrollTop());
+
+      $(window).on("scroll", debounce(function () {
+        // console.log($(this).scrollTop());
         if ($(this).scrollTop() >= 75)
 
           $("header").addClass("active");
@@ -26,8 +26,8 @@ const HeaderScroll = {
         else if ($(this).scrollTop() <= 50)
 
           $("header").removeClass("active");
-      }).trigger("scroll");
-      // , 100)
+      }, 100)).trigger("scroll");
+
     })
   }
 

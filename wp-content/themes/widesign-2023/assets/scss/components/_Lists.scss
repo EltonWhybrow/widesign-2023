@@ -1,11 +1,20 @@
 // Standard list
 .standard-list {
-  @apply list-outside list-disc text-sm py-1 pl-4 text-left mx-auto w-10/12;
+	@apply list-outside list-disc text-sm py-1 pl-4 text-left mx-auto w-10/12;
 
-  li {
-    @apply py-1;
-  }
-
+	li {
+		@apply py-1;
+	}
+}
+.tick-list {
+	li {
+		@apply pl-7 relative leading-7;
+		&::before {
+			content: url($img-path+"/pages/icons/tick.svg");
+			@apply list-none h-6 w-6 block absolute left-0;
+			top: 2px;
+		}
+	}
 }
 
 // $module: '.Example';

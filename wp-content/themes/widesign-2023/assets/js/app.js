@@ -10,6 +10,7 @@ import BackToTop from "./components/BackToTop";
 import FlexSlider from "./components/jquery.flexslider-min";
 import FlexSliderSetUp from "./components/FlexSliderInit";
 import Messages from "./components/Messages";
+import Faqs from "./components/Faqs";
 
 // you can also require modules if they support it…
 const ExampleModule2 = require('./components/example-2');
@@ -36,6 +37,7 @@ jQuery(function ($) {
   Modal.init();
   BackToTop.init();
   Messages.init();
+  Faqs.init();
   HeaderScroll.init();
   ScrollAni.init();
 });

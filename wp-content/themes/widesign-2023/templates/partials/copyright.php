@@ -6,6 +6,6 @@
         Registered in England and Wales | Company No. 14047437
     </p>
     <p class="py-0 h-4">
-        <a href="/privacy-policy" class="">Privacy</a> | <a href="#" class="">Something</a>
+        <a href="/privacy-policy" class="">Privacy &amp; Cookies</a> | <a href="/site-map" class="">Site Map</a>
     </p>
 </div>
