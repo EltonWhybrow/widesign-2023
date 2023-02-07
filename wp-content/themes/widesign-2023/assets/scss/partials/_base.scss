@@ -24,13 +24,25 @@ body {
 }
 
 // custom login form page styling
+/* purgecss start ignore */
 body.login-action-login,
 body.login-action-lostpassword {
+	// @apply bg-elephant bg-cover bg-top;
 	@apply bg-gray-800 #{!important};
+	#loginform {
+		@apply rounded-lg;
+	}
+}
+
+a.privacy-policy-link {
+	@apply text-gray-600;
 }
 
 .login #nav a,
 .login #backtoblog a {
-	@apply text-gray-200;
+	@apply text-gray-300;
+	&:hover {
+		@apply text-teal-500;
+	}
 }
 /* purgecss end ignore */

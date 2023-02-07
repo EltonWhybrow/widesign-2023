@@ -191,7 +191,7 @@ module.exports = {
         full: '100%',
       },
       backgroundImage: {
-        // 'testimonial': "url('/resources/img/pages/home/testimonial-paralax.jpg')",
+        'elephant': "url('/resources/img/pages/home/widesign-elephant.jpg')",
         'hosting': "url('/resources/img/pages/client/web-hosting.jpg')",
         'reseller': "url('/resources/img/pages/client/reseller.jpg')",
         'manage-clients': "url('/resources/img/pages/client/manage-clients.jpg')",
