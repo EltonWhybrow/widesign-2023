@@ -24,7 +24,7 @@
             <!-- WEBDESIGN -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Professional Web Design</h2>
-                <p class="text-xs">All websites are bespoke designs incororating your existing logo and brand. We adhere to UX / UI best practises with SEO in mind creating a clean interface with structured goals and navigation</p>
+                <p class="text-xs">All websites are bespoke designs incorporating your existing logo and brand. We adhere to UX / UI best practices with SEO in mind creating a clean interface with structured goals and navigation</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -62,7 +62,7 @@
             <!-- SSL -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">SSL Certificates</h2>
-                <p class="text-xs">Security is of utmost importance, we include a free SSL security certificate with every site that sites on our secure servers using TLS network protocol to establish an encrypted connection. This also improves search engine preformance.</p>
+                <p class="text-xs">Security is of utmost importance, we include a free SSL security certificate with every site that sites on our secure servers using TLS network protocol to establish an encrypted connection. This also improves search engine performance.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -81,8 +81,8 @@
 
             <!-- SEO -->
             <div class="col-span-3 md:col-span-2">
-                <h2 class="text-base">Search Engine Optimisation</h2>
-                <p class="text-xs">We use tried and tested SEO techniques to give your site the edge in todays saturated search engines. Adding sitemaps and crafting content/structure we help you increase your online presence in major search engines.</p>
+                <h2 class="text-base">Search Engine Optimization</h2>
+                <p class="text-xs">We use tried and tested SEO techniques to give your site the edge in today's saturated search engines. Adding sitemaps and crafting content/structure we help you increase your online presence in major search engines.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -141,7 +141,7 @@
             <!-- ONGOING SUPPORT -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Ongoing Support</h2>
-                <p class="text-xs">You receive support for all your services with us by email or mobile 24/7 and we enjoy going the extra mile to resolve requests within a 24hrs. We won't leave you in the lurch.</p>
+                <p class="text-xs">You receive support for all your services with us by email or mobile 24/7, and we enjoy going the extra mile to resolve requests within a 24hrs. We won't leave you in the lurch.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -161,7 +161,7 @@
             <!-- CONTENT MANAGEMENT SYSTEM -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Content Management System</h2>
-                <p class="text-xs">All sites come CMS ready so content management is simplfied and easilty scalable. We offer demos and tutorials on blogging &amp; making changes if your a nubie. Alternatively, join our maintenance packages and we will make changes for you.</p>
+                <p class="text-xs">All sites come CMS ready so content management is simplified and easily scalable. We offer demos and tutorials on blogging &amp; making changes if you need some guidance. Alternatively, join our maintenance packages, and we will make changes for you.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -181,7 +181,7 @@
             <!-- ANALYTICS & TAGS -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Analytics &amp; Tags</h2>
-                <p class="text-xs">We can set-up tools like 'Google Analytics' and 'Google Search Console' for you. Also, any other tracking or social media tags required can be implemted using Google Tag Manager for maintanability.</p>
+                <p class="text-xs">We can set-up tools like 'Google Analytics' and 'Google Search Console' for you. Also, any other tracking or social media tags required can be implemented using Google Tag Manager for maintainability.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -217,7 +217,7 @@
             <!-- ADMMIN -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Admin Area</h2>
-                <p class="text-xs">Ability to login and makes chnages within the content management system. Change contact details, content or add new blog posts etc.</p>
+                <p class="text-xs">Ability to login and makes changes within the content management system. Change contact details, content or add new blog posts etc.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"></p>
@@ -250,7 +250,7 @@
             <!-- ECOMMERCE -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Online Store / Payments</h2>
-                <p class="text-xs">Set-up of E-commmerce shopping cart with ability to sell products. Intergrated payments gateways e.g. Paypal. We will add an initial 50 products and then offer to demo/show you how to add, remove and edit items your self if you desire. We have maintenace packages for those whose would rather have this managed for them going forward.</p>
+                <p class="text-xs">Set-up of E-Commerce shopping cart with ability to sell products. Integrated payments gateways e.g. PayPal. We will add an initial 50 products and then offer to demo/show you how to add, remove and edit items your self if you desire. We have maintenance packages for those whose would rather have this managed for them going forward.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"></p>
@@ -262,8 +262,8 @@
 
             <!-- LOGO DESIGN -->
             <div class="col-span-3 md:col-span-2">
-                <h2 class="text-base">Logo Desgin</h2>
-                <p class="text-xs">Our logos services offer redsign or discussion and design of brand new logos. Prices vary but we can adapt to most budgets so get in touch to discuss options.</p>
+                <h2 class="text-base">Logo Design</h2>
+                <p class="text-xs">Our logos services offer redesign or discussion and design of brand-new logos. Prices vary, but we can adapt to most budgets so get in touch to discuss options.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">from £199</p>

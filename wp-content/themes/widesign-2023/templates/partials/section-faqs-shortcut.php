@@ -5,7 +5,7 @@
                 Frequently asked questions?
             </h2>
             <p class="text-gray-700 text-base text-center sm:text-left">
-                Have a question about website packages, SEO or hosting? Its likely you can find the anwer here.
+                Have a question about website packages, SEO or hosting? Its likely you can find the answer here.
             </p>
         </div>
         <div class="flex-none my-3 justify-center">

@@ -62,7 +62,7 @@
             <!-- SSL -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">SSL Certificates</h2>
-                <p class="text-xs">Security is of utmost importance, we include a free SSL security certificate with every site that sites on our secure servers using TLS network protocol to establish an encrypted connection. This also improves search engine preformance.</p>
+                <p class="text-xs">Security is of utmost importance, we include a free SSL security certificate with every site that sites on our secure servers using TLS network protocol to establish an encrypted connection. This also improves search engine performance.</p>
             </div>
 
             <p class="border-l border-teal-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">

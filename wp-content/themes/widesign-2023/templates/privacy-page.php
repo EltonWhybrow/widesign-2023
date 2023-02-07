@@ -326,14 +326,14 @@ get_header(); ?>
 
             </h2>
             <p class="text-gray-200">
-                If you login as admin or guest we will drop a small cookie (wsat) to rembember who you are and what your role is to allow you access to that roles priviledges on the website. This cookie contains no personal data and is discarded when you logout of the website otherwise the cookies will last for one year.
+                If you log in as admin or guest we will drop a small cookie (wsat) to remember who you are and what your role is. This allows you to accesss roles based privileges on the website. This cookie contains no personal data and is discarded when you logout of the website otherwise the cookies will last for one year.
             </p>
 
             <h2 class="text-teal-400 text-xl text-bold">
-                Anayltics
+                Analytics
             </h2>
             <p class="text-gray-200">
-                If you accept our cookie policy 'Google Analytics' cookies at set to help us mointor website usage and behaviour.
+                If you accept our cookie policy 'Google Analytics' cookies at set to help us monitor website usage and behaviour.
             </p>
 
             <h2 class="text-teal-400 text-xl text-bold">
