@@ -24,7 +24,7 @@
             <!-- WEBDESIGN -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Professional Web Design</h2>
-                <p class="text-xs">All websites are bespoke designs incorporating your existing logo and brand. We adhere to UX / UI best practices with SEO in mind creating a clean interface with structured goals and navigation</p>
+                <p class="text-xs">All websites are bespoke designs incorporating your existing logo and brand. We adhere to UX / UI best practices with SEO in mind creating a clean interface with structured goals and navigation.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -39,6 +39,17 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
                 </svg>
             </p>
+
+            <!-- PAGES -->
+            <div class="col-span-3 md:col-span-2">
+                <h2 class="text-base">Pages</h2>
+                <p class="text-xs">Packages include limited pages with the initial design. Additional pages can be negotiated when needed.</p>
+            </div>
+
+            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">Up to 4 pages</p>
+            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">5-25 pages</p>
+            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">Unlimited</p>
+
 
             <!-- RESPONSIVE DESIGN -->
             <div class="col-span-3 md:col-span-2">
@@ -121,7 +132,7 @@
             <!-- MAINTENACE & BACKUPS -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Maintenance &amp; Backups</h2>
-                <p class="text-xs">Websites should rarely have downtime, but just incase we store monthly backups of your website allowing us to restore your website in case of emergency. Our server have 99.9% network uptime, so not need to worry.</p>
+                <p class="text-xs">Websites should rarely have downtime, but just in case we store monthly backups of your website allowing us to restore your website in case of emergency. Our server have 99.9% network uptime, so not need to worry.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -262,7 +273,7 @@
 
             <!-- LOGO DESIGN -->
             <div class="col-span-3 md:col-span-2">
-                <h2 class="text-base">Logo Design</h2>
+                <h2 class="text-base">Logo Design (optional)</h2>
                 <p class="text-xs">Our logos services offer redesign or discussion and design of brand-new logos. Prices vary, but we can adapt to most budgets so get in touch to discuss options.</p>
             </div>
 
@@ -272,13 +283,23 @@
 
             <!-- EMAIL / MARKETING DESIGN -->
             <div class="col-span-3 md:col-span-2">
-                <h2 class="text-base">Digital Marketing Emails</h2>
+                <h2 class="text-base">Digital Marketing Emails (optional)</h2>
                 <p class="text-xs">Offering additional design email services. We create cross client friendly email suites branded to your requirements.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4"><a class="primary-link text-plum-600 underline" href="/contact-us">Get in touch</a></p>
             <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4"><a class="primary-link text-plum-600 underline" href="/contact-us">Get in touch</a></p>
             <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4"><a class="primary-link text-plum-600 underline" href="/contact-us">Get in touch</a></p>
+
+            <!-- HOSTING / DOMAIN NAME -->
+            <div class="col-span-3 md:col-span-2">
+                <h2 class="text-base">Future Hosting &amp; Domain costs (1st Year FREE)</h2>
+                <p class="text-xs">With all our packages you get 1 years FREE Hosting/Domain. Hosting packages are then charged annually dependent on package option. If you would like to see more detail on hosting capabilities visit our <a href="https://widesign.duoservers.com/website-hosting/" target="_blank" class="primary-link text-xs underline">dedicated hosting site</a>.</p>
+            </div>
+
+            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4"><a class="primary-link text-plum-600 underline" href="/contact-us">£4.62 /mth</a></p>
+            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4"><a class="primary-link text-plum-600 underline" href="/contact-us">£7.97 /mth</a></p>
+            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4"><a class="primary-link text-plum-600 underline" href="/contact-us">£10.00 /mth</a></p>
 
         </div>
 

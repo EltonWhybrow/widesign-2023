@@ -33,7 +33,7 @@ get_header(); ?>
                         £599
                     </p>
                     <p class="">
-                        Up to 4 pages (<a href="#" data-id="modal-features" class="modal-triggerrelative text-plum-200 primary-link underline">feature list</a>)
+                        Up to 4 pages (<a href="#" data-id="modal-features" class="modal-trigger relative text-plum-200 primary-link underline">feature list</a>)
                     </p>
                 </div>
                 <footer class="bg-plum-400 py-3 items-end rounded-b">
@@ -54,7 +54,7 @@ get_header(); ?>
                         £1,495
                     </p>
                     <p class="">
-                        Starter + Multiple pages / Blog / Admin (<a href="#" data-id="modal-features" class="modal-triggerrelative text-plum-200 primary-link underline">feature list</a>)
+                        Starter + Multiple pages / Blog / Admin (<a href="#" data-id="modal-features" class="modal-trigger relative text-plum-200 primary-link underline">feature list</a>)
                     </p>
                 </div>
                 <footer class="bg-plum-400 py-3 items-end rounded-b">
