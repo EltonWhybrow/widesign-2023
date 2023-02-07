@@ -15,3 +15,9 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('app');
     wp_enqueue_script('app');
 });
+
+
+add_action('login_head', function () {
+    wp_register_style('app', AssetResolver::resolve('css/app.css'), [], false);
+    wp_enqueue_style('app');
+});

@@ -22,4 +22,15 @@ body {
 	font-weight: 400;
 	@apply font-azo;
 }
+
+// custom login form page styling
+.login-action-login,
+.login-action-lostpassword {
+	@apply bg-gray-800 #{!important};
+}
+
+.login #nav a,
+.login #backtoblog a {
+	@apply text-gray-200;
+}
 /* purgecss end ignore */

@@ -62,22 +62,23 @@ require_once(__DIR__ . '/includes/custom-post-types.php');
 require_once(__DIR__ . '/includes/custom-taxonomies.php');
 require_once(__DIR__ . '/includes/custom-term-functions.php');
 require_once(__DIR__ . '/includes/custom-post-titles.php');
+require_once(__DIR__ . '/includes/custom-login-styling.php');
 require_once(__DIR__ . '/includes/shortcodes-sliders.php');
 require_once(__DIR__ . '/includes/shortcodes-notifications.php');
 require_once(__DIR__ . '/includes/shortcodes-hero-img.php');
 require_once(__DIR__ . '/includes/shortcodes-plans.php');
 
-
+// removes - Replaces double line breaks with paragraph elements.
 remove_filter('the_content', 'wpautop');
 
-
+// Not sure
 function enable_page_excerpt()
 {
     add_post_type_support('page', array('excerpt'));
 }
 add_action('init', 'enable_page_excerpt');
 
-// This is to set plan query in url
+// This is to set package plan query in url
 function add_get_val()
 {
     global $wp;
@@ -93,7 +94,7 @@ add_action('init', 'add_get_val');
  */
 
 
-//  Disable from field - used for dynaic query in packages form
+//  Disable form field - used for dynaic query in web and seo packages forms
 function wpf_dev_disable_field()
 {
 ?>

@@ -299,6 +299,10 @@
 		</div>
 	</section>
 
+	<!-- FAQS -->
+	<?php get_template_part('templates/partials/section', 'faqs-shortcut');
+	?>
+
 	<!-- WHY US -->
 	<?php (the_field('homepage_whyus')) ?>
 

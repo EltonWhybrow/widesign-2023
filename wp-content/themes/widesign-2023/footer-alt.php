@@ -13,6 +13,7 @@
                 <ul>
                     <li><a class="footer-link text-2xl md:text-base" href="/client-area">Client area</a></li>
 
+
                 </ul>
             </div>
 
@@ -24,7 +25,8 @@
                 <ul>
                     <li><a class="footer-link text-2xl md:text-base" href="/services/free-website-audit">FREE website audit</a></li>
                     <li><a class="footer-link text-2xl md:text-base" href="/services">Services</a></li>
-                    <li><a class="footer-link text-2xl md:text-base" href="/admin-area">Admin Login</a></li>
+                    <li><a class="footer-link text-2xl md:text-base" href="/wp-admin">Admin</a></li>
+
                 </ul>
             </div>
 

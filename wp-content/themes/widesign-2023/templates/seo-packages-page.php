@@ -225,7 +225,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Future proof</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">Finally we look at the wider picture and what long term plans could greatly benefit your online SEO shedule. This could include ceating taregted landing pages to expand reach regarding relavent content and blog creation.</p>
+                        <p class="leading-5 text-sm">Finally we look at the wider picture and what long term plans could greatly benefit your online SEO shedule. This could include ceating targeted landing pages to expand reach regarding relavent content and blog creation.</p>
                     </div>
                 </div>
             </div>
@@ -242,6 +242,11 @@ get_header(); ?>
 
         </div>
     </section>
+
+    <!-- FAQS -->
+    <?php get_template_part('templates/partials/section', 'faqs-shortcut');
+    ?>
+
 
     <!-- MAINTENANCE INLCUDES -->
     <section id="includes-maintenance" class="pb-28 px-4 md:px-10 bg-teal-500">

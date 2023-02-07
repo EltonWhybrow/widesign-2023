@@ -28,12 +28,12 @@ get_header(); ?>
             <div class="card flex md:flex-1 w-full flex-col justify-between border-2 border-plum-600 rounded text-gray-200">
                 <header class="font-bold text-3xl bg-plum-600 py-4">Starter</header>
                 <div class="card-content p-4">
-                    <p class="py-2">(Up to 4 pages)</p>
+                    <p class="py-2 text-sm">1st year hosting/domain name FREE</p>
                     <p class="text-3xl font-semibold py-4">
                         £599
                     </p>
                     <p class="">
-                        *includes first year web hosting & domain name
+                        Up to 4 pages (<a href="#" data-id="modal-features" class="modal-triggerrelative text-plum-200 primary-link underline">feature list</a>)
                     </p>
                 </div>
                 <footer class="bg-plum-400 py-3 items-end rounded-b">
@@ -49,12 +49,12 @@ get_header(); ?>
             <div class="card flex md:flex-1 w-full flex-col justify-between border-2 border-plum-600 rounded text-gray-200">
                 <header class="font-bold text-3xl bg-plum-600 py-4">Advanced</header>
                 <div class="card-content p-4">
-                    <p class="py-2">(5+ pages)</p>
+                    <p class="py-2 text-sm">1st year hosting/domain name FREE</p>
                     <p class="text-3xl font-semibold py-4">
                         £1,495
                     </p>
                     <p class="">
-                        *includes first year web hosting & domain name
+                        Starter + Multiple pages / Blog / Admin (<a href="#" data-id="modal-features" class="modal-triggerrelative text-plum-200 primary-link underline">feature list</a>)
                     </p>
                 </div>
                 <footer class="bg-plum-400 py-3 items-end rounded-b">
@@ -70,12 +70,12 @@ get_header(); ?>
             <div class="card flex md:flex-1 w-full flex-col justify-between border-2 border-plum-600 rounded text-gray-200">
                 <header class="font-bold text-3xl bg-plum-600 py-4">E-commerce</header>
                 <div class="card-content p-4">
-                    <p class="py-2">(Shop / Payments)</p>
+                    <p class="py-2 text-sm"> 1st year hosting/domain name FREE</p>
                     <p class="text-3xl font-semibold py-4">
                         £2,999+
                     </p>
                     <p class="">
-                        *includes first year web hosting & domain name
+                        Advanced + Shop/Payments (<a href="#" data-id="modal-features" class="modal-trigger relative text-plum-200 primary-link underline">feature list</a>)
                     </p>
                 </div>
                 <footer class="bg-plum-400 py-3 items-end rounded-b">
@@ -92,10 +92,10 @@ get_header(); ?>
     </section>
 
     <!-- INLCUDES -->
-    <section class="pb-28 px-4 md:px-10 bg-plum-500">
+    <section id="includes-web" class="pb-28 px-4 md:px-10 bg-plum-500">
         <h1 class="text-3xl text-center pt-10">All sites include:</h1>
         <p class="text-sm text-center pb-10">
-            See full <a href="#" class="modal-trigger relative text-plum-200 primary-link underline" data-id="modal-features">feature list</a>
+            All features <a href="#" class="modal-trigger relative text-plum-200 primary-link underline text-sm" data-id="modal-features">in website packages</a>
         </p>
 
         <div class="grid grid-cols-3 grid-flow-row gap-4 max-w-5xl mx-auto">
@@ -243,6 +243,11 @@ get_header(); ?>
 
         </div>
     </section>
+
+    <!-- FAQS -->
+    <?php get_template_part('templates/partials/section', 'faqs-shortcut');
+    ?>
+
 
     <!-- TECH STACK -->
     <?php get_template_part('templates/partials/section', 'tech-stack');

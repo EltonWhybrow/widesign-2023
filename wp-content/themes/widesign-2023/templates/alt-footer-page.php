@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Contact Template
+ * Template Name: Alt footer page Template
  * Template Post Type: post, page, press-release, people
  */
 
@@ -14,4 +14,4 @@ get_header(); ?>
 </div>
 
 
-<?php get_footer('contactpage'); ?>
+<?php get_footer('alt'); ?>
