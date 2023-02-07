@@ -1,7 +1,7 @@
 <?php
 
 
-namespace redhilltutoring2022Theme;
+namespace widesign2023Theme;
 
 
 class View

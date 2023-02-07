@@ -7,7 +7,7 @@ Footer
 	a {
 		display: inline-block;
 		position: relative;
-		padding: 0.2em 0;
+		padding: 0 0 0.2rem 0;
 	}
 
 	a::after {
@@ -17,7 +17,7 @@ Footer
 		left: -1px;
 		width: 100%;
 		height: 1px;
-		@apply bg-teal-400;
+		@apply bg-gray-300;
 		opacity: 0;
 		transition: opacity 300ms, transform 300ms;
 	}

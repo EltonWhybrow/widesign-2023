@@ -10,13 +10,16 @@ Main desktop Navigaton Menu:
 		padding: 20px 0 0 0;
 	}
 
-	li:not(.current-menu-item) {
-		&:hover {
-			@apply border-b-2 border-gray-700;
-		}
-	}
-
 	li {
+		&:not(.current-menu-item) {
+			&:hover {
+				@apply border-b border-gray-700;
+			}
+		}
+		&.current-menu-item {
+			@apply border-b border-gray-700;
+		}
+
 		list-style: none;
 		transition: background-color 0.2s ease;
 		position: relative;
@@ -68,14 +71,6 @@ Main desktop Navigaton Menu:
 					@apply bg-gray-100 pr-2;
 				}
 			}
-		}
-	}
-}
-
-li {
-	&.current-menu-item {
-		> a {
-			@apply text-teal-500 border-b-2 border-teal-500;
 		}
 	}
 }

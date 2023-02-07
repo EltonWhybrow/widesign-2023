@@ -1,7 +1,7 @@
 <?php
 
-use redhilltutoring2022Theme\AutoLoader;
-use redhilltutoring2022Theme\View;
+use widesign2023Theme\AutoLoader;
+use widesign2023Theme\View;
 
 /*
  * Set up our auto loading class and mapping our namespace to the app directory.
@@ -16,7 +16,7 @@ use redhilltutoring2022Theme\View;
 require get_stylesheet_directory() . '/app/AutoLoader.php';
 $loader = new AutoLoader();
 $loader->register();
-$loader->addNamespace('redhilltutoring2022Theme', get_stylesheet_directory() . '/app');
+$loader->addNamespace('widesign2023Theme', get_stylesheet_directory() . '/app');
 
 View::$view_dir = get_stylesheet_directory() . '/templates/views';
 
@@ -62,34 +62,52 @@ require_once(__DIR__ . '/includes/custom-post-types.php');
 require_once(__DIR__ . '/includes/custom-taxonomies.php');
 require_once(__DIR__ . '/includes/custom-term-functions.php');
 require_once(__DIR__ . '/includes/custom-post-titles.php');
+require_once(__DIR__ . '/includes/custom-login-styling.php');
 require_once(__DIR__ . '/includes/shortcodes-sliders.php');
 require_once(__DIR__ . '/includes/shortcodes-notifications.php');
 require_once(__DIR__ . '/includes/shortcodes-hero-img.php');
+require_once(__DIR__ . '/includes/shortcodes-plans.php');
 
-/* 
-=================================
-Hide Basic Posts to avoid confusion
-=================================
-*/
-
+// removes - Replaces double line breaks with paragraph elements.
 remove_filter('the_content', 'wpautop');
 
-
+// Not sure
 function enable_page_excerpt()
 {
     add_post_type_support('page', array('excerpt'));
 }
 add_action('init', 'enable_page_excerpt');
 
+// This is to set package plan query in url
+function add_get_val()
+{
+    global $wp;
+    $wp->add_query_var('plan');
+}
+add_action('init', 'add_get_val');
 
-//For example, you can paste this into your theme functions.php file
+/**
+ * Make standard form fields to make read-only
+ * To apply, add CSS class 'wpf-disable-field' (no quotes) to field in form builder
+ *
+ * @link https://wpforms.com/developers/disable-a-form-field-to-prevent-user-input/
+ */
 
-// function meks_which_template_is_loaded()
-// {
-//     if (is_super_admin()) {
-//         global $template;
-//         print_r($template);
-//     }
-// }
 
-// add_action('wp_footer', 'meks_which_template_is_loaded');
+//  Disable form field - used for dynaic query in web and seo packages forms
+function wpf_dev_disable_field()
+{
+?>
+    <script type="text/javascript">
+        jQuery(function($) {
+
+            $('.wpf-disable-field input, .wpf-disable-field textarea').attr({
+                readonly: "readonly",
+                tabindex: "-1"
+            });
+
+        });
+    </script>
+<?php
+}
+add_action('wpforms_wp_footer_end', 'wpf_dev_disable_field', 30);

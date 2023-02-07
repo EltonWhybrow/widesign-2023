@@ -86,7 +86,8 @@ mix.purgeCss({
     /h-96/,
     /top-60/,
     /md:float-none/,
-    /bottom-28/
+    /bottom-28/,
+    /hover:grayscale-0/
   ]
 
 });

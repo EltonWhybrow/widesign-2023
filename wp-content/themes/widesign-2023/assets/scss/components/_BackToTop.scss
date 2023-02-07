@@ -1,11 +1,12 @@
 // Scroll to top
 .back-to-top {
 	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	width: 52px;
+	bottom: 0px;
+	right: 42px;
+	width: 70px;
 	display: none;
-	height: 52px;
+	height: 70px;
+	background-size: 100%;
 	cursor: pointer;
 	text-decoration: none;
 	transition: opacity 0.2s ease-out;

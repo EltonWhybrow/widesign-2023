@@ -4,8 +4,7 @@
 	cursor: pointer;
 
 	&.active {
-		@apply bg-gray-500;
-		@apply border-blue-500;
+		@apply bg-shadow-100 text-shadow-800;
 
 		+ .accordian-pane {
 			display: flex;
@@ -20,6 +19,7 @@
 	.pointer {
 		display: inline-block;
 		font-size: 2rem;
+		transition: transform 500ms;
 		transform: rotate(0deg);
 	}
 

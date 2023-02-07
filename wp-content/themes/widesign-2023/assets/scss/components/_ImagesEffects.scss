@@ -3,18 +3,62 @@
 .image-zoom {
 	@apply relative flex items-center justify-center overflow-hidden w-full h-full;
 }
-.zoom-image {
-	@apply absolute w-full h-full transition-all duration-700 ease-in-out transform bg-center bg-cover;
+
+.zoom-text {
+	@apply absolute bottom-0 left-0 right-0 text-4xl font-black text-center transition-all duration-500 ease-in-out transform scale-125 text-mellow-400 opacity-0;
 }
 
-// .zoom-text {
-// 	@apply absolute text-5xl font-black transition-all duration-500 ease-in-out transform scale-150 text-gray-50 opacity-60;
-// }
+.zoom-image {
+	@apply absolute w-full h-full transition-all duration-1000 ease-in-out transform scale-100 bg-center bg-cover;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
 
 .image-zoom:hover .zoom-image {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 	@apply scale-110;
 }
-// .image-zoom:hover .zoom-text {
-// 	@apply scale-100;
-// }
+.image-zoom:hover .zoom-text {
+	@apply scale-100 bg-gray-900 p-4 opacity-100;
+}
+
+.gray-logos div img {
+	@apply filter grayscale;
+	&:hover {
+		@apply grayscale-0;
+	}
+}
+
+.js-slidein {
+	opacity: 0;
+	transform: translateY(90px);
+	-webkit-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+.js-slidein-2 {
+	opacity: 0;
+	transform: translateY(90px);
+	-webkit-transition: all 500ms ease-in-out 100ms;
+	transition: all 500ms ease-in-out 100ms;
+}
+.js-slidein-3 {
+	opacity: 0;
+	transform: translateY(90px);
+	-webkit-transition: all 500ms ease-in-out 200ms;
+	transition: all 500ms ease-in-out 200ms;
+}
+.js-slidein-4 {
+	opacity: 0;
+	transform: translateY(90px);
+	-webkit-transition: all 500ms ease-in-out 300ms;
+	transition: all 500ms ease-in-out 300ms;
+}
+
+.js-slidein-visible {
+	opacity: 1 !important;
+	transform: translateY(0) !important;
+}
+
 /* purgecss end ignore */

@@ -1,17 +1,40 @@
 //buttons
 .primary-btn {
-	@apply items-center px-5 shadow-sm py-4 leading-none text-base text-gray-100 rounded-md  bg-teal-500 transition duration-500 ease-in-out;
+	@apply items-center px-5 shadow-sm py-4 leading-none text-base text-gray-100 rounded-md transition duration-500 ease-in-out;
 
 	&:hover {
-		@apply bg-teal-600 shadow-xl;
+		@apply shadow-xl;
+	}
+}
+
+.primary-btn-sm {
+	@apply items-center px-3 shadow-sm py-2 leading-none text-sm text-gray-100 rounded-md transition duration-500 ease-in-out;
+
+	&:hover {
+		@apply shadow-xl;
 	}
 }
 
 .secondary-btn {
-	@apply items-center font-semibold px-3 py-2 text-base uppercase leading-none text-mellow-700 transition duration-300 ease-in-out bg-transparent;
+	@apply items-center font-bold pr-3 py-2 text-lg uppercase leading-none text-teal-500 transition duration-200 ease-in bg-mellow-700;
+	background-image: linear-gradient(
+		-75deg,
+		transparent 0,
+		transparent 5%,
+		rgb(255, 255, 255, 0.5) 5%,
+		rgb(255, 255, 255, 0.5) 13%,
+		transparent 13%,
+		transparent 100%
+	);
+	background-size: 200% 100%;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	transition: 1s;
 
 	&:hover {
-		@apply text-mellow-500;
+		@apply text-mellow-500 underline;
+		background-position: -120% 0;
 	}
 }
 
@@ -25,10 +48,10 @@
 
 //links
 .primary-link {
-	@apply items-center text-base leading-none text-teal-500;
+	@apply items-center text-base leading-none;
 
 	&:hover {
-		@apply text-teal-600 underline;
+		@apply underline;
 	}
 }
 
@@ -41,9 +64,9 @@
 }
 
 .footer-link {
-	@apply items-center text-base leading-none text-teal-500;
+	@apply items-center text-sm leading-none text-gray-500;
 
 	&:hover {
-		@apply text-teal-600;
+		@apply text-gray-300;
 	}
 }

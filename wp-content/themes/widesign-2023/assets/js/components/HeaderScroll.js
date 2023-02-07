@@ -6,16 +6,28 @@ const HeaderScroll = {
   init() {
     $(document).ready(function () {
 
-      $(window).on("scroll", function () {
+      const debounce = (func, delay) => {
+        let debounceTimer
+        return function () {
+          const context = this
+          const args = arguments
+          clearTimeout(debounceTimer)
+          debounceTimer
+            = setTimeout(() => func.apply(context, args), delay)
+        }
+      }
 
-        if ($(this).scrollTop() > 50)
+      $(window).on("scroll", debounce(function () {
+        // console.log($(this).scrollTop());
+        if ($(this).scrollTop() >= 75)
 
-          $("header").removeClass("normal").addClass("active");
+          $("header").addClass("active");
 
-        else
+        else if ($(this).scrollTop() <= 50)
 
-          $("header").removeClass("active").addClass("normal");
-      }).trigger('scroll');
+          $("header").removeClass("active");
+      }, 100)).trigger("scroll");
+
     })
   }
 

@@ -2,7 +2,7 @@
 <div id="modal-overlay" class="postion fixed hidden top-0 bottom-0 left-0 right-0 bg-gray-700 z-100 opacity-60"></div>
 <header class="sticky top-0 z-75" style="width:100%;">
 
-    <div class="flex justify-between py-2 ml-10">
+    <div class="flex justify-between py-2 ml-6 md:ml-10">
 
         <!-- MAIN LOGO -->
         <div class="w-36">
@@ -22,7 +22,7 @@
         </div>
 
         <!-- BURGER -->
-        <div id="hamburger" class="hamburglar is-closed mr-10">
+        <div id="hamburger" class="hamburglar is-closed mr-6">
 
             <div class="burger-icon">
                 <div class="burger-container">
@@ -46,7 +46,7 @@
                 </mask>
             </svg>
             <div class="path-burger">
-                <div class="animate-path">
+                <div class="animate-path cursor-pointer">
                     <div class="path-rotation"></div>
                 </div>
             </div>

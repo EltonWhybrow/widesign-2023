@@ -10,6 +10,7 @@ import BackToTop from "./components/BackToTop";
 import FlexSlider from "./components/jquery.flexslider-min";
 import FlexSliderSetUp from "./components/FlexSliderInit";
 import Messages from "./components/Messages";
+import Faqs from "./components/Faqs";
 
 // you can also require modules if they support it…
 const ExampleModule2 = require('./components/example-2');
@@ -18,6 +19,7 @@ const ExampleModule2 = require('./components/example-2');
 import ReplaceObfuscatedEmailAddresses from "./components/ReplaceObfuscatedEmailAddresses";
 import AnimateOnPageLinks from "./components/AnimateOnPageLinks";
 import HeaderScroll from "./components/HeaderScroll";
+import ScrollAni from "./components/ScrollAni";
 
 
 // Initialise our components on jQuery.ready…
@@ -35,7 +37,9 @@ jQuery(function ($) {
   Modal.init();
   BackToTop.init();
   Messages.init();
+  Faqs.init();
   HeaderScroll.init();
+  ScrollAni.init();
 });
 
 

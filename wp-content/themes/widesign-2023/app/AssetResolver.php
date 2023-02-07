@@ -1,7 +1,7 @@
 <?php
 
 
-namespace redhilltutoring2022Theme;
+namespace widesign2023Theme;
 
 
 /**
@@ -13,7 +13,7 @@ namespace redhilltutoring2022Theme;
  * This class provides the functionality to resolve the file name using the generated manifest at
  * /build/mix-manifest.json without having to specify the version hash.
  *
- * @package redhilltutoring2022Theme
+ * @package widesign2023Theme
  */
 class AssetResolver
 {

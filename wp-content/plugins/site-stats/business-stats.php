@@ -1,12 +1,11 @@
 <?php
 /*
-Plugin Name: redhilltutoring Stats
-Plugin URI: http://redhilltutoring.co.uk
-Description: redhilltutoring Business stats to change / keep all stats in check across environments. Can be used in all pages, posts, and templates.
-NOTE: redhilltutoring plugin deploy as per and are not excluded in the pagelyignore file
+Plugin Name: Widesign Business Stats
+Plugin URI: https://widesign.co.uk
+Description: Widesign Business stats to change / keep all stats in check across environments. Can be used in all pages, posts, and templates.
 Version: 1.0
-Author: redhilltutoring
-Author URI: http://redhilltutoring.co.uk
+Author: widesign
+Author URI: http://widesign.co.uk
 */
 
 /*
@@ -22,24 +21,24 @@ For use in WYSIWYG Editor:
 // ------------------------
 */
 // ------------------------
-// redhilltutoring CONTACT STATS
+// widesign CONTACT STATS
 // ------------------------
 
 function mobile_number($atts)
 {
-    $mobile_number = "07952 435 427";
+    $mobile_number = "07910 742752";
     return $mobile_number;
 }
 
 function landline_number($atts)
 {
-    $landline_number = "01628 410 090";
+    $landline_number = "";
     return $landline_number;
 }
 
 function main_email($atts)
 {
-    $main_email = "bethany@redhilltutoring.co.uk";
+    $main_email = "info@widesign.co.uk";
     return $main_email;
 }
 

@@ -1,13 +1,14 @@
 <!-- Burger menu -->
 <nav class="navburger-main">
-    <!-- Break with logo -->
-    <div class="inline-flex justify-center items-center w-full h-32">
-        <hr class="my-4 w-3/5 h-1 bg-gray-300 rounded border-0">
-        <div class="absolute left-1/2 px-4 bg-gray-900 transform -translate-x-1/2 dark:bg-gray-900">
-            <img src="/resources/img/pages/logos/ws-static-white.svg" alt="WideSign Logo" width="160px" height="auto">
+
+    <!-- LOGO -->
+    <div class="w-full">
+        <div class="pl-10 pt-5">
+            <img src="/resources/img/pages/logos/ws-static-white.svg" alt="WideSign Logo" width="120px" height="auto">
         </div>
     </div>
 
+    <!-- MENU LIST -->
     <?php
     wp_nav_menu(
         array(
@@ -17,5 +18,11 @@
             'add_li_class'  => 'flex-col block hover:text-white'
         )
     ); ?>
+
+    <!-- SOCIAL ICONS -->
+    <?php get_template_part('templates/partials/social/footer', 'icons');
+    ?>
+    <!-- COPYRIGHT -->
+    <?php get_template_part('templates/partials/copyright'); ?>
 
 </nav>

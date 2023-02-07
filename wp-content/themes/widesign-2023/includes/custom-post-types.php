@@ -143,9 +143,56 @@ function custom_post_type()
         'publicly_queryable'  => true,
         'capability_type'     => 'post',
         'show_in_rest' => true,
+    );
+
+
+    $widesignFaqLabels = array(
+        'name'                => _x('WideSign FAQs', 'Post Type General Name'),
+        'singular_name'       => _x('WideSign FAQ', 'Post Type Singular Name'),
+        'menu_name'           => __('WideSign FAQs'),
+        'parent_item_colon'   => __('Parent FAQ'),
+        'all_items'           => __('View all'),
+        'view_item'           => __('View WideSign FAQ'),
+        'add_new_item'        => __('Add New'),
+        'add_new'             => __('Add New'),
+        'edit_item'           => __('Edit WideSign FAQ'),
+        'update_item'         => __('Update WideSign FAQ'),
+        'search_items'        => __('Search WideSign FAQ'),
+        'not_found'           => __('Not Found'),
+        'not_found_in_trash'  => __('Not found in Trash'),
+    );
+
+    $widesignFaqArgs = array(
+        'label'               => __('WideSign faqs'),
+        'description'         => __('WideSign FAQs for website'),
+        'labels'              => $widesignFaqLabels,
+        // Features this CPT supports in Post Editor
+        'supports'            => array('title', 'editor', 'excerpt', 'author', 'thumbnail',),
+        // You can associate this CPT with a taxonomy or custom taxonomy. 
+        'taxonomies'          => array('business-sections'),
+        /* A hierarchical CPT is like Pages and can have
+        * Parent and child items. A non-hierarchical CPT
+        * is like Posts.
+        */
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 10,
+        'menu_icon'           => 'dashicons-megaphone',
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'post',
+        'show_in_rest' => true,
 
     );
 
+
+    register_post_type('WideSign-faqs', $widesignFaqArgs);
     register_post_type('heros', $heroArgs);
     register_post_type('projects', $projectArgs);
     register_post_type('quotes', $quoteArgs);

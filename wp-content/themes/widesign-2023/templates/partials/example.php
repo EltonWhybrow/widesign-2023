@@ -21,7 +21,7 @@
         <?php
         // You may use 'views' to render your UI components. Views are designed for use anywhere as they, ideally, have
         // no context-specific functionality – the simply render data handed to them as follows:
-        \redhilltutoring2022Theme\View::render('ExampleView', [
+        \widesign2023Theme\View::render('ExampleView', [
             'title' => 'Hello - I am Elton - Browser Syncing working?',
             'text' => 'I build themes and plugins for WordPress. You can learn more about me at ',
         ]); ?>

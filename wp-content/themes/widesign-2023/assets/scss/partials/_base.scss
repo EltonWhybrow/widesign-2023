@@ -7,7 +7,7 @@ html {
 	@apply antialiased;
 	font-size: 15px;
 	text-rendering: optimizeLegibility;
-	@apply text-gray-700;
+	@apply text-gray-400;
 
 	@screen md {
 		font-size: 18px;
@@ -23,38 +23,14 @@ body {
 	@apply font-azo;
 }
 
-.ig-break {
-	border-bottom: dashed 2px;
-	@apply border-gray-300;
-
-	@screen md {
-		border-bottom: none;
-	}
+// custom login form page styling
+.login-action-login,
+.login-action-lostpassword {
+	@apply bg-gray-800 #{!important};
 }
 
-// Example hide input for certain days HACK
-// Will need to change choice to correct index
-/* purgecss start ignore */
-#wpforms-560-field_9 {
-	.choice-5,
-	.choice-9,
-	.choice-8 {
-		label {
-			text-decoration: line-through !important;
-			pointer-events: none;
-			@apply text-gray-500;
-		}
-	}
-}
-
-#wpforms-560-field_9 {
-	.choice-5,
-	.choice-9,
-	.choice-8 {
-		input {
-			pointer-events: none;
-			opacity: 0.6;
-		}
-	}
+.login #nav a,
+.login #backtoblog a {
+	@apply text-gray-200;
 }
 /* purgecss end ignore */
