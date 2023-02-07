@@ -1,7 +1,7 @@
 /*
 Burger Navigaton Menu
 */
-
+/* purgecss start ignore */
 $menu-width: 100%;
 
 .navburger-main {
@@ -72,6 +72,8 @@ $menu-width: 100%;
 .no-scroll {
 	overflow: hidden;
 }
+
+/* purgecss end ignore */
 
 // NEW
 // vars
