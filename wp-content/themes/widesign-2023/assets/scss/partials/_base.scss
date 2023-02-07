@@ -24,8 +24,8 @@ body {
 }
 
 // custom login form page styling
-.login-action-login,
-.login-action-lostpassword {
+body.login-action-login,
+body.login-action-lostpassword {
 	@apply bg-gray-800 #{!important};
 }
 
