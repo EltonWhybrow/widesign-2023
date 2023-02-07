@@ -1,6 +1,6 @@
 | Staging                                                                                                                  | Production                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| [![Staging](https://github.com/EltonWhybrow/widesign-2023/actions/workflows/staging_release.yml/badge.svg)](https://github.com/EltonWhybrow/widesign-2023/actions/workflows/staging_release.yml) | [![Production](https://github.com/EltonWhybrow/widesign-2023/actions/workflows/prod_release.yml/badge.svg)](https://github.com/EltonWhybrow/widesign-2023/actions/workflows/prod_release.yml) |
+| [![Staging](https://github.com/EltonWhybrow/widesign-2023/actions/workflows/staging_release.yml/badge.svg?branch=staging)](https://github.com/EltonWhybrow/widesign-2023/actions/workflows/staging_release.yml) | [![Production](https://github.com/EltonWhybrow/widesign-2023/actions/workflows/prod_release.yml/badge.svg?branch=master)](https://github.com/EltonWhybrow/widesign-2023/actions/workflows/prod_release.yml) |
 
 # WideSign Wordpress Theme
 

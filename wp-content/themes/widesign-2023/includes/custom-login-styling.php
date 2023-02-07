@@ -12,7 +12,7 @@ function ppwp_custom_login_logo()
     <style type="text/css">
         #login h1 a,
         .login h1 a {
-            background-image: url(http://widesign-web-design-services.local/resources/img/pages/logos/ws-static-white.svg);
+            background-image: url(https://widesign.co.uk/resources/img/pages/logos/ws-static-white.svg);
             height: 100px;
             width: 300px;
             background-size: 300px 100px;
