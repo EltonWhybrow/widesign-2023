@@ -58,6 +58,8 @@ get_header(); ?>
 			<?php get_template_part('templates/partials/section', 'widesign-faq-hosting'); ?>
 			<?php get_template_part('templates/partials/section', 'widesign-faq-webdesign'); ?>
 			<?php get_template_part('templates/partials/section', 'widesign-faq-development'); ?>
+			<?php get_template_part('templates/partials/section', 'widesign-faq-seo'); ?>
+			<?php get_template_part('templates/partials/section', 'widesign-faq-logo-branding'); ?>
 		</div>
 
 	</section>
