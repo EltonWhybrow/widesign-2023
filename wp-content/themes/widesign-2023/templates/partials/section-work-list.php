@@ -33,7 +33,7 @@ Projects card
                             background-image: url(<?php the_post_thumbnail_url(); ?>);  
                             background-position: top center"></div>
 
-                            <a href="<?php (the_field('site_url')) ?>" class="zoom-text">
+                            <a href="<?php (the_field('site_url')) ?>" class="zoom-text" target="_blank">
                                 <h2 class="text-gray-200 uppercase"><?php the_title(); ?></h2>
                                 <?php the_content(); ?>
                             </a>
