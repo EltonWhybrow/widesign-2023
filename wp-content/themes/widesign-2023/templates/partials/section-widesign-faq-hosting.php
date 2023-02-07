@@ -1,8 +1,3 @@
-<!-- 
-=============================
-Learner - faqs - your insurance
-============================= 
--->
 <ul class="hosting">
 
     <?php

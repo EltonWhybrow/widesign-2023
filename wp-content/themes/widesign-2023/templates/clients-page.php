@@ -52,7 +52,7 @@ get_header(); ?>
                     <div class="px-4 pb-3">
                         <p class="pt-4 font-semibold">Login to your existing web hosting account</p>
                         <p class="text-sm">
-                            If you have received an outstandng payment reminder, this is where you can make your payment. Also, preform other tasks like add sub-domain name, add/modify email addresses.
+                            If you have received an outstanding payment reminder, this is where you can make your payment. Also, preform other tasks like add sub-domain name, add/modify email addresses.
                         </p>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ get_header(); ?>
                     <div class="px-4 pb-3">
                         <p class="pt-4 font-semibold">Access your webmail inbox</p>
                         <p class="text-sm">
-                            Access you email online anywhere, anytime. If you need to check junk or lost access on your devices, you can do it here. If you lost your login details you will need to get in touch with me.
+                            Access you email online anywhere, anytime. If you need to check junk or lost access on your devices, you can do it here. If you happen to have lost your login details you will need to get in <a href="/contact-us" class="primary-link underline text-sm">touch with me</a>.
                         </p>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ get_header(); ?>
                     <div class="px-4 pb-3">
                         <p class="pt-4 font-semibold">Looking for new hosting plan</p>
                         <p class="text-sm">
-                            These UK servers and supports are second to none. Offering 99.9% server uptime guarantee and a '30-day Free Trail'. We also offer monthly backups as standard.
+                            Our UK servers and support are second to none. Offering 99.9% server uptime guarantee and a '30-day Free Trial'. We also offer monthly backups as standard to protect against any failures that do occur.
                         </p>
                     </div>
                 </div>

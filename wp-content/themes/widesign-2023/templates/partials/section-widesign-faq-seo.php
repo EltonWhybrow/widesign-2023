@@ -1,4 +1,4 @@
-<ul class="web-design">
+<ul class="seo">
     <!-- <h3 class="heading-3 mb-1 ml-0 border-l-4 pl-2 border-ig-orange-500">Web Design</h3> -->
 
     <?php
@@ -17,7 +17,7 @@
             array(
                 'taxonomy' => 'business-sections',
                 'field' => 'slug',
-                'terms' => 'web-design',
+                'terms' => 'seo',
             )
         ),
     );

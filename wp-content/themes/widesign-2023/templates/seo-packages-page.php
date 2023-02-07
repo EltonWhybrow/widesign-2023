@@ -97,7 +97,7 @@ get_header(); ?>
             See full <a href="#" class="modal-trigger relative text-teal-200 primary-link underline" data-id="modal-features">feature list</a>
         </p> -->
 
-        <div class="grid grid-cols-3 grid-flow-row gap-4 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-4 max-w-5xl mx-auto">
 
             <div class="flex text-gray-200">
 
@@ -123,7 +123,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Content</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">We have all heard the saying content is king. Well its true. Quality, fresh and relevant content relly helps your SEO. Match this with some good research and keyword placement and your well on your way to Google heaven.</p>
+                        <p class="leading-5 text-sm">We have all heard the saying content is king. Well its true. Quality, fresh and relevant content really helps your SEO. Match this with some good research and keyword placement and your well on your way to Google heaven.</p>
                     </div>
                 </div>
 
@@ -137,7 +137,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Structure</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">Already touched on this but this is more technical side checking the responsiveness of the website, page load times, Security, URLs and crawlerability. We also check for duplications and parity due to googles mobile first indexing.</p>
+                        <p class="leading-5 text-sm">Already touched on this but this is more technical side checking the responsiveness of the website, page load times, Security, URLs and crawler ability. We also check for duplication and parity due to googles mobile first indexing.</p>
                     </div>
                 </div>
 
@@ -152,7 +152,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Reputation</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">We look at your site from a higher level and what is working and where its lacking. This includes reviews, expertise in its field, authority and trust. We can only advise on certain aspects here as some with require client input.</p>
+                        <p class="leading-5 text-sm">We look at your site from a higher level and what is working and where it's lacking. This includes reviews, expertise in its field, authority and trust. We can only advise on certain aspects here as some with require client input.</p>
                     </div>
                 </div>
 
@@ -168,7 +168,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Usability</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">As developers we are experts in usability. We check the user experience across devices, cehck for any pains points and also look at the locality and country of the targeted audiences and make adjustments were required.</p>
+                        <p class="leading-5 text-sm">As developers we are experts in usability. We check the user experience across devices, check for any pains points and also look at the locality and country of the targeted audiences and make adjustments were required.</p>
                     </div>
                 </div>
 
@@ -183,7 +183,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Black hat issues</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">Some site may have some bad pracices in place from the old days of SEo and these can have a detrimental affect on your site, We check for hidden keyword content, stuffing as well as bad content and piracy.</p>
+                        <p class="leading-5 text-sm">Some site may have some bad practices in place from the old days of SEO and these can have a detrimental effect on your site, We check for hidden keyword content, stuffing as well as bad content and piracy.</p>
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Tools set up</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">We set up tools f not already in place to help momnitor and track improvements of your SEO position. This includes and is not limited to Analytics, Google search console and rank/keyword tracking software.</p>
+                        <p class="leading-5 text-sm">We set up tools f not already in place to help monitor and track improvements of your SEO position. This includes and is not limited to Analytics, Google search console and rank/keyword tracking software.</p>
                     </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Monthly feedback</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">We feedback monthly on improvements and gains of position. Checking organic search results against previous date ranges and suggest/make tweaks where we feel we can make improvements.</p>
+                        <p class="leading-5 text-sm">We feed back monthly on improvements and gains of position. Checking organic search results against previous date ranges and suggest/make tweaks where we feel we can make improvements.</p>
                     </div>
                 </div>
             </div>
@@ -225,7 +225,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Future proof</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">Finally we look at the wider picture and what long term plans could greatly benefit your online SEO shedule. This could include ceating targeted landing pages to expand reach regarding relavent content and blog creation.</p>
+                        <p class="leading-5 text-sm">Finally we look at the wider picture and what long term plans could greatly benefit your online SEO schedule. This could include creating targeted landing pages to expand reach regarding relevant content and blog creation.</p>
                     </div>
                 </div>
             </div>
@@ -255,7 +255,7 @@ get_header(); ?>
             See full <a href="#" class="modal-trigger relative text-teal-200 primary-link underline" data-id="modal-features">feature list</a>
         </p> -->
 
-        <div class="grid grid-cols-2 grid-flow-row gap-4 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-4 max-w-5xl mx-auto">
 
             <div class="flex text-gray-200">
 
@@ -282,7 +282,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Updates</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">Weather the site requires any recommended updates to plugin or software. Make any security updates where necessary.</p>
+                        <p class="leading-5 text-sm">Check whether the site requires any recommended updates to plugin or software. Make any security updates where necessary.</p>
                     </div>
                 </div>
 
@@ -299,7 +299,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-teal-700">Functional</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">Test all functional elemtns of the sites are working as expected and report issues. This could include form submition al the way to shopping cart checkouts and payment processing.</p>
+                        <p class="leading-5 text-sm">Test all functional elements of the sites are working as expected and report issues. This could include form submission all the way to shopping cart checkouts and payment processing.</p>
                     </div>
                 </div>
 

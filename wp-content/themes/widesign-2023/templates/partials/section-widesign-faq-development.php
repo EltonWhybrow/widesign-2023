@@ -1,8 +1,3 @@
-<!-- 
-=============================
-Learner - faqs - your insurance
-============================= 
--->
 <ul class="development">
     <!-- <h3 class="heading-3 mb-1 ml-0 border-l-4 pl-2 border-ig-orange-500">Development</h3> -->
 

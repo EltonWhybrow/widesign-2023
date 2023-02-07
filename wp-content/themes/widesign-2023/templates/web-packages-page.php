@@ -33,7 +33,7 @@ get_header(); ?>
                         £599
                     </p>
                     <p class="">
-                        Up to 4 pages (<a href="#" data-id="modal-features" class="modal-triggerrelative text-plum-200 primary-link underline">feature list</a>)
+                        Up to 4 pages (<a href="#" data-id="modal-features" class="modal-trigger relative text-plum-200 primary-link underline">feature list</a>)
                     </p>
                 </div>
                 <footer class="bg-plum-400 py-3 items-end rounded-b">
@@ -54,7 +54,7 @@ get_header(); ?>
                         £1,495
                     </p>
                     <p class="">
-                        Starter + Multiple pages / Blog / Admin (<a href="#" data-id="modal-features" class="modal-triggerrelative text-plum-200 primary-link underline">feature list</a>)
+                        Starter + Multiple pages / Blog / Admin (<a href="#" data-id="modal-features" class="modal-trigger relative text-plum-200 primary-link underline">feature list</a>)
                     </p>
                 </div>
                 <footer class="bg-plum-400 py-3 items-end rounded-b">
@@ -98,7 +98,7 @@ get_header(); ?>
             All features <a href="#" class="modal-trigger relative text-plum-200 primary-link underline text-sm" data-id="modal-features">in website packages</a>
         </p>
 
-        <div class="grid grid-cols-3 grid-flow-row gap-4 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-flow-row gap-4 max-w-5xl mx-auto">
 
             <div class="flex text-gray-200">
 
@@ -109,7 +109,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-plum-700">Professional web design</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">All websites are bespoke designs incororating your existing logo and brand. We adhere to UX / UI best practises with SEO in mind creating a clean interface with structured goals and navigation.</p>
+                        <p class="leading-5 text-sm">All websites are bespoke designs incorporating your existing logo and brand. We adhere to UX / UI best practices with SEO in mind creating a clean interface with structured goals and navigation.</p>
                     </div>
                 </div>
 
@@ -138,7 +138,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-plum-700">SSL certificates</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">Security is of utmost importance, we include a free SSL security certificate with every site that sites on our secure servers using TLS network protocol to establish an encrypted connection. This also improves search engine preformance.</p>
+                        <p class="leading-5 text-sm">Security is of utmost importance, we include a free SSL security certificate with every site that sites on our secure servers using TLS network protocol to establish an encrypted connection. This also improves search engine performance.</p>
                     </div>
                 </div>
 
@@ -151,9 +151,9 @@ get_header(); ?>
 
 
                 <div class="flex flex-col pl-3">
-                    <header class="font-bold uppercase text-xl text-plum-700">Search Engine Optimisation</header>
+                    <header class="font-bold uppercase text-xl text-plum-700">Search Engine Optimization</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">We use tried and tested SEO techniques to give your site the edge in todays saturated search engines. Adding sitemaps and crafting content/structure we help you increase your online presence in major search engines.</p>
+                        <p class="leading-5 text-sm">We use tried and tested SEO techniques to give your site the edge in all the popular search engines. Adding sitemaps and crafting content/structure we help you increase your online presence in major search engines.</p>
                     </div>
                 </div>
 
@@ -182,9 +182,9 @@ get_header(); ?>
 
 
                 <div class="flex flex-col pl-3">
-                    <header class="font-bold uppercase text-xl text-plum-700">Maintenace &amp; Backups</header>
+                    <header class="font-bold uppercase text-xl text-plum-700">Maintenance &amp; Backups</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">Websites should rarely have downtime, but just incase we store monthly backups of your website allowing us to restore your website in case of emergency. Our server have 99.9% network uptime, so not need to worry.</p>
+                        <p class="leading-5 text-sm">Websites should rarely have downtime, but just in case we store monthly backups of your website allowing us to restore your website in case of emergency. Our server have 99.9% network uptime, so not need to worry.</p>
                     </div>
                 </div>
             </div>
@@ -198,7 +198,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-plum-700">Ongoing support</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">You receive support for all your services with us by email or mobile 24/7 and we enjoy going the extra mile to resolve requests within a 24hrs. We won't leave you in the lurch.</p>
+                        <p class="leading-5 text-sm">You receive support for all your services with us by email or mobile 24/7, and we enjoy going the extra mile to resolve requests within a 24hrs. We won't leave you in the lurch.</p>
                     </div>
                 </div>
             </div>
@@ -212,7 +212,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-plum-700">Content management system</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">All sites come CMS ready so content management is simplfied and easilty scalable. We offer demos and tutorials on blogging &amp; making changes if your a nubie. Alternatively, join our maintenance packages and we will make changes for you.</p>
+                        <p class="leading-5 text-sm">All sites come CMS ready so content management is simplified and easily scalable. We offer demos and tutorials on blogging &amp; making changes if you need guidance. Alternatively, join our maintenance packages and, we will make changes for you.</p>
                     </div>
                 </div>
             </div>
@@ -226,7 +226,7 @@ get_header(); ?>
                 <div class="flex flex-col pl-3">
                     <header class="font-bold uppercase text-xl text-plum-700">Analytics &amp; tags</header>
                     <div class="card-content pb-2">
-                        <p class="leading-5 text-sm">We can set-up tools like 'Google Analytics' and 'Google Search Console' for you. Also, any other tracking or social media tags required can be implemted using Google Tag Manager for maintanability.</p>
+                        <p class="leading-5 text-sm">We can set-up tools like 'Google Analytics' and 'Google Search Console' for you. Also, any other tracking or social media tags required can be implemented using Google Tag Manager for maintainability.</p>
                     </div>
                 </div>
             </div>
@@ -240,7 +240,6 @@ get_header(); ?>
                     </div>
                 </div>
             </div> -->
-
         </div>
     </section>
 

@@ -281,10 +281,10 @@ get_header(); ?>
 
         <div class="max-w-xl mx-auto py-3">
             <p class="text-gray-200">
-                From storyboarding and site planning to design and hosting. Your complete web design and development needs can be taken care of by our expereinced team. We adhere to SEO best practices and web standards whilst delivering fast, user freindly web sites that works for you.
+                From story boarding and site planning to design and hosting. Your complete web design and development needs can be taken care of by our experienced team. We adhere to SEO best practices and web standards whilst delivering fast, user friendly web sites that stand out from the crowd.
             </p>
             <p class="text-gray-200">
-                We can help with intergrating your existing branding/logo or help you recreating a fresh new concept for your needs. We work together to create a user friendly journey with your business goals in mind and plan a site navigation that works for you.
+                We can help with integrating your existing branding/logo or help you recreate a fresh new concept for your needs. We work together to create a user-friendly journey with your business goals in mind and plan a site navigation that works for you.
             </p>
         </div>
 
@@ -319,7 +319,7 @@ get_header(); ?>
         <div class="w-full md:w-2/5 flex justify-center items-center bg-plum-600">
             <div class="py-10 px-4 md:px-10">
                 <h2 class="pb-2 text-3xl text-gray-200 uppercase font-semibold">SEO management</h2>
-                <p class="pb-2 text-gray-200">We only use white hat techniques and proven SEO formulas to increase your visibilty in the popular search engines <span class="px-2 rounded bg-plum-700 inline-block">#google</span>.</p>
+                <p class="pb-2 text-gray-200">We only use white hat techniques and proven SEO formulas to increase your visibility in the popular search engines <span class="px-2 rounded bg-plum-700 inline-block">#google</span>.</p>
                 <p class="pb-2 text-gray-200">Working short & long term with clients we produce <span class="px-2 rounded bg-plum-700 inline-block">successful results</span> and maintain web vitals and ranking, regular check ups and content refreshes help to maintain gains made.</p>
                 <p class="pb-5 text-gray-200 hidden lg:block">
                     You can view our option of SEO plans or get in touch if you looking for more specific requirements.</p>
@@ -346,9 +346,9 @@ get_header(); ?>
                 <h2 class="pb-2 text-3xl text-gray-200 uppercase font-semibold">UI/UX Design</h2>
                 <h3 class="text-teal-400 text-xl text-bold">Usability is the key to success</h3>
                 <div class="max-w-xl mx-auto py-3">
-                    <p class="text-gray-200">Usability is a key considerations when building any application. Confusing the user is you single point of failure.
+                    <p class="text-gray-200">Usability is a key consideration when building any application. Confusing the user is you single point of failure.
                     </p>
-                    <p class="text-gray-200">Designing UI's that work for the user and the client is an artform.</p>
+                    <p class="text-gray-200">Designing UI's that work for the user and the client is an art form.</p>
                     <p class="text-gray-200 md:hidden xl:block">We utilize Google Analytics and use tested methods to funnel users to the end goal & increase engagement whilst maintaining a simple to use interface.</p>
                 </div>
 
