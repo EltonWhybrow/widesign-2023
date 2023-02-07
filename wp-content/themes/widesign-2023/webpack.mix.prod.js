@@ -92,7 +92,8 @@ mix.purgeCss({
     /lg:w-3\/12/,
     /md:text-lg/,
     /text-shadow-400/,
-    /bg-gray-800/
+    /bg-gray-800/,
+    /hover:bg-plum-500/
   ]
 
 });

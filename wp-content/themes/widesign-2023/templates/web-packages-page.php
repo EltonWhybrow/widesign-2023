@@ -38,7 +38,7 @@ get_header(); ?>
                 </div>
                 <footer class="bg-plum-400 py-3 items-end rounded-b">
                     <div class="flex my-3 justify-center">
-                        <a class="js-slidein relative inline-flex pr-8 primary-btn hover:bg-teal-500 bg-plum-700 group" href="/services/web-package?plan=starter">Select<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <a class="js-slidein relative inline-flex pr-8 primary-btn hover:bg-plum-600 bg-plum-700 group" href="/services/web-package?plan=starter">Select<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
@@ -59,7 +59,7 @@ get_header(); ?>
                 </div>
                 <footer class="bg-plum-400 py-3 items-end rounded-b">
                     <div class="flex my-3 justify-center">
-                        <a class="js-slidein relative inline-flex pr-8 primary-btn hover:bg-teal-500 bg-plum-700 group" href="/services/web-package?plan=advanced">Select<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <a class="js-slidein relative inline-flex pr-8 primary-btn hover:bg-plum-600 bg-plum-700 group" href="/services/web-package?plan=advanced">Select<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
@@ -80,7 +80,7 @@ get_header(); ?>
                 </div>
                 <footer class="bg-plum-400 py-3 items-end rounded-b">
                     <div class="flex my-3 justify-center">
-                        <a class="js-slidein relative inline-flex pr-8 primary-btn hover:bg-teal-500 bg-plum-700 group" href="/services/web-package?plan=ecommerce">Select<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <a class="js-slidein relative inline-flex pr-8 primary-btn hover:bg-plum-600 bg-plum-700 group" href="/services/web-package?plan=ecommerce">Select<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
                         </a>
