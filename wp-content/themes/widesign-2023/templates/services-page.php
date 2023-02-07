@@ -281,7 +281,7 @@ get_header(); ?>
 
         <div class="max-w-xl mx-auto py-3">
             <p class="text-gray-200">
-                From story boarding and site planning to design and hosting. Your complete web design and development needs can be taken care of by our experienced team. We adhere to SEO best practices and web standards whilst delivering fast, user friendly web sites that works for you.
+                From story boarding and site planning to design and hosting. Your complete web design and development needs can be taken care of by our experienced team. We adhere to SEO best practices and web standards whilst delivering fast, user friendly web sites that stand out from the crowd.
             </p>
             <p class="text-gray-200">
                 We can help with integrating your existing branding/logo or help you recreate a fresh new concept for your needs. We work together to create a user-friendly journey with your business goals in mind and plan a site navigation that works for you.
