@@ -12,7 +12,7 @@
     </div>
 
     <div class="px-2">
-        <a class="" href="//www.instagram.com/redhilltutoring/" rel="noopener noreferrer" target="_blank">
+        <a class="" href="//www.instagram.com/widesign/" rel="noopener noreferrer" target="_blank">
             <svg fill="currentColor" class="text-teal-600 w-8 h-8 hover:text-teal-500 transition-text duration-1000 ease-out" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="icons" stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
                     <g id="icons8-instagram" fill="currentColor" fill-rule="nonzero">
