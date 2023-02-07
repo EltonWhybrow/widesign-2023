@@ -26,7 +26,7 @@
 
     gtag('config', 'G-0LMYXYYHEX');
 </script> -->
-<!-- Google Tag Manager -->
+<!-- Google Tag Manager - WIDESIGN -->
 <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -41,12 +41,12 @@
         j.src =
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-TNLBXGZ');
+    })(window, document, 'script', 'dataLayer', 'GTM-TVLCGD9');
 </script>
 <!-- End Google Tag Manager -->
 
 
 <body <?php body_class() ?>>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNLBXGZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVLCGD9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
