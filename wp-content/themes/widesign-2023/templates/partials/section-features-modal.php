@@ -48,7 +48,7 @@
 
             <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">Up to 4 pages</p>
             <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">5-25 pages</p>
-            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">Unlimited</p>
+            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">Multiple</p>
 
 
             <!-- RESPONSIVE DESIGN -->

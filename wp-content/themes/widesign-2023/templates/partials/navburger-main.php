@@ -1,10 +1,10 @@
 <!-- Burger menu -->
-<nav class="navburger-main">
+<nav class="navburger-main pb-8">
 
     <!-- LOGO -->
     <div class="w-full">
-        <div class="pl-10 pt-5">
-            <img src="/resources/img/pages/logos/ws-static-white.svg" alt="WideSign Logo" width="120px" height="auto">
+        <div class="pl-4 md:pl-6 pt-4 w-28 md:w-32">
+            <img src="/resources/img/pages/logos/ws-static-white.svg" alt="WideSign Logo" height="auto">
         </div>
     </div>
 
