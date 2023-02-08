@@ -94,7 +94,8 @@ mix.purgeCss({
     /text-shadow-400/,
     /bg-gray-800/,
     /hover:bg-plum-500/,
-    /text-plum-500/
+    /text-plum-500/,
+    /leading-6/
   ]
 
 });
