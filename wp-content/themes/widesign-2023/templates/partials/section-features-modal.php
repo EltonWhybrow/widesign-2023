@@ -1,6 +1,6 @@
 <div id="modal-features" class="modal h-screen flex fixed top-0 justify-center z-100 transform scale-0 transition-transform duration-300">
 
-    <div class="md:w-10/12 lg:w-4/6 m-auto  bg-gray-100 text-gray-900 w-screen  h-screen sm:h-auto py-10 px-3 md:p-8">
+    <div class="modal-content md:w-10/12 lg:w-4/6 m-auto  bg-gray-100 text-gray-900 w-screen h-screen sm:h-auto py-10 px-3 md:p-8">
         <div class="flex justify-end relative">
             <button type="button" class="close-modal focus:outline-none right-0 -top-7 md:-right-2 md:-top-3 absolute">
                 <svg xmlns="http:www.w3.org/2000/svg" class="text-plum-600 h-10 md:h-6 w-10 md:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -297,9 +297,9 @@
                 <p class="text-xs">With all our packages you get 1 years FREE Hosting/Domain. Hosting packages are then charged annually dependent on package option. If you would like to see more detail on hosting capabilities visit our <a href="https://widesign.duoservers.com/website-hosting/" target="_blank" class="primary-link text-xs underline">dedicated hosting site</a>.</p>
             </div>
 
-            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4"><a class="primary-link text-plum-600 underline" href="/contact-us">£4.62 /mth</a></p>
-            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4"><a class="primary-link text-plum-600 underline" href="/contact-us">£7.97 /mth</a></p>
-            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4"><a class="primary-link text-plum-600 underline" href="/contact-us">£10.00 /mth</a></p>
+            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">£4.62 /mth</p>
+            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">£7.97 /mth</p>
+            <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">£10.00 /mth</p>
 
         </div>
 
