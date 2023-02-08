@@ -27,7 +27,9 @@ const Modal = {
       $("#modal-overlay").addClass('hidden');
       bkgScroll.removeClass('no-scroll');
     });
-    $("#modal-features").bind("click", function () {
+    $("#modal-features").bind("click", function (e) {
+      if (e.target !== this)
+        return;
       $(".modal").removeClass('scale-100');
       $("#modal-features").addClass('hidden');
       $("#modal-overlay").addClass('hidden');
