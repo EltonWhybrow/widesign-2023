@@ -36,7 +36,10 @@ $menu-width: 100%;
 		a {
 			width: 100%;
 			box-sizing: border-box;
-			padding: 10px;
+			padding: 5px 10px;
+			@screen md {
+				padding: 10px;
+			}
 			display: inline-block;
 			text-decoration: none;
 
@@ -81,8 +84,12 @@ $scale: 1; // icon scale 68/68 default
 
 #hamburger {
 	z-index: 1000;
-	width: 66px;
-	height: 66px;
+	width: 60px;
+	height: 60px;
+	@screen md {
+		width: 70px;
+		height: 70px;
+	}
 	border-radius: 50%;
 }
 .hamburglar {
@@ -91,6 +98,7 @@ $scale: 1; // icon scale 68/68 default
 	display: block;
 	width: 60px;
 	height: 60px;
+
 	-webkit-touch-callout: none;
 	user-select: none;
 	transition: background-color 700ms;
@@ -220,7 +228,10 @@ $scale: 1; // icon scale 68/68 default
 
 .burger-icon {
 	position: absolute;
-	padding: 20px 16px;
+	padding: 16px 13px;
+	@screen md {
+		padding: 21px 18px;
+	}
 	height: 68px;
 	width: 68px;
 }

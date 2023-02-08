@@ -15,7 +15,7 @@ get_header(); ?>
 	<!-- HEADER -->
 	<section class="flex flex-wrap md:flex-nowrap">
 		<div class="relative py-4 md:py-0 w-full flex justify-center items-center bg-gray-900">
-			<div class="p-3 md:p-10">
+			<div class="p-3 md:p-10 text-center">
 				<h2 class="pb-1 text-mellow-200 uppercase font-semibold text-4xl md:text-5xl">
 					F<span class="text-mellow-400">A</span><span class="text-mellow-600">Qs</span>
 				</h2>
@@ -26,7 +26,7 @@ get_header(); ?>
 	<!-- FAQS -->
 	<section class="pt-8 pb-20 px-4 md:px-10 bg-shadow-700 text-center">
 
-		<div class="max-w-5xl m-auto mb-3 space-x-2">
+		<div class="max-w-5xl m-auto mb-3 space-x-2 space-y-2">
 			<button class="filter primary-btn-sm hover:bg-shadow-500 bg-shadow-600" data-id="hosting">Hosting</button>
 			<button class="filter primary-btn-sm hover:bg-shadow-500 bg-shadow-600" data-id="development">Development</button>
 			<button class="filter primary-btn-sm hover:bg-shadow-500 bg-shadow-600" data-id="web-design">Web Design</button>

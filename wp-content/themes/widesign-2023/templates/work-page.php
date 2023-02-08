@@ -10,10 +10,10 @@ get_header(); ?>
 
     <!-- HEADER -->
     <section class="flex flex-wrap md:flex-nowrap">
-        <div class="relative py-4 md:py-0 w-full h-32 flex justify-center items-center bg-gray-900">
-            <div class="absolute p-3 md:p-10">
-                <h2 class="pb-1 text-mellow-200 uppercase font-semibold text-6xl md:text-5xl">
-                    Work <span class="text-mellow-400">&amp;</span> <span class="text-mellow-600">Projects</span>
+        <div class="relative py-4 md:py-0 w-full flex justify-center items-center bg-gray-900">
+            <div class="p-3 md:p-10 text-center">
+                <h2 class="pb-1 text-mellow-200 uppercase font-semibold text-4xl md:text-5xl">
+                    Work<span class="text-mellow-400">/</span><span class="text-mellow-600">Projects</span>
                 </h2>
             </div>
         </div>

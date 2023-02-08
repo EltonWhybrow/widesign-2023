@@ -5,12 +5,15 @@ Header
 /* purgecss start ignore */
 header {
 	.hamburglar {
-		transition: margin-top 400ms;
+		// transition: margin-top 400ms;
 		margin-top: 12px;
 	}
 	.main-logo {
 		transition: width 400ms;
-		width: 120px;
+		width: 90px;
+		@screen md {
+			width: 120px;
+		}
 	}
 	.navbar-main {
 		transition: padding 400ms;
@@ -21,7 +24,7 @@ header {
 	}
 	&.active {
 		.hamburglar {
-			margin-top: 5px;
+			// margin-top: 5px;
 		}
 		.main-logo {
 			width: 90px;
