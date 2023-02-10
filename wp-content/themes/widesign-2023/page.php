@@ -3,7 +3,12 @@
 <!-- wysiwyg main content -->
 <div class="wysiwyg-content bg-white">
 
-    <?php the_content(); ?>
+    <?php if (have_posts()) : while (have_posts()) : the_post();
+            the_content();
+        endwhile;
+    else : ?>
+        <p>Sorry, no new content for now! 😞</p>
+    <?php endif; ?>
 
 </div>
 
