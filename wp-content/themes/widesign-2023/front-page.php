@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="wysiwyg-content bg-white">
+<div class="bg-white">
 	<!-- MESSAGE notification -->
 	<!-- <? //php echo do_shortcode("[get-message color='info' message='New tutoring service opening in the New Year']"); 
 			?> -->

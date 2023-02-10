@@ -149,12 +149,5 @@
         </div>
 
 
-        <!-- wysiwyg content -->
-        <!-- <section class="wysiwyg-content">
-      
-        </section> -->
-
-
-
 <?php endwhile;
 else : endif; ?>

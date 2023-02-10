@@ -7,7 +7,7 @@
 get_header(); ?>
 
 <!-- wysiwyg main content -->
-<div class="wysiwyg-content bg-white">
+<div class="bg-white">
 
 	<?php the_content(); ?>
 

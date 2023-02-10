@@ -8,7 +8,7 @@
 ?>
 
 <!-- wysiwyg main content -->
-<div class="wysiwyg-content bg-white">
+<div class="bg-white">
 
     <section class="w-full bg-teal-700 md:flex flex-wrap justify-center pt-12 pb-20 space-y-5 lg:space-y-0 lg:space-x-6">
         <div class="px-4 md:px-0 flex-none sm:flex lg:flex-col w-full md:w-10/12 lg:w-4/12 space-y-5 md:space-y-0  md:space-x-6 lg:space-x-0">
