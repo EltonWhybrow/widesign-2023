@@ -25,6 +25,7 @@ function custom_post_type()
     );
 
     $quoteArgs = array(
+        'rewrite'             => false,
         'label'               => __('quotes'),
         'description'         => __('WideSign client feedback'),
         'labels'              => $quoteLabels,
@@ -72,6 +73,7 @@ function custom_post_type()
     );
 
     $projectArgs = array(
+        'rewrite'             => false,
         'label'               => __('projects'),
         'description'         => __('Projects'),
         'labels'              => $projectsLabels,
@@ -118,6 +120,7 @@ function custom_post_type()
     );
 
     $heroArgs = array(
+        'rewrite'             => false,
         'label'               => __('heros'),
         'description'         => __('Buds Hero Banners'),
         'labels'              => $heroLabels,
@@ -163,6 +166,7 @@ function custom_post_type()
     );
 
     $widesignFaqArgs = array(
+        'rewrite'             => false,
         'label'               => __('WideSign faqs'),
         'description'         => __('WideSign FAQs for website'),
         'labels'              => $widesignFaqLabels,

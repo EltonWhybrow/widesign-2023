@@ -5,112 +5,130 @@
 //
 // The main point of this is to keep these out of the global base styles in order to leverage the
 // full power of TailwindCSS in areas of the site that are not dynamically generated markup.
-
-// Custom styles used in the_content() output which does not live in the style guide
-// TODO: If used in a couple of places please refactor into styleguide for consistency
-// SEE: style-guide-page.php template for more...
 //
 // USES: PurgeCss ignore as its not dynamically generated from the_content() editor using tailwind/purge
 
 /* DO NOT REMOVE NEXT LINE */
 /* purgecss start ignore */
 
+$module: ".wysiwyg-content";
+
+#{$module} {
+	@extend .Wysiwyg;
+}
+
+$module: ".Wysiwyg";
+
+#{$module} {
+	@extend .WysiwygAnchors;
+	@extend .WysiwygHeadings;
+	@extend .WysiwygCode;
+	@extend .WysiwygSpacing;
+	@extend .WysiwygBlockquote;
+}
+
+$module: ".WysiwygAnchors";
+
+#{$module} {
+	a {
+		&,
+		&:visited {
+			@apply text-teal-700;
+			transition: all 0.24s ease;
+
+			&:hover,
+			&:focus {
+				@apply text-teal-500;
+			}
+
+			&:active {
+			}
+
+			// If an anchor exists inside a heading, inherit the headings color
+			$this: &;
+
+			@at-root h1,
+				h2,
+				h3,
+				h4,
+				h5,
+				h6 {
+				#{$this} {
+					color: inherit;
+				}
+			}
+		}
+		&.read-on {
+			@apply text-gray-500;
+		}
+	}
+}
+
+$module: ".WysiwygHeadings";
+
+#{$module} {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-semibold leading-tight;
+	}
+
+	h1 {
+		@apply text-2xl my-2 text-gray-200;
+	}
+
+	h2 {
+		@apply text-xl my-2 text-gray-900;
+	}
+
+	h3,
+	h4,
+	h5 {
+		@apply text-lg text-gray-900;
+	}
+}
+
+$module: ".WysiwygCode";
+
+#{$module} {
+	code {
+		@apply inline-block text-white bg-black p-5 mx-1 rounded-sm text-base align-baseline;
+	}
+}
+
+$module: ".WysiwygBlockquote";
+
+#{$module} {
+	blockquote {
+		@apply inline-block my-5 p-8 rounded-sm text-base align-baseline bg-info-500 text-info-900;
+	}
+}
+
+$module: ".WysiwygSpacing";
+
+#{$module} {
+	p,
+	ul,
+	ol,
+	.wp-block-embed {
+		@apply my-3 text-gray-900;
+	}
+
+	li {
+		@apply py-1;
+	}
+
+	ol {
+		@apply pl-6 list-outside list-decimal;
+	}
+
+	// .wp-block-embed {
+	// 	@apply bg-red-400;
+	// }
+}
+
 /* DO NOT REMOVE NEXT LINE */
 /* purgecss end ignore */
-
-// $module: '.wysiwyg-content';
-
-// #{$module} {
-
-// }
-
-// $module: '.Wysiwyg';
-
-// #{$module} {
-//   @extend .WysiwygAnchors;
-//   @extend .WysiwygHeadings;
-//   @extend .WysiwygCode;
-//   @extend .WysiwygSpacing;
-// }
-
-// $module: '.WysiwygAnchors';
-
-// #{$module} {
-//   a {
-
-//     &,
-//     &:visited {
-//       @apply text-link;
-//       transition: all 0.24s ease;
-
-//       &:hover,
-//       &:focus {
-//         @apply text-link-hover;
-//       }
-
-//       &:active {}
-
-//       // If an anchor exists inside a heading, inherit the headings color
-//       $this: &;
-
-//       @at-root h1,
-//       h2,
-//       h3,
-//       h4,
-//       h5,
-//       h6 {
-//         #{$this} {
-//           color: inherit;
-//         }
-//       }
-//     }
-//   }
-// }
-
-// $module: '.WysiwygHeadings';
-
-// #{$module} {
-
-//   h1,
-//   h2,
-//   h3,
-//   h4,
-//   h5,
-//   h6 {
-//     @apply font-sans font-semibold text-black leading-tight;
-//   }
-
-//   h1 {
-//     @apply text-2xl;
-//   }
-
-//   h2 {
-//     @apply text-xl;
-//   }
-
-//   h3,
-//   h4,
-//   h5 {
-//     @apply text-lg;
-//   }
-// }
-
-// $module: '.WysiwygCode';
-
-// #{$module} {
-//   code {
-//     @apply font-mono inline-block px-1 rounded-sm text-sm align-baseline bg-pink-100 text-pink-600;
-//   }
-// }
-
-// $module: '.WysiwygSpacing';
-
-// #{$module} {
-
-//   p,
-//   ul,
-//   ol,
-//   .wp-block-embed {
-//     @apply my-8;
-//   }
-// }

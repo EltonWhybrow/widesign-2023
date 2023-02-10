@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <!-- wysiwyg main content -->
-<div class="wysiwyg-content">
+<div class="">
 
     <!-- HERO -->
     <section class="flex flex-wrap md:flex-nowrap overflow-hidden">

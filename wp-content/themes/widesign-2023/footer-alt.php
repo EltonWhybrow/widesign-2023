@@ -23,8 +23,10 @@
                 </h2>
 
                 <ul>
-                    <li><a class="footer-link text-2xl md:text-base" href="/services/free-website-audit">FREE website audit</a></li>
+                    <li><a class="footer-link text-2xl md:text-base" href="/services/free-website-audit">FREE Website Audit</a></li>
                     <li><a class="footer-link text-2xl md:text-base" href="/services">Services</a></li>
+                    <li><a class="footer-link text-2xl md:text-base" href="/our-work">Our Work</a></li>
+                    <li><a class="footer-link text-2xl md:text-base" href="/hub">The Hub</a></li>
                     <li><a class="footer-link text-2xl md:text-base" href="/wp-admin">Admin</a></li>
 
                 </ul>

@@ -47,10 +47,12 @@ update_option('upload_url_path', '/wp-content/uploads');
 Custom Image Sizes
 =================================
 */
-add_image_size('hero-banner', 2880, 1500, true);
-add_image_size('page-hero-banner', 1920, 500, true);
-add_image_size('page-hero-mobile', 600, 400, true);
-add_image_size('page-project', 960, 550, true);
+// add_image_size('hero-banner', 2880, 1500, true);
+// add_image_size('page-hero-banner', 1920, 500, true);
+add_image_size('blog-image-main', 1800, 500, true);
+add_image_size('blog-image-sm', 900, 300, true);
+// add_image_size('page-hero-mobile', 600, 400, true);
+// add_image_size('page-project', 960, 550, true);
 
 /* 
 =================================

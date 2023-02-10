@@ -8,7 +8,7 @@
 get_header(); ?>
 
 <!-- wysiwyg main content -->
-<div class="wysiwyg-content bg-gray-100">
+<div class="bg-gray-100">
     <!-- HERO -->
     <section class="flex flex-wrap md:flex-nowrap overflow-hidden">
         <div class="w-full md:w-2/4">

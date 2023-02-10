@@ -9,7 +9,7 @@ get_header(); ?>
 
 
 <!-- wysiwyg main content -->
-<div class="wysiwyg-content bg-white">
+<div class="bg-gray-200">
 
 
 	<!-- HEADER -->
