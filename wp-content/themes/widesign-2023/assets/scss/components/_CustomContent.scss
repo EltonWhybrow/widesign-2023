@@ -25,6 +25,35 @@ $module: ".Wysiwyg";
 	@extend .WysiwygCode;
 	@extend .WysiwygSpacing;
 	@extend .WysiwygBlockquote;
+	@extend .WysiwygUpsellBanner;
+}
+
+$module: ".WysiwygUpsellBanner";
+
+#{$module} {
+	#notification {
+		a {
+			@apply text-gray-900;
+			&:visited {
+				@apply text-gray-900;
+				transition: all 0.3s ease;
+			}
+			&:hover,
+			&:focus {
+				@apply no-underline text-gray-100;
+			}
+
+			&:active {
+				@apply text-gray-500;
+			}
+		}
+		h2 {
+			@apply mb-0;
+		}
+		p {
+			@apply mt-0;
+		}
+	}
 }
 
 $module: ".WysiwygAnchors";

@@ -69,6 +69,7 @@ require_once(__DIR__ . '/includes/shortcodes-sliders.php');
 require_once(__DIR__ . '/includes/shortcodes-notifications.php');
 require_once(__DIR__ . '/includes/shortcodes-hero-img.php');
 require_once(__DIR__ . '/includes/shortcodes-plans.php');
+require_once(__DIR__ . '/includes/shortcodes-blog-upsell.php');
 
 // removes - Replaces double line breaks with paragraph elements.
 remove_filter('the_content', 'wpautop');
