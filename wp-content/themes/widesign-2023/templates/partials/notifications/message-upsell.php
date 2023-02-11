@@ -4,7 +4,7 @@
     <!-- {# purgecss: bg-info-400 bg-success-400 bg-warning-400 bg-alert-400 #} -->
     <section class="-left-3 relative w-full">
         <div class="flex w-full flex-wrap-reverse md:flex-nowrap mx-auto">
-            <div class="p-4 bg-<?php echo $color ?>-400 rounded-b md:rounded-l md:rounded-b-none">
+            <div class="w-full p-4 bg-<?php echo $color ?>-400 rounded-b md:rounded-l md:rounded-b-none">
                 <!-- styling headings ,p by customContent SCSS file / editor  -->
                 <h2>
                     <?php echo $title ?>
