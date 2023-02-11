@@ -2,7 +2,7 @@
 <div id="notification" class="my-2 flex lg:mx-10 relative">
 
     <!-- {# purgecss: bg-info-400 bg-success-400 bg-warning-400 bg-alert-400 #} -->
-    <section class="-left-3 relative">
+    <section class="-left-3 relative w-full">
         <div class="flex flex-wrap-reverse md:flex-nowrap mx-auto">
             <div class="p-4 bg-<?php echo $color ?>-400 rounded-b md:rounded-l md:rounded-b-none">
                 <!-- styling headings ,p by customContent SCSS file / editor  -->
@@ -20,7 +20,7 @@
             <div class="w-full h-40 md:w-2/6 md:h-auto">
                 <div class="h-full relative">
                     <a href="<?php echo $link ?>">
-                        <img class="absolute rounded-t md:rounded-r md:rounded-t-none top-0 left-0 h-full w-full object-cover" src="/resources/img/upsell/seo-services.jpg" alt="Web & SEO Services">
+                        <img class="absolute rounded-t md:rounded-r md:rounded-t-none top-0 left-0 h-full w-full object-cover" src="/resources/img/upsell/upsell-<?php echo $type ?>.jpg" alt="Web & SEO Services">
                     </a>
                 </div>
             </div>
