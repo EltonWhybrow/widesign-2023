@@ -28,10 +28,11 @@ Projects card
                     <img class="object-cover object-center w-full h-full" src="<?php the_post_thumbnail_url('page-project'); ?>" alt="<?php the_title(); ?>">
                 <?php endif; ?>
 
-                <a href="<?php the_permalink() ?>">
+                <!-- <a href="<?php //the_permalink() 
+                                ?>">
                     <div class="absolute transition ease-in-out duration-300 bg-gray-900 opacity-0 hover:opacity-40 top-0 left-0 w-full h-full hover:transition-opacity">
                     </div>
-                </a>
+                </a> -->
 
                 <div class="absolute py-1 px-2 bottom-10 left-0 bg-gray-800">
 

@@ -364,6 +364,19 @@ get_header(); ?>
         </div>
     </section>
 
+    <!-- Get started -->
+    <?php get_template_part(
+        'templates/partials/section',
+        'get-started',
+        array(
+            'type' => 'website package',
+            'data'  => array(
+                'url' => '/services/website-package',
+            )
+        )
+    );
+    ?>
+
 </div>
 
 <?php get_footer(); ?>
