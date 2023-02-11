@@ -1,6 +1,6 @@
 <?php
 $array_defaults = array(
-    'type' => 'website package',
+    'type' => 'website packages',
     'data' => array(
         'url' => '/services/website-package',
     )
