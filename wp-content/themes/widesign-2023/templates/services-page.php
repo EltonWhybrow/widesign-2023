@@ -12,7 +12,7 @@ get_header(); ?>
     <!-- HERO -->
     <section class="flex flex-wrap md:flex-nowrap overflow-hidden">
         <div class="w-full md:w-2/4">
-            <div class="pb-1/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative">
+            <div class="pb-1/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 relative">
                 <img class="absolute top-0 left-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/services/widesign-services.jpg" alt="WideSign Services">
             </div>
         </div>
@@ -314,7 +314,7 @@ get_header(); ?>
     <!-- SEO -->
     <section class="flex flex-wrap md:flex-nowrap overflow-hidden">
         <div class="w-full md:w-3/5">
-            <div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative"><img class="absolute top-0 right-0 h-full md:h-156 lg:h-full w-full object-cover" src="/resources/img/pages/services/widesign-seo.jpg" alt="Free website audit" /></div>
+            <div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5  relative"><img class="absolute top-0 right-0 h-full md:h-156 lg:h-full w-full object-cover" src="/resources/img/pages/services/widesign-seo.jpg" alt="Free website audit" /></div>
         </div>
         <div class="w-full md:w-2/5 flex justify-center items-center bg-plum-600">
             <div class="py-10 px-4 md:px-10">
@@ -360,9 +360,22 @@ get_header(); ?>
             </div>
         </div>
         <div class="w-full md:w-3/5">
-            <div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative"><img decoding="async" class="filter transition-all duration-500 grayscale hover:grayscale-0 absolute top-0 right-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/services/widesign-ux-ui.jpg" alt="User friendly interfaces"></div>
+            <div class="pb-2/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5  relative"><img decoding="async" class="filter transition-all duration-500 grayscale hover:grayscale-0 absolute top-0 right-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/services/widesign-ux-ui.jpg" alt="User friendly interfaces"></div>
         </div>
     </section>
+
+    <!-- Get started -->
+    <?php get_template_part(
+        'templates/partials/section',
+        'get-started',
+        array(
+            'type' => 'website package',
+            'data'  => array(
+                'url' => '/services/website-package',
+            )
+        )
+    );
+    ?>
 
 </div>
 

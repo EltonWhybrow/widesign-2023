@@ -17,15 +17,15 @@
 //    </ul>
 // =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
 .m-between {
-  & + & {
-    @apply mt-1;
-  }
+	& + & {
+		@apply mt-1;
+	}
 
-  @each $i in 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 56, 64, px {
-    &-#{$i} + &-#{$i} {
-      @apply mt-#{$i};
-    }
-  }
+	@each $i in 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 56, 64, px {
+		&-#{$i} + &-#{$i} {
+			@apply mt-#{$i};
+		}
+	}
 }
 
 // Add vertical (top) margin between adjacent items with the
@@ -37,15 +37,15 @@
 //    <div class="hm-between-4"></div>
 // =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
 .hm-between {
-  & + & {
-    @apply ml-1;
-  }
+	& + & {
+		@apply ml-1;
+	}
 
-  @each $i in 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 56, 64, px {
-    &-#{$i} + &-#{$i} {
-      @apply ml-#{$i};
-    }
-  }
+	@each $i in 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 56, 64, px {
+		&-#{$i} + &-#{$i} {
+			@apply ml-#{$i};
+		}
+	}
 }
 
 // Add vertical (top) margin between child items within an
@@ -57,18 +57,17 @@
 //    </ul>
 // =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
 @responsive {
-  .m-between-children {
+	.m-between-children {
+		& > :not(:first-child) {
+			@apply mt-1;
+		}
 
-    & > :not(:first-child) {
-      @apply mt-1;
-    }
-
-    @each $i in 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 56, 64, px {
-      &-#{$i} > :not(:first-child) {
-        @apply mt-#{$i};
-      }
-    }
-  }
+		@each $i in 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 56, 64, px {
+			&-#{$i} > :not(:first-child) {
+				@apply mt-#{$i};
+			}
+		}
+	}
 }
 
 // Add horizontal (left) margin between child items within an
@@ -80,34 +79,33 @@
 //    </ul>
 // =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
 @responsive {
-  .hm-between-children {
+	.hm-between-children {
+		& > :not(:first-child) {
+			@apply ml-1;
+		}
 
-    & > :not(:first-child) {
-      @apply ml-1;
-    }
-
-    @each $i in 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 56, 64, px {
-      &-#{$i} > :not(:first-child) {
-        @apply ml-#{$i};
-      }
-    }
-  }
+		@each $i in 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 56, 64, px {
+			&-#{$i} > :not(:first-child) {
+				@apply ml-#{$i};
+			}
+		}
+	}
 }
 
 // Set 0 outer margin on first and last child items within an
 // element.
 // =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
 @responsive {
-  .m-trim {
-    @include first_last_marginless;
-  }
+	.m-trim {
+		@include first_last_marginless;
+	}
 }
 
 // Set 0 outer margin on first and last child items within an
 // element where items are horizontally arranged.
 // =≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠
 @responsive {
-  .hm-trim {
-    @include first_last_marginless_hor;
-  }
+	.hm-trim {
+		@include first_last_marginless_hor;
+	}
 }

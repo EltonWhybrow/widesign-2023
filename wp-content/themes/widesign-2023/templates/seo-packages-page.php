@@ -243,6 +243,21 @@ get_header(); ?>
         </div>
     </section>
 
+
+    <!-- Get started -->
+    <!-- <?php //get_template_part(
+            //  'templates/partials/section',
+            //  'get-started',
+            //   array(
+            //       'type' => 'SEO plans',
+            //       'data'  => array(
+            //            'url' => '/services/seo-plans',
+            //        )
+            //     )
+            //   );
+            //   
+            ?> -->
+
     <!-- FAQS -->
     <?php get_template_part('templates/partials/section', 'faqs-shortcut');
     ?>

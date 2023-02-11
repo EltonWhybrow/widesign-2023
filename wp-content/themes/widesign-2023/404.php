@@ -5,7 +5,7 @@
     <!-- HERO -->
     <section class="flex flex-wrap md:flex-nowrap overflow-hidden">
         <div class="w-full md:w-2/4">
-            <div class="pb-1/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative">
+            <div class="pb-1/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5  relative">
                 <img class="absolute top-0 left-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/404/widesign-404.jpg" alt="WideSign - Page not found">
             </div>
         </div>

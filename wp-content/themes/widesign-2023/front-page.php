@@ -255,7 +255,7 @@
 		</div>
 
 		<div class="w-full md:w-3/5">
-			<div class="pb-1/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5 bk-red-500 relative">
+			<div class="pb-1/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5  relative">
 				<img class="absolute top-0 left-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/home/widesign-elephant.jpg" alt="WideSign Web & SEO Services">
 			</div>
 		</div>
