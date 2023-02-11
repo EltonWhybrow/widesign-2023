@@ -31,9 +31,11 @@ $module: ".WysiwygAnchors";
 
 #{$module} {
 	a {
+		@apply text-teal-300;
+
 		&,
 		&:visited {
-			@apply text-teal-700;
+			@apply text-teal-400;
 			transition: all 0.24s ease;
 
 			&:hover,
@@ -103,7 +105,7 @@ $module: ".WysiwygBlockquote";
 
 #{$module} {
 	blockquote {
-		@apply inline-block my-5 p-8 rounded-sm text-base align-baseline bg-info-500 text-info-900;
+		@apply inline-block my-5 p-4 leading-6 rounded-md text-lg align-baseline bg-info-500 text-info-900;
 	}
 }
 
@@ -115,6 +117,9 @@ $module: ".WysiwygSpacing";
 	ol,
 	.wp-block-embed {
 		@apply my-3 text-gray-900;
+		a {
+			@apply underline;
+		}
 	}
 
 	li {

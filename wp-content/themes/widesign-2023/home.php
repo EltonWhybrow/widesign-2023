@@ -24,7 +24,7 @@
                 <h2 class="page-title screen-reader-text"><?php single_post_title(); ?></h2>
             </header>
 
-            <div class="justify-center max-w-4xl mx-auto grid grid-cols-2 gap-10">
+            <div class="justify-center max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-10">
             <?php
 
         endif;
@@ -32,8 +32,8 @@
         /* Start the Loop */
         while (have_posts()) :
             the_post();
-            ?> <div class="bg-gray-50 border mb-10 rounded-lg group"><?php
-                                                                        if (has_post_thumbnail()) : ?>
+            ?> <div class="bg-gray-50 hover:bg-gray-100 border mb-10 rounded-lg group"><?php
+                                                                                        if (has_post_thumbnail()) : ?>
                         <div class="w-full">
                             <div class="pb-4/12 relative">
                                 <a href="<?php the_permalink(); ?>">
