@@ -2,7 +2,6 @@
 // NPM packages if they support it…
 import ExampleComponent1 from "./components/ExampleComponent1";
 import MobileHamburgerMenu from "./components/MobileHamburgerMenu";
-import BurgerIcon from "./components/BurgerIcon";
 import MainMenu from "./components/MainMenu";
 import Accordian from "./components/Accordian";
 import Modal from "./components/Modal";
@@ -32,7 +31,6 @@ jQuery(function ($) {
   FlexSliderSetUp.init();
   MobileHamburgerMenu.init();
   MainMenu.init();
-  BurgerIcon.init();
   Accordian.init();
   Modal.init();
   BackToTop.init();
