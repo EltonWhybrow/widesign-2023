@@ -134,7 +134,7 @@ $module: ".WysiwygBlockquote";
 
 #{$module} {
 	blockquote {
-		@apply inline-block my-5 p-4 leading-6 rounded-md text-lg align-baseline bg-info-500 text-info-900;
+		@apply inline-block my-5 mx-3 p-4 leading-6 rounded-md text-lg align-baseline bg-info-500 text-info-900;
 	}
 }
 
