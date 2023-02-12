@@ -12,10 +12,10 @@
         </div>
 
 
-        <div class="w-full lg:w-1/2 px-10 flex text-center py-20">
+        <div class="w-full lg:w-1/2 px-2 gap-10 grid grid-cols-1 md:grid-cols-2 grid-flow-grid text-center py-20">
             <!-- EXISTING CLIENTS -->
-            <div class="w-full md:w-1/2 px-10 text-center">
-                <h2 class="text-4xl text-mellow-400 uppercase font-semibold pb-2">
+            <div class="w-full px-2 text-center">
+                <h2 class="text-3xl lg:text-4xl text-mellow-400 uppercase font-semibold pb-2">
                     Elsewhere
                 </h2>
                 <ul class="leading-3">
@@ -27,8 +27,8 @@
                 </ul>
             </div>
 
-            <div class="w-full md:w-1/2 px-10 text-center">
-                <h2 class="text-4xl text-mellow-400 uppercase font-semibold pb-2">
+            <div class="w-full px-2 text-center">
+                <h2 class="text-3xl lg:text-4xl text-mellow-400 uppercase font-semibold pb-2">
                     In touch
                 </h2>
 
