@@ -2,10 +2,10 @@
     <div class="md:items-center flex flex-wrap md:flex-nowrap container mx-auto md:justify-center md:space-x-10">
         <div>
             <h2 class="text-2xl text-gray-700 uppercase font-semibold">
-                Frequently asked questions?
+                Frequently asked questions
             </h2>
             <p class="text-gray-700 text-base md:text-center sm:text-left">
-                Have a question about website packages, SEO or hosting? Its likely you can find the answer here.
+                Have a question about website packages, SEO or hosting? It's likely you can find the answer here.
             </p>
         </div>
         <div class="flex-none mt-3">

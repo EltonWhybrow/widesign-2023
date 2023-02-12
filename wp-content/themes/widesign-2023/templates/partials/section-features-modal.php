@@ -24,7 +24,7 @@
             <!-- WEBDESIGN -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Professional Web Design</h2>
-                <p class="text-xs">All websites are bespoke designs incorporating your existing logo and brand. We adhere to UX / UI best practices with SEO in mind creating a clean interface with structured goals and navigation.</p>
+                <p class="text-xs">All websites are bespoke designs incorporating your existing logo and brand. We adhere to UX / UI best practices with SEO in mind, creating a clean interface with structured goals and navigation.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -54,7 +54,7 @@
             <!-- RESPONSIVE DESIGN -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Responsive Design</h2>
-                <p class="text-xs">Using a mobile first approach we develop all sites to be as fast a possible on mobile and adjusts across multiple screens sizes and browsers delivering a great experience whatever the device.</p>
+                <p class="text-xs">Using a mobile first approach we develop all sites to be as fast a possible on mobile. Adjusting across multiple screen sizes and browsers delivering a great experience whatever the device.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -73,7 +73,7 @@
             <!-- SSL -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">SSL Certificates</h2>
-                <p class="text-xs">Security is of utmost importance, we include a free SSL security certificate with every site that sites on our secure servers using TLS network protocol to establish an encrypted connection. This also improves search engine performance.</p>
+                <p class="text-xs">Security is of utmost importance. We include a free SSL security certificate with every site that sits on our secure servers using TLS network protocol to establish an encrypted connection. This also compliments search engine performance.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -93,7 +93,7 @@
             <!-- SEO -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Search Engine Optimization</h2>
-                <p class="text-xs">We use tried and tested SEO techniques to give your site the edge in today's saturated search engines. Adding sitemaps and crafting content/structure we help you increase your online presence in major search engines.</p>
+                <p class="text-xs">We use tried and tested SEO techniques to give your site the edge in today's saturated search engines. Adding sitemaps and crafting content/structure, we help you increase your online presence in major search engines.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -132,7 +132,7 @@
             <!-- MAINTENACE & BACKUPS -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Maintenance &amp; Backups</h2>
-                <p class="text-xs">Websites should rarely have downtime, but just in case we store monthly backups of your website allowing us to restore your website in case of emergency. Our server have 99.9% network uptime, so not need to worry.</p>
+                <p class="text-xs">Websites should rarely have downtime, but just in case, we store monthly backups of your website allowing us to restore your website in an emergency. Our servers have 99.9% network uptime, so no need to worry.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -152,7 +152,7 @@
             <!-- ONGOING SUPPORT -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Ongoing Support</h2>
-                <p class="text-xs">You receive support for all your services with us by email or mobile 24/7, and we enjoy going the extra mile to resolve requests within a 24hrs. We won't leave you in the lurch.</p>
+                <p class="text-xs">You receive support for all your services with us by email or mobile 24/7, and we enjoy going the extra mile to resolve requests within 24hrs. We won't leave you in the lurch.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -192,7 +192,7 @@
             <!-- ANALYTICS & TAGS -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Analytics &amp; Tags</h2>
-                <p class="text-xs">We can set-up tools like 'Google Analytics' and 'Google Search Console' for you. Also, any other tracking or social media tags required can be implemented using Google Tag Manager for maintainability.</p>
+                <p class="text-xs">We can set up tools like 'Google Analytics' and 'Google Search Console' for you. Also, any other tracking or social media tags required can be implemented using Google Tag Manager for maintainability.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-success-900 h-8 w-8 mx-auto">
@@ -211,7 +211,7 @@
             <!-- BLOG -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Blog</h2>
-                <p class="text-xs">Additional blog capabilities like sharing, editing and feedback on articles. Create categories, tags and all that blogging goodness.</p>
+                <p class="text-xs">Blog capabilities include: sharing, editing, comments on articles, creating categories and tags and all that blogging goodness.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"></p>
@@ -228,7 +228,7 @@
             <!-- ADMMIN -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Admin Area</h2>
-                <p class="text-xs">Ability to login and makes changes within the content management system. Change contact details, content or add new blog posts etc.</p>
+                <p class="text-xs">Ability to login and make changes within the content management system. Change contact details, content or add new blog posts etc.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"></p>
@@ -245,7 +245,7 @@
             <!-- USERS -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Additional Users</h2>
-                <p class="text-xs">Add editors to manage you blog posts or content with additional user accounts within the CMS.</p>
+                <p class="text-xs">Add editors to manage your blog posts or content with additional user accounts within the CMS.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"></p>
@@ -261,7 +261,7 @@
             <!-- ECOMMERCE -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Online Store / Payments</h2>
-                <p class="text-xs">Set-up of E-Commerce shopping cart with ability to sell products. Integrated payments gateways e.g. PayPal. We will add an initial 50 products and then offer to demo/show you how to add, remove and edit items your self if you desire. We have maintenance packages for those whose would rather have this managed for them going forward.</p>
+                <p class="text-xs">Set up of E-Commerce shopping cart with ability to sell products via integrated payment gateways such as PayPal. We will add an initial 50 products and then offer to demo/show you how to add, remove and edit items yourself if you desire. We have maintenance packages for those who would rather have this managed for them going forward.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center pl-1 md:pl-4"></p>
@@ -274,7 +274,7 @@
             <!-- LOGO DESIGN -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Logo Design (optional)</h2>
-                <p class="text-xs">Our logos services offer redesign or discussion and design of brand-new logos. Prices vary, but we can adapt to most budgets so get in touch to discuss options.</p>
+                <p class="text-xs">Our logo services offer redesign or discussion and design of brand-new logos. Prices vary, but we can adapt to most budgets, so get in touch to discuss options.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">from £199</p>
@@ -284,7 +284,7 @@
             <!-- EMAIL / MARKETING DESIGN -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Digital Marketing Emails (optional)</h2>
-                <p class="text-xs">Offering additional design email services. We create cross client friendly email suites branded to your requirements.</p>
+                <p class="text-xs">Offering additional design email services, we create cross-client, friendly email suites branded to your requirements.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4"><a class="primary-link text-plum-600 underline" href="/contact-us">Get in touch</a></p>
@@ -294,7 +294,7 @@
             <!-- HOSTING / DOMAIN NAME -->
             <div class="col-span-3 md:col-span-2">
                 <h2 class="text-base">Future Hosting &amp; Domain costs (1st Year FREE)</h2>
-                <p class="text-xs">With all our packages you get 1 years FREE Hosting/Domain. Hosting packages are then charged annually dependent on package option. If you would like to see more detail on hosting capabilities visit our <a href="https://widesign.duoservers.com/website-hosting/" target="_blank" class="primary-link text-xs underline">dedicated hosting site</a>.</p>
+                <p class="text-xs">With all our packages you get 1 year FREE Hosting/Domain. Hosting packages are then charged annually dependent on package option. If you would like to see more detail on hosting capabilities, visit our <a href="https://widesign.duoservers.com/website-hosting/" target="_blank" class="primary-link text-xs underline">dedicated hosting site</a>.</p>
             </div>
 
             <p class="border-l border-plum-600 flex flex-col justify-center text-center pl-1 md:pl-4">£4.62 /mth</p>
