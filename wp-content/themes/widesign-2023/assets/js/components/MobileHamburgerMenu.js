@@ -5,17 +5,65 @@ const MobileHamburgerMenu = {
 
   init() {
 
+
+    // $(window).resize(function () {
+    //   var width = $(".navburger-main").width();
+    //   var cheese = $(".navburger-main").css("width", width);
+    //   console.log('>>>LOG>>>', cheese);
+    // });
+
     var mobileNav = $('.navburger-main');
     var navToggle = $('#hamburger');
-    var cssWidth = $(mobileNav).css('width');
-    var bkgScroll = $('body');
 
+    // $(window).resize(cssWidth = $(mobileNav).css('width'));
+    // var cssWidth = $(mobileNav).css('width');
+    var cssWidth = $(window).width();
+
+    var bkgScroll = $('body');
+    var trigger = $('#hamburger');
+    var isClosed = false;
     var isOpen = 0;
     var menuWidthInverse = '-' + cssWidth;
 
+    var windowWidth = '-' + $(window).width();
+    // console.log('window width on load >>>>', windowWidth);
+
+    //window resize
+    $(window).resize(function () {
+      windowWidth = '-' + $(window).width();
+      $(mobileNav).animate({ 'left': windowWidth }, 0);
+      isOpen = 0;
+      trigger.removeClass('is-open');
+      trigger.addClass('is-closed');
+      isClosed = false;
+
+      console.log('window width on load >>>>', windowWidth);
+
+      $(mobileNav).css({ "width": "100%" });
+    });
+
+
+
+    trigger.click(function () {
+      burgerTime();
+    });
+
+    function burgerTime() {
+      if (isClosed == true) {
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+    }
+
+
     $('html').click(function () {
       if (isOpen == 1) {
-        $(mobileNav).animate({ 'left': menuWidthInverse }, 300);
+        $(mobileNav).animate({ 'left': windowWidth }, 300);
         navToggle.removeClass('open');
         isOpen--;
         subMenu.hide();
@@ -33,7 +81,7 @@ const MobileHamburgerMenu = {
         isOpen++;
         bkgScroll.addClass('no-scroll');
       } else {
-        $(mobileNav).animate({ 'left': menuWidthInverse }, 500);
+        $(mobileNav).animate({ 'left': windowWidth }, 500);
         navToggle.removeClass('open');
         isOpen--;
         subMenu.hide();
@@ -53,23 +101,6 @@ const MobileHamburgerMenu = {
       });
       $(this).next().slideToggle(300);
     });
-
-    //window resize
-    // var $windowWidth = $(window).width();
-    // console.log('window width on load >>>>', $windowWidth);
-
-    //   $(window).resize(function() {
-    //     if($(window).width() <= 599) {
-    //        $(mobileNav).css({
-    //          "width": "80%",
-    //          "min-width": "250"
-
-    //        });
-    //     } else if($(window).width() >= 600) {
-    //       $(mobileNav).css(
-    //         "width", "250");
-    //     }
-    // });
 
   }
 
