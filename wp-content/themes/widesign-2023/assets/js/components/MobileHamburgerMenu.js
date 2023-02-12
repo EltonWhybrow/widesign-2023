@@ -19,25 +19,23 @@ const MobileHamburgerMenu = {
       $(mobileNav).animate({ 'left': windowWidth }, 0);
       isOpen = 0;
       bkgScroll.removeClass('no-scroll');
-      trigger.removeClass('is-open');
-      trigger.addClass('is-closed');
+      trigger.removeClass('is-open').addClass('is-closed');
       isClosed = false;
       //console.log('window width on load >>>>', windowWidth);
       $(mobileNav).css({ "width": "100%" });
     });
 
+    // burger trigger
     trigger.click(function () {
       burgerTime();
     });
 
     function burgerTime() {
       if (isClosed == true) {
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
+        trigger.removeClass('is-open').addClass('is-closed');
         isClosed = false;
       } else {
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
+        trigger.removeClass('is-closed').addClass('is-open');
         isClosed = true;
       }
     }
