@@ -52,7 +52,7 @@ get_header(); ?>
                     <div class="px-4 pb-3">
                         <p class="pt-4 font-semibold">Login to your existing web hosting account</p>
                         <p class="text-sm">
-                            If you have received an outstanding payment reminder, this is where you can make your payment. Also, preform other tasks like add sub-domain name, add/modify email addresses.
+                            If you have received an outstanding payment reminder, this is where you can make your payment. Also, perform other tasks like adding a sub-domain name, add/modify email addresses.
                         </p>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ get_header(); ?>
                     <div class="px-4 pb-3">
                         <p class="pt-4 font-semibold">Access your webmail inbox</p>
                         <p class="text-sm">
-                            Access you email online anywhere, anytime. If you need to check junk or lost access on your devices, you can do it here. If you happen to have lost your login details you will need to get in <a href="/contact-us" class="primary-link underline text-sm">touch with me</a>.
+                            Access your email online anywhere, anytime. If you need to check junk or lost access on your devices, you can do it here. If you happen to have lost your login details you will need to get in <a href="/contact-us" class="primary-link underline text-sm">touch with me</a>.
                         </p>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ get_header(); ?>
                     <div class="px-4 pb-3">
                         <p class="pt-4 font-semibold">Looking for new hosting plan</p>
                         <p class="text-sm">
-                            Our UK servers and support are second to none. Offering 99.9% server uptime guarantee and a '30-day Free Trial'. We also offer monthly backups as standard to protect against any failures that do occur.
+                            Our UK servers and support are second to none. We offer a 99.9% server uptime guarantee and a '30-day Free Trial'. We also offer monthly backups as standard to protect against any failures that may occur.
                         </p>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ get_header(); ?>
                     <div class="px-4 pb-3">
                         <p class="pt-4 font-semibold">Search for available domain names</p>
                         <p class="text-sm">
-                            At WideSign, we don't simply provide domains. We provide outstanding domain management solutions. Plus, we supply you with a FREE domain name together with any one of our cloud hosting packages.
+                            At WideSign, we don't simply provide domains - we provide outstanding domain management solutions. For the first year, we supply you with a FREE domain name together with any one of our cloud hosting packages.
                         </p>
                     </div>
 

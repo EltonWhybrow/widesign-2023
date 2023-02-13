@@ -1,7 +1,7 @@
 <section class="pt-4 pb-8 md:pb-10 px-4 md:px-10 bg-blood-700 text-center">
 
     <?php if (is_user_logged_in()) : ?>
-        <h4 class="pb-4 pl-4 text-left text-sm max-w-5xl mx-auto">Your logged in! (<a class="primary-link underline text-sm" href="<?php echo wp_logout_url(get_permalink()); ?>">Logout</a>)</h4>
+        <h4 class="pb-4 pl-4 text-left text-sm max-w-5xl mx-auto">You're logged in! (<a class="primary-link underline text-sm" href="<?php echo wp_logout_url(get_permalink()); ?>">Logout</a>)</h4>
     <?php endif; ?>
 
     <div class="flex flex-wrap justify-center space-y-5 md:space-y-0 md:space-x-10 max-w-5xl mx-auto">
