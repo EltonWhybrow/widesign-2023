@@ -371,7 +371,7 @@ get_header(); ?>
         array(
             'type' => 'website package',
             'data'  => array(
-                'url' => '/services/website-package',
+                'url' => '/services/website-packages',
             )
         )
     );
