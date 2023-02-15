@@ -14,18 +14,6 @@
     </script>
 </head>
 
-<!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LMYXYYHEX"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-0LMYXYYHEX');
-</script> -->
 <!-- Google Tag Manager - WIDESIGN -->
 <script>
     (function(w, d, s, l, i) {
