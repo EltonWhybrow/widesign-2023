@@ -1,5 +1,5 @@
 <!-- Burger menu -->
-<nav class="navburger-main pb-8">
+<nav role="navigation" aria-label="mobile" class="navburger-main pb-8">
 
     <!-- LOGO -->
     <div class="w-full">

@@ -29,6 +29,8 @@
                     </a>
                     <a class="js-slidein relative inline-flex primary-btn-sm hover:bg-blood-500 bg-blood-600 group" target="_blank" href="https://manage.gocardless.com/">GoCardless
                     </a>
+                    <a class="js-slidein relative inline-flex primary-btn-sm hover:bg-blood-500 bg-blood-600 group" target="_blank" href="https://insights.hotjar.com/sites/3368599/overview">Hotjar
+                    </a>
                 </div>
             </footer>
         </div>

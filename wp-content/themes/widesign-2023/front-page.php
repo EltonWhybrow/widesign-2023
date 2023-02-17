@@ -280,7 +280,7 @@
 
 	<!-- TESTIMONIALS -->
 	<!-- background-image:url('/resources/img/pages/home/testimonial-paralax.jpg'); -->
-	<section id="testinonials" class="w-full bg-gray-100 bg-testimonial" style="
+	<section aria-label="testimonials" id="testinonials" class="w-full bg-gray-100 bg-testimonial" style="
 		background-repeat: no-repeat;
 		background-position: top left;
 		background-size: cover !important;
