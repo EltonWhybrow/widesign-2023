@@ -21,7 +21,7 @@
         </div>
 
         <!-- BURGER -->
-        <div id="hamburger" class="hamburglar is-closed mr-3 md:mr-4">
+        <div aria-label="open close menu" id="hamburger" class="hamburglar is-closed mr-3 md:mr-4">
 
             <div class="burger-icon">
                 <div class="burger-container">
