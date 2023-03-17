@@ -26,6 +26,7 @@ $module: ".Wysiwyg";
 	@extend .WysiwygSpacing;
 	@extend .WysiwygBlockquote;
 	@extend .WysiwygUpsellBanner;
+	@extend #notification;
 }
 
 $module: ".WysiwygUpsellBanner";
@@ -119,6 +120,15 @@ $module: ".WysiwygHeadings";
 	h4,
 	h5 {
 		@apply text-lg text-gray-900;
+	}
+}
+
+$module: "#notification";
+
+#{$module} {
+	h2,
+	p {
+		@apply text-gray-200;
 	}
 }
 
