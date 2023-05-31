@@ -12,9 +12,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/bsw7vst.css">
     <?php wp_head() ?>
     </script>
-</head>
-
-<!-- Google Tag Manager - WIDESIGN -->
+    <!-- Google Tag Manager - WIDESIGN -->
 <script>
     (function(w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -32,6 +30,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-TVLCGD9');
 </script>
 <!-- End Google Tag Manager -->
+</head>
 
 
 <body <?php body_class() ?>>
