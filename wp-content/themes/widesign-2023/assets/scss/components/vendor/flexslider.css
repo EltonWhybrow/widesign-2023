@@ -103,6 +103,7 @@ html[xmlns] .flexslider .slides {
 }
 
 .flexslider .slides {
+    background-color: #111;
     zoom: 1;
 }
 
