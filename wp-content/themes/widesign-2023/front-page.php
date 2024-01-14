@@ -235,13 +235,13 @@
 			</div>
 			<div class="relative p-3 md:p-10 text-4xl lg:text-5xl lg:p-6">
 				<h2 class="pb-1 text-mellow-200 uppercase font-semibold">
-					Be bold
+					Create
 				</h2>
 				<h2 class="pb-1 text-mellow-400 uppercase font-semibold">
-					Take chances
+					Maintain &amp;
 				</h2>
 				<h2 class="pb-1 text-mellow-600 uppercase font-semibold">
-					Create beauty
+					Inspire Beauty
 				</h2>
 				<div class="grid md:justify-items-end mt-2">
 					<a class="relative inline-flex pr-8 primary-btn  hover:bg-teal-500 bg-gray-800 group" href="#begin-journey">
@@ -254,11 +254,16 @@
 			</div>
 		</div>
 
+		<!-- Put slider here -->
 		<div class="w-full md:w-3/5">
-			<div class="pb-1/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5  relative">
-				<img class="absolute top-0 left-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/home/widesign-elephant.jpg" alt="WideSign Web & SEO Services">
-			</div>
+			<?php echo do_shortcode('[hero-slides number="10"]');
+			?>
+
+			<!-- <div class="pb-1/3 lg:pb-4/5 xl:pb-2/3 2xl:pb-3/5  relative">
+				Slider here!! <img class="absolute top-0 left-0 h-full md:h-100 lg:h-full w-full object-cover" src="/resources/img/pages/home/widesign-elephant.jpg" alt="WideSign Web & SEO Services">
+			</div> -->
 		</div>
+
 	</section>
 
 	<!-- MAIN EDITOR CONTENT -->
