@@ -46,6 +46,8 @@ wp-config.php
 wp-config-hosting.php
 .htaccess
 .DS_Store
+.vscode
+local-xdebuginfo.php
 
 # ignore these plugins
 #wp-content/plugins/hello.php
