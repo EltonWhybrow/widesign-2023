@@ -52,7 +52,7 @@ jobs:
           ls
 
       - name: Archive production artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: build-folder
           path: |
@@ -65,7 +65,7 @@ jobs:
     concurrency: staging
     steps:
       - name: 🚚 Get latest code
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: build-folder
 
