@@ -2,7 +2,6 @@
 /* purgecss start ignore */
 
 div.wpforms-container-full.custom-form-call-back .wpforms-form * {
-	width: 100% #{!important};
 	@screen sm {
 		width: auto #{!important};
 	}
