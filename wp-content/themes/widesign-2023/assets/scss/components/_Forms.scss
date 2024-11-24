@@ -98,9 +98,9 @@ div.wpforms-container-full .wpforms-form label.wpforms-error {
 	@apply text-alert-400 py-1 text-xs #{!important};
 }
 
-div.wpforms-container-full .wpforms-form label.wpforms-error {
-	position: absolute !important;
-}
+// div.wpforms-container-full .wpforms-form label.wpforms-error {
+// 	position: absolute !important;
+// }
 
 .wpforms-confirmation-container-full,
 div[submit-success] > .wpforms-confirmation-container-full:not(.wpforms-redirection-message) {
