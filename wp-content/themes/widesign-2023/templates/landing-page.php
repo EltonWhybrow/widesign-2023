@@ -266,13 +266,13 @@ get_header(); ?>
     </section>
 
     <!-- WEBDESIGN -->
-    <section id="tell-me-more" class="py-20 px-4 md:px-10 bg-teal-600 text-center">
+    <section id="tell-me-more" class="py-10 md:py-20 px-4 md:px-10 bg-teal-600 text-center">
         <h1 class="text-gray-200 text-4xl uppercase font-bold">
             Business startup package
         </h1>
 
         <!-- INLCUDES -->
-        <section id="includes-web" class="pb-10 px-4 md:px-10">
+        <section id="includes-web" class="pb-2 md:pb-8 px-4 md:px-10">
             <h1 class="text-xl text-center pt-2 pb-10">Includes:</h1>
             <!-- <p class="text-sm text-center pb-10">
                 All features <a href="#" class="modal-trigger relative text-plum-200 primary-link underline text-sm" data-id="modal-features">in website packages</a>
@@ -519,7 +519,7 @@ get_header(); ?>
     <section class="p-10 bg-gray-300 py-24">
         <div class="md:items-center flex flex-wrap md:flex-nowrap container mx-auto md:justify-center md:space-x-10">
             <div>
-                <h2 class="text-2xl text-gray-700 uppercase font-semibold">
+                <h2 class="text-3xl text-gray-700 uppercase font-semibold">
                     Ready to start?
                 </h2>
                 <p class="text-gray-700 text-base md:text-center sm:text-left">
@@ -527,20 +527,20 @@ get_header(); ?>
                 </p>
             </div>
             <div class="flex-none mt-3">
-                <a class="js-slidein relative inline-flex pr-8 primary-btn hover:bg-gray-600 bg-gray-700 group" href="/contact-us">Reply to get started!<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <a class="js-slidein relative inline-flex pr-8 primary-btn-lg hover:bg-gray-600 bg-gray-700 group" href="/startup-form">Lets get in touch<svg xmlns="http://www.w3.org/2000/svg" class="absolute ml-1 top-3 right-1 inline-block transform group-hover:rotate-360 transition-rotate duration-500 w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                     </svg>
                 </a>
             </div>
 
         </div>
-        <div class="md:items-center flex flex-wrap md:flex-nowrap container mx-auto md:justify-center md:space-x-10">
-            <div class="flex-none mt-6 text-gray-700 text-base">Alternatively, just give us a call on <a class="text-gray-700 underline" href="tel:07910742752">07910 742 752</a></div>
+        <div class="border-t border-gray-500 mt-5 md:items-center flex flex-wrap md:flex-nowrap container mx-auto md:justify-center md:space-x-10">
+            <div class="flex-none mt-6 text-gray-700 text-base">Alternatively, just give us a call on <br /><a class="text-gray-700 underline text-3xl" href='tel:<?php echo do_shortcode("[mobile_number]"); ?>'><?php echo do_shortcode("[mobile_number]"); ?></a></div>
 
     </section>
 
     <section id="" class="py-20 px-4 md:px-10 bg-teal-600 text-center">
-        <div class="flex flex-wrap md:no-wrap justify-center mt-2 space-x-4">
+        <div class="flex flex-wrap md:no-wrap justify-center mt-2 space-x-4 space-y-4 sm:space-y-0">
 
 
             <div class="md:w-auto">
