@@ -10,6 +10,14 @@ WideSign Custom WP theme using [TailwindCSS](https://tailwindcss.com/) and [Lara
 
 NodeJS  
 XAMPP Server (or similar)  
+
+/opt/hostedtoolcache/node/16.20.2/x64/bin/node --version
+
+v16.20.2 Node
+
+/opt/hostedtoolcache/node/16.20.2/x64/bin/npm --version
+
+8.19.4 NPM
 ...
 
 ## Local setup:
