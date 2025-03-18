@@ -51,7 +51,7 @@ get_header(); ?>
                 <div class="card-content p-4">
                     <p class="py-2">(6 months plan)</p>
                     <p class="text-3xl font-semibold py-4">
-                        £159.50 /mth
+                        £164.50 /mth
                     </p>
                     <p class="">
                         SEO checkup - report/plan + ongoing improvements. (<a href="#includes-seo" class="relative text-teal-200 primary-link underline">Includes</a>)
@@ -72,7 +72,7 @@ get_header(); ?>
                 <div class="card-content p-4">
                     <p class="py-2">(Site health check + maintenance)</p>
                     <p class="text-3xl font-semibold py-4">
-                        £74.99 /3 mths </p>
+                        £79.99 /3 mths </p>
                     <p class="">
                         Ongoing health checks and issue resolving. (<a href="#includes-maintenance" class="relative text-teal-200 primary-link underline">Includes</a>)
                     </p>
