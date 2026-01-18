@@ -113,18 +113,7 @@
     </div>
 
     <div class="flex flex-wrap justify-center space-x-4 mt-10 md:no-wrap">
-        <div class="md:w-auto"><a class="group inline-flex relative bg-teal-600 hover:bg-teal-700 pr-8 js-slidein primary-btn" href="/services/website-packages">
-                Websites<svg xmlns="http://www.w3.org/2000/svg" class="inline-block top-3 right-1 absolute ml-1 w-6 h-6 group-hover:rotate-360 transition-rotate duration-500 transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                </svg>
 
-            </a></div>
-        <div class="md:w-auto"><a class="group inline-flex relative bg-teal-600 hover:bg-teal-700 pr-8 js-slidein-2 primary-btn" href="/services/seo-plans">
-                SEO<svg xmlns="http://www.w3.org/2000/svg" class="inline-block top-3 right-1 absolute ml-1 w-6 h-6 group-hover:rotate-360 transition-rotate duration-500 transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                </svg>
-
-            </a></div>
         <div class="md:w-auto"><a class="group inline-flex relative bg-teal-600 hover:bg-teal-700 pr-8 js-slidein-3 primary-btn" href="/services">
                 More info<svg xmlns="http://www.w3.org/2000/svg" class="inline-block top-3 right-1 absolute ml-1 w-6 h-6 group-hover:rotate-360 transition-rotate duration-500 transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -132,5 +121,12 @@
 
 
             </a></div>
+        <div class="md:w-auto"><a class="group inline-flex relative bg-teal-600 hover:bg-teal-700 pr-8 js-slidein-2 primary-btn" href="/contact-us">
+                Get in touch<svg xmlns="http://www.w3.org/2000/svg" class="inline-block top-3 right-1 absolute ml-1 w-6 h-6 group-hover:rotate-360 transition-rotate duration-500 transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+
+            </a></div>
+
     </div>
 </section>
