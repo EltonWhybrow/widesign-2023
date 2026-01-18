@@ -1,10 +1,10 @@
-<section class="p-10 bg-plum-600">
-    <div class="flex flex-wrap md:flex-nowrap container mx-auto justify-center">
+<section class="bg-gray-900 p-10">
+    <div class="flex flex-wrap md:flex-nowrap justify-center mx-auto container">
         <div>
-            <h2 class="text-4xl text-gray-200 uppercase font-semibold">
+            <h2 class="font-semibold text-gray-200 text-4xl uppercase">
                 Interested?
             </h2>
-            <p class="text-gray-200 text-base text-center sm:text-left">
+            <p class="text-gray-200 text-base sm:text-left text-center">
                 Request a call back today
             </p>
         </div>
