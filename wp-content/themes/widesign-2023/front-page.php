@@ -10,11 +10,14 @@
 		<div class="relative flex md:flex-row flex-col justify-center bg-gray-900 w-full">
 
 			<div class="relative m-4 w-full text-6xl md:text-9xl">
-				<h2 class="pb-1 font-semibold text-mellow-200 uppercase">Wide<span class="text-mellow-400">Sign
-					</span><span class="pb-1 font-semibold text-mellow-600 uppercase">
-						Creative
+				<h2 class="pb-1 font-semibold text-mellow-200 uppercase">Wide<span class="text-mellow-400 stagger-words">Sign
 					</span>
+					<div class="inline-block pb-1 font-semibold text-mellow-600 uppercase">
+						<span class="text-mellow-400 stagger-words">Creat</span>ive
+
+					</div>
 				</h2>
+
 
 			</div>
 

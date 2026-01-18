@@ -10,6 +10,7 @@ import FlexSlider from "./components/jquery.flexslider-min";
 import FlexSliderSetUp from "./components/FlexSliderInit";
 import Messages from "./components/Messages";
 import Faqs from "./components/Faqs";
+import Animations from "./components/Animations";
 
 // you can also require modules if they support it…
 const ExampleModule2 = require('./components/example-2');
@@ -38,6 +39,7 @@ jQuery(function ($) {
   Faqs.init();
   HeaderScroll.init();
   ScrollAni.init();
+  Animations.init();
 });
 
 
