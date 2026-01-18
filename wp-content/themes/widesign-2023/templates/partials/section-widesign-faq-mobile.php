@@ -1,4 +1,4 @@
-<ul class="support">
+<ul class="mobile">
     <!-- <h3 class="mb-1 ml-0 pl-2 border-ig-orange-500 border-l-4 heading-3">Web Design</h3> -->
 
     <?php
@@ -17,7 +17,7 @@
             array(
                 'taxonomy' => 'business-sections',
                 'field' => 'slug',
-                'terms' => 'support',
+                'terms' => 'mobile',
             )
         ),
     );
