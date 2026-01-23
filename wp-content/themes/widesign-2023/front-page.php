@@ -9,10 +9,10 @@
 
 		<div class="relative flex md:flex-row flex-col justify-center bg-gray-900 w-full">
 
-			<div class="relative m-4 w-full text-6xl md:text-9xl">
+			<div class="relative m-4 w-full md:w-3/5 text-4xl md:text-7xl lg:text-8xl xl:text-9xl lg:text-right">
 				<h2 class="pb-1 font-semibold text-mellow-200 uppercase">Wide<span class="text-mellow-400 stagger-words">Sign
 					</span>
-					<div class="inline-block pb-1 font-semibold text-mellow-600 uppercase">
+					<div class="inline-block pb-1 font-semibold text-mellow-600 uppercase tracking-wide">
 						<span class="text-mellow-400 stagger-words">Creat</span>ive
 
 					</div>
@@ -21,7 +21,7 @@
 
 			</div>
 
-			<div class="bg-teal-600 p-6">
+			<div class="bg-teal-600 p-6 md:w-2/5 lg:w-2/5">
 				<h3 class="mb-2 text-2xl">Always putting your goals first, without ever forgetting the end user.</h3>
 				<p class="mb-2">Web design, SEO, branding, and hosting. From domain names to email signatures, we can help.</p>
 

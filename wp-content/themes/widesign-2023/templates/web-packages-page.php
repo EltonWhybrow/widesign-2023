@@ -18,6 +18,10 @@ get_header(); ?>
                 <h2 class="pb-1 font-semibold text-mellow-200 text-4xl md:text-5xl uppercase">
                     Web<span class="text-mellow-400">site</span> <span class="text-mellow-600">Packages</span>
                 </h2>
+
+                <a href="/resources/documents/Widesign-Hosting-Catalog.pdf" download="Widesign-Hosting-Catalog.pdf" class="right-8 -bottom-3 absolute flex justify-center items-center bg-teal-400 px-2 hover:px-0 border-teal-100 hover:border-4 rounded-full w-28 h-28 font-semibold text-gray-100 text-base uppercase leading-tight rotate-12 hover:scale-105 origin-center transition-all duration-300 transform">Download our Hosting catalog</a>
+
+
             </div>
         </div>
     </section>
