@@ -76,7 +76,7 @@
 		background-attachment: fixed !important;
     ">
 		<div class="mx-auto pt-16 pb-5 md:pb-20 max-w-5xl">
-			<div class="flex flex-wrap md:flex-nowrap mx-8 pt-5 md:pt-10">
+			<div class="flex flex-wrap md:flex-nowrap pt-5 md:pt-10">
 				<div class="py-0 w-full">
 					<?php echo do_shortcode('[customer-quotes number="10"]');
 					?>
