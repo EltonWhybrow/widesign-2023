@@ -17,15 +17,15 @@ module.exports = {
         xl: '5rem',
       },
     },
-    rotate: {
-      '360': '360deg',
-    },
     fontFamily: {
       // widesign uses giddyup FONT in some form or other - consider redesign when time allows
       sans: ['"Open Sans"', 'Helvetica', 'Arial', 'sans-serif'],
       azo: ['"azo-sans-web"', 'Open Sans', 'Arial', 'sans-serif'],
     },
     extend: {
+      rotate: {
+        '360': '360deg',
+      },
       maxHeight: {
         '100': '25rem',
         '128': '32rem',
