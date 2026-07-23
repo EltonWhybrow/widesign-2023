@@ -6,9 +6,8 @@
     </div>
     <div class="flex justify-center items-center bg-teal-600 w-full md:w-2/5">
         <div class="px-4 md:px-10 py-10">
-            <h2 class="pb-2 font-semibold text-gray-200 text-3xl uppercase">Website not performing?
-                Slow pages, other issues?</h2>
-            <p class="pb-2 text-gray-200">Get a <span class="inline-block bg-teal-700 px-2 rounded">FREE website audit</span> of the issues and possible problems with your site that could be slowing it down or holding back your SEO potential.</p>
+            <h2 class="pb-2 font-semibold text-gray-200 text-3xl uppercase">Website Flatlined? Slow Pages, Sinking Rankings?</h2>
+            <p class="pb-2 text-gray-200">Get a <span class="inline-block bg-teal-700 px-2 rounded">FREE website audit</span> and find out exactly what's slowing your site down — and what could be holding back your SEO. We'll flag the issues, explain them in plain English, and show you what to fix first.</p>
 
             <div class="flex space-x-4 mt-2">
 

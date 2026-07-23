@@ -22,8 +22,8 @@
 			</div>
 
 			<div class="bg-teal-600 p-6 md:w-2/5 lg:w-2/5">
-				<h3 class="mb-2 text-2xl">Always putting your goals first, without ever forgetting the end user.</h3>
-				<p class="mb-2">Web design, SEO, branding, and hosting. From domain names to email signatures, we can help.</p>
+				<h3 class="mb-2 text-2xl">Web Design & SEO in Redhill, Surrey - Built Around Your Goals</h3>
+				<p class="mb-2">From branding to hosting, we build fast, mobile-first websites that turn visitors into customers. Domain names, email, SEO, the lot — sorted, without the jargon.</p>
 
 				<a class="group inline-flex relative bg-teal-500 hover:bg-teal-700 pr-8 js-slidein primary-btn" href="#begin-journey">Find out more<svg xmlns="http://www.w3.org/2000/svg" class="inline-block top-3 right-1 absolute ml-1 w-6 h-6 group-hover:rotate-360 transition-rotate duration-500 transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />

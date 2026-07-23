@@ -3,11 +3,11 @@
     <div class="flex justify-center items-center bg-teal-700 w-full lg:w-2/5">
         <div class="px-4 md:px-10 py-10">
             <h2 class="pb-2 font-semibold text-gray-200 text-3xl uppercase">Why choose WideSign?</h2>
-            <h3 class="text-bold text-teal-400 text-xl">Worry-free plans &amp; ongoing support</h3>
+            <h3 class="text-bold text-teal-400 text-xl">Worry-Free Plans &amp; Ongoing Support</h3>
             <div class="mx-auto py-3 max-w-xl">
-                <p class="text-gray-200">We create stunning mobile-first, SEO-optimized modern websites. Furthermore, we also take care of all your hosting, email &amp; backups where required. This makes us your complete digital online presence setup company.</p>
-                <p class="text-gray-200">You receive support for all your services with us by email or mobile, and we enjoy going the extra mile to resolve requests within a 24hrs.</p>
-                <p class="md:hidden xl:block text-gray-200">Proactively working with clients to understand their business and objectives to create a fast-loading efficient website that delivers on impact and can turn visitors into customers.</p>
+                <p class="text-gray-200">We design stunning, mobile-first websites that are built to be found on Google — and built to convert. We also handle your hosting, email, and backups, so you've got one trusted partner for your entire online presence.</p>
+                <p class="text-gray-200">Need support? Just email or call us — we aim to resolve every request within 24 hours, because your website should never be left waiting.</p>
+                <p class="md:hidden xl:block text-gray-200">We take the time to understand your business and goals first, then build a fast, efficient website designed to make an impact and turn visitors into paying customers.</p>
 
             </div>
             <div class="flex justify-start space-x-4 mt-2"><a class="group inline-flex relative bg-teal-600 hover:bg-teal-500 pr-8 js-slidein primary-btn" href="/our-work">Our work<svg xmlns="http://www.w3.org/2000/svg" class="inline-block top-3 right-1 absolute ml-1 w-6 h-6 group-hover:rotate-360 transition-rotate duration-500 transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
